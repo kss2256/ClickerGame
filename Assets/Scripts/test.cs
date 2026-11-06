@@ -6,8 +6,9 @@ public class test : MonoBehaviour
     {
 
 
-        GameObject go = Managers.Resource.Instantiate("Prefabs/UI/Scene/UI_Title");
-        Managers.UI.SetCanvas(go);
+       
+        //Managers.UI.ShowSceneUI<UI_Scene>("UI_Title");
+
 
     }
 

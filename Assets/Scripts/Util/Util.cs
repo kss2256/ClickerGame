@@ -8,7 +8,7 @@ public class Util
     {
         T component = _go.GetComponent<T>();
         if(component == null)
-            _go.AddComponent<T>();
+            component = _go.AddComponent<T>();
 
         return component;
     }

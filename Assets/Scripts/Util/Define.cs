@@ -4,10 +4,10 @@ using UnityEngine;
 public class Define
 {
 
-    enum eSceneType
+    public enum eSceneType
     {
-        TITLE,
-        GAME,
+        TiTleScene,
+        GameScene,
     }
 
 
