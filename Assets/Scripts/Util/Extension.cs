@@ -1,3 +1,5 @@
+using System;
+using UnityEditor;
 using UnityEngine;
 
 
@@ -13,7 +15,10 @@ public static class Extension
     }
 
   
-
+    public static void BindEvent(this GameObject _go, Action _action, Define.eMouseEvent _event)
+    {
+        UI_Base.BindEvent(_go, _action, _event);
+    }
 
 
 }

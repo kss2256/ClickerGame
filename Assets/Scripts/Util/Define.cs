@@ -11,7 +11,11 @@ public class Define
     }
 
 
-
+    public enum eMouseEvent
+    {
+        Click,
+        Down,
+    }
 
 
 

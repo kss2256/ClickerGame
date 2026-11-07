@@ -15,17 +15,9 @@ public class GameSceneController : MonoBehaviour
     void Update()
     {
 
-        if (Keyboard.current.qKey.wasPressedThisFrame)
-        {
-            Define.eSceneType curScene = Managers.Scene.CurentScene;
-
-            if (curScene == Define.eSceneType.GameScene)
-                Managers.Scene.ChangeScene(Define.eSceneType.TiTleScene);
-
-        }
 
 
-
+       
 
 
     }

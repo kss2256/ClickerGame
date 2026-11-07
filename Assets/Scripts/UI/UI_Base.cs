@@ -36,6 +36,18 @@ public class UI_Base : MonoBehaviour
 
 
     }
+    protected T Get<T>(int _idx) where T : UnityEngine.Object
+    {
+
+        UnityEngine.Object[] Object = null;
+
+        if (mObjects.TryGetValue(typeof(T), out Object) == false)
+            return null;
+
+        return Object[_idx] as T;
+
+    }
+
 
 
     // Type == Enums
@@ -58,21 +70,37 @@ public class UI_Base : MonoBehaviour
                 Debug.Log($"Failed to bind({Name[i]})");
         }
 
-
     }
 
-
-    protected T Get<T>(int _idx) where T : UnityEngine.Object
+    public static void BindEvent(GameObject _go, Action _action, Define.eMouseEvent _event)
     {
+        UI_MouseEvent mouseEvent = _go.GetOrAddComponent<UI_MouseEvent>();
 
-        UnityEngine.Object[] Object = null;
-
-        if (mObjects.TryGetValue(typeof(T), out Object) == false)
-            return null;
-
-        return Object[_idx] as T;
+        switch (_event)
+        {
+            case Define.eMouseEvent.Click:
+                {
+                    mouseEvent.mOnClickEvent -= _action;
+                    mouseEvent.mOnClickEvent += _action;
+                }
+                break;
+            case Define.eMouseEvent.Down:
+                {
+                    mouseEvent.mOnDownEvent -= _action; 
+                    mouseEvent.mOnDownEvent += _action;
+                }
+                break;
+            default:
+                break;
+        }
 
     }
+
+
+
+
+
+   
 
 
 

@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 4cf02910fefbd304aa69c2a97b42c567
+guid: ccad939b024112d49935aa8772c1e023
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 464815522460564316
-    second: player_main_0
+      213: 2619554596367619625
+    second: Player_main_0
+  - first:
+      213: -7423158788137265518
+    second: Player_main_1
+  - first:
+      213: 1949203069594817635
+    second: Player_main_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +145,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player_main_0
+      name: Player_main_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 403
-        height: 462
+        width: 543
+        height: 724
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c5b7956414b537600800000000000000
-      internalID: 464815522460564316
+      spriteID: 4f70a20ed3f0c574ab3f14851016ddc6
+      internalID: 1824762418
       vertices: []
       indices: 
       edges: []
@@ -164,7 +170,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 054e108c20ef85d49b9249c7c65b6d5e
     internalID: 0
     vertices: []
     indices: 
@@ -172,9 +178,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":543.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      player_main_0: 464815522460564316
+      Player_main_0: 1824762418
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
