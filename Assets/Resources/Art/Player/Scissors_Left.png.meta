@@ -1,10 +1,34 @@
 fileFormatVersion: 2
-guid: ccfe4ee6c9b371748bc8f7257ebfb61a
+guid: 5a58c41c43e190e40bec934a6f1f2660
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8182925068899397860
-    second: weapon_04_01_0
+      213: 5490770082084887486
+    second: Scissors_Right_0
+  - first:
+      213: 5836119571865802108
+    second: Scissors_Right_1
+  - first:
+      213: 1617825535659702525
+    second: Scissors_Right_2
+  - first:
+      213: 8488327259093889882
+    second: Scissors_Right_3
+  - first:
+      213: 6750859749106687852
+    second: Scissors_Right_4
+  - first:
+      213: -6202208295597654920
+    second: Scissors_Right_5
+  - first:
+      213: 1428153201528668576
+    second: Scissors_Right_6
+  - first:
+      213: -1492865637763530269
+    second: Scissors_Right_7
+  - first:
+      213: 9159587851039231275
+    second: Scissors_Right_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,23 +163,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: weapon_04_01_0
+      name: Scissors_Left_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 432
-        height: 460
+        x: 34
+        y: 102
+        width: 342
+        height: 578
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1fcc9c3109607e80800000000000000
-      internalID: -8182925068899397860
+      spriteID: ebb130e5c42233c40800000000000000
+      internalID: 5490770082084887486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Left_1
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 102
+        width: 400
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df87d89c0cba37610800000000000000
+      internalID: 1617825535659702525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Left_4
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 98
+        width: 359
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cbbe57a645de9a0800000000000000
+      internalID: -6202208295597654920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Left_2
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 102
+        width: 532
+        height: 622
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a104f525c1d1d310800000000000000
+      internalID: 1428153201528668576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Left_3
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 102
+        width: 454
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1c7bbac96484be0800000000000000
+      internalID: -1492865637763530269
       vertices: []
       indices: 
       edges: []
@@ -164,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f242bf4b3d32c9f40a3a373f8744821d
     internalID: 0
     vertices: []
     indices: 
@@ -174,7 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      weapon_04_01_0: -8182925068899397860
+      Scissors_Left_0: 5490770082084887486
+      Scissors_Left_1: 1617825535659702525
+      Scissors_Left_2: 1428153201528668576
+      Scissors_Left_3: -1492865637763530269
+      Scissors_Left_4: -6202208295597654920
+      Scissors_Right_8: 9159587851039231275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

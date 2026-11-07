@@ -1,28 +1,22 @@
 fileFormatVersion: 2
-guid: 3f9ff8997733dd042822378bc6fb5579
+guid: 72474d458b5b58a42951c72ec16686f2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7754870864706273014
-    second: Player_3Directions_Aligned_Sheet_0
+      213: -31047606339717406
+    second: Player_Hammer_0
   - first:
-      213: 1459289568720173626
-    second: Player_3Directions_Aligned_Sheet_1
+      213: -492524647840419465
+    second: Player_Hammer_1
   - first:
-      213: 2541989659984950905
-    second: Player_3Directions_Aligned_Sheet_2
+      213: 8055033101633520756
+    second: Player_Hammer_2
   - first:
-      213: 3475378055104929152
-    second: Player_3Directions_Aligned_Sheet_3
+      213: 3055614037125547997
+    second: Player_Hammer_3
   - first:
-      213: -5316664118147822050
-    second: Player_3Directions_Aligned_Sheet_4
-  - first:
-      213: -328904376865302089
-    second: Player_3Directions_Aligned_Sheet_5
-  - first:
-      213: 1269111231674390069
-    second: Player_3Directions_Aligned_Sheet_6
+      213: -4420761725044307554
+    second: Player_Hammer_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -157,67 +151,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Left01
+      name: Player_Hammer_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 543
-        height: 724
+        x: 14
+        y: 15
+        width: 495
+        height: 663
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6fef7d1e6f5de9b60800000000000000
-      internalID: 7754870864706273014
+      spriteID: 2e6bef4dd52b19ff0800000000000000
+      internalID: -31047606339717406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Dir
+      name: Player_Hammer_1
       rect:
         serializedVersion: 2
-        x: 543
-        y: 0
-        width: 543
-        height: 724
+        x: 162
+        y: 645
+        width: 15
+        height: 15
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a3abfff8120704410800000000000000
-      internalID: 1459289568720173626
+      spriteID: 771f85a31733a29f0800000000000000
+      internalID: -492524647840419465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Right01
+      name: Player_Hammer_2
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 0
-        width: 543
-        height: 724
+        x: 291
+        y: 646
+        width: 9
+        height: 6
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9767e12b026f64320800000000000000
-      internalID: 2541989659984950905
+      spriteID: 47401e4bde939cf60800000000000000
+      internalID: 8055033101633520756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Hammer_3
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 639
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7c09507c8b76a20800000000000000
+      internalID: 3055614037125547997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Hammer_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 42
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99471e12ac46a2c0800000000000000
+      internalID: -4420761725044307554
       vertices: []
       indices: 
       edges: []
@@ -226,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 273bf5904f938f544ad81ebff55be52e
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -234,13 +272,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":543.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Player_Dir: 1459289568720173626
-      Player_Left01: 7754870864706273014
-      Player_Right01: 2541989659984950905
+      Player_Hammer_0: -31047606339717406
+      Player_Hammer_1: -492524647840419465
+      Player_Hammer_2: 8055033101633520756
+      Player_Hammer_3: 3055614037125547997
+      Player_Hammer_4: -4420761725044307554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

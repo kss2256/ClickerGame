@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 812d47d78edd47947afa4cceea52480c
+guid: e224947968e49734692d9c2d39ded798
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8401417362344221433
-    second: Attack_Hammer_0
+      213: 5490770082084887486
+    second: Scissors_Right_0
   - first:
-      213: -6535939531247372135
-    second: Attack_Hammer_1
+      213: 5836119571865802108
+    second: Scissors_Right_1
   - first:
-      213: 8785003935244339229
-    second: Attack_Hammer_2
+      213: 1617825535659702525
+    second: Scissors_Right_2
   - first:
-      213: -4454739167574549571
-    second: Attack_Hammer_3
+      213: 8488327259093889882
+    second: Scissors_Right_3
   - first:
-      213: -6425947245023636936
-    second: Attack_Hammer_4
-  - first:
-      213: 2396406128903060190
-    second: Attack_Hammer_5
+      213: 6750859749106687852
+    second: Scissors_Right_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -154,13 +151,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Attack_Hammer_Left
+      name: Scissors_Right_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 991
-        height: 793
+        x: 19
+        y: 93
+        width: 361
+        height: 527
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d18c5aeb88a9ae970800000000000000
-      internalID: 8785003935244339229
+      spriteID: ebb130e5c42233c40800000000000000
+      internalID: 5490770082084887486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Attack_Hammer_Right
+      name: Scissors_Right_1
       rect:
         serializedVersion: 2
-        x: 991
-        y: 0
-        width: 991
-        height: 793
+        x: 408
+        y: 93
+        width: 408
+        height: 527
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,8 +188,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 83257fad60372d6a0800000000000000
-      internalID: -6425947245023636936
+      spriteID: c7514cb54df0ef050800000000000000
+      internalID: 5836119571865802108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Right_2
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 93
+        width: 545
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df87d89c0cba37610800000000000000
+      internalID: 1617825535659702525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Right_3
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 93
+        width: 426
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a537e874ba89cc570800000000000000
+      internalID: 8488327259093889882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Right_4
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 93
+        width: 365
+        height: 527
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f9cf99c2fdfad50800000000000000
+      internalID: 6750859749106687852
       vertices: []
       indices: 
       edges: []
@@ -201,7 +264,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8b2e42b8af3f0ea4cb417b9b31aef764
+    spriteID: 524213afdcb33404db6352bf5a1cf9f4
     internalID: 0
     vertices: []
     indices: 
@@ -209,12 +272,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":2.0,"y":1.0},"gridSpriteSize":{"x":991.0,"y":793.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      Attack_Hammer_Left: 8785003935244339229
-      Attack_Hammer_Right: -6425947245023636936
+      Scissors_Right_0: 5490770082084887486
+      Scissors_Right_1: 5836119571865802108
+      Scissors_Right_2: 1617825535659702525
+      Scissors_Right_3: 8488327259093889882
+      Scissors_Right_4: 6750859749106687852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
