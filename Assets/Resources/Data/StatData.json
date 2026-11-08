@@ -1,0 +1,25 @@
+{
+  "Level": [
+    {
+      "ID": 1,
+      "MaxMp": 20,
+      "Attack": 10,
+      "AttackSpeed": 0.5,
+      "MaxExp": 10
+    },
+    {
+      "ID": 2,
+      "MaxMp": 21,
+      "Attack": 15,
+      "AttackSpeed": 0.6,
+      "MaxExp": 20
+    },
+    {
+      "ID": 3,
+      "MaxMp": 22,
+      "Attack": 20,
+      "AttackSpeed": 0.7,
+      "MaxExp": 30
+    }
+  ]
+}

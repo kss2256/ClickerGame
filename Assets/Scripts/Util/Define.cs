@@ -15,8 +15,19 @@ public class Define
     {
         Click,
         Down,
+        Up,
+        Press,
     }
 
+    public enum eCharacterType
+    {
+        NONE,
+
+        PLAYER = 1000,
+
+
+
+    }
 
 
 

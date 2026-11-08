@@ -18,10 +18,11 @@ public class UI_Game : UI_Scene
 
     private void Update()
     {
-        if (Keyboard.current.qKey.wasPressedThisFrame)
-        {
-            Managers.Scene.ChangeScene(Define.eSceneType.TiTleScene);
-        }
+
+        //if (Keyboard.current.qKey.wasPressedThisFrame)
+        //{
+        //    Managers.Scene.ChangeScene(Define.eSceneType.TiTleScene);
+        //}
 
     }
 

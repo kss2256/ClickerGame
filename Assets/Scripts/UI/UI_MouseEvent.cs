@@ -3,11 +3,12 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 
-public class UI_MouseEvent : MonoBehaviour, IPointerClickHandler , IPointerDownHandler
+public class UI_MouseEvent : MonoBehaviour, IPointerClickHandler , IPointerDownHandler , IPointerUpHandler
 {
 
     public Action mOnClickEvent = null;
     public Action mOnDownEvent = null;
+    public Action mOnUpEnent = null;
 
 
     public void OnPointerClick(PointerEventData eventData)
@@ -20,5 +21,12 @@ public class UI_MouseEvent : MonoBehaviour, IPointerClickHandler , IPointerDownH
     {
         if (mOnDownEvent != null)
             mOnDownEvent.Invoke();
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if (mOnUpEnent != null)
+            mOnUpEnent.Invoke();
+
     }
 }

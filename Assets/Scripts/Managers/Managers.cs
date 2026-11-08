@@ -8,11 +8,15 @@ public class Managers : MonoBehaviour
     private static Managers sInstance;
 
 
+    private DataManager mDataManager = new DataManager();
+    private InputManager mInpuManager = new InputManager();
     private ResourceManager mResourceManager = new ResourceManager();
     private SceneManagerEx mSceneManager = new SceneManagerEx();
     private UIManager mUIManager = new UIManager();
 
 
+    public static DataManager Data => sInstance?.mDataManager;
+    public static InputManager Input => sInstance?.mInpuManager;
     public static ResourceManager Resource => sInstance?.mResourceManager;
     public static SceneManagerEx Scene => sInstance?.mSceneManager;
     public static UIManager UI => sInstance?.mUIManager;
@@ -25,11 +29,17 @@ public class Managers : MonoBehaviour
         if (sInstance == null)
         {
             sInstance = Util.GetOrAddGameObject("@Managers", true).GetOrAddComponent<Managers>();
-     
+
+
+
+            Data.Init();
         }
 
+    }
 
-
+    private void Update()
+    {
+        Input.OnUpdate();
     }
 
 

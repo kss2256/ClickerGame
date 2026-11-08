@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SCISSORS
+  m_Controller: {fileID: 9100000, guid: 678289416c047854ca384d263f83076f, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 83b0ab4a46f32f541bf999f5d184bbba, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: faee554dc6811824ebc572251c702b4d, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 028d5300da626bb40b2794d305f02731, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1fe9e58cf8fa1c94eb2e6e1dd6c28377, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c60a6caf25b4d5640973e66f6a0847b7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2fd208158fb5ee445a049f6fa1e76c9f, type: 2}
