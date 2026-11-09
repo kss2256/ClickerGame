@@ -7,17 +7,16 @@ public class PlayerStat : Stat
     public int Exp;
     public int MaxExp;
 
-
-    public override void Init(Define.eCharacterType _type)
+     public PlayerStat() : base(Define.eCharacterType.PLAYER)
     {
-        ID = (int)_type;
-       
+
         MP = 10;
         MaxMp = 10;
         Attack = 1;
         AttackSpeed = 0.5f;
     }
 
+   
 
 
 

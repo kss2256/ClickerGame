@@ -160,10 +160,10 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Scissors_Left_1
+      name: Scissors_Left_2
       rect:
         serializedVersion: 2
-        x: 362
+        x: 363
         y: 93
         width: 411
         height: 526
@@ -182,7 +182,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scissors_Left_2
+      name: Scissors_Left_4
       rect:
         serializedVersion: 2
         x: 1318
@@ -204,7 +204,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scissors_Left_3
+      name: Scissors_Left_5
       rect:
         serializedVersion: 2
         x: 1782
@@ -226,12 +226,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scissors_Left_4
+      name: Scissors_Left_1
       rect:
         serializedVersion: 2
         x: 8
-        y: 93
-        width: 355
+        y: 95
+        width: 354
         height: 526
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -248,10 +248,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scissors_Left_6
+      name: Scissors_Left_3
       rect:
         serializedVersion: 2
-        x: 775
+        x: 774
         y: 93
         width: 543
         height: 526
@@ -283,12 +283,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Scissors_Left_1: 4658726686454602669
-      Scissors_Left_2: -4052696964263776178
-      Scissors_Left_3: -6528854570351941688
-      Scissors_Left_4: 753854845026168414
-      Scissors_Left_5: -2489207479592733567
-      Scissors_Left_6: 2482848665903658512
+      4: -4052696964263776178
+      Scissors_Left_1: 753854845026168414
+      Scissors_Left_2: 4658726686454602669
+      Scissors_Left_3: 2482848665903658512
+      Scissors_Left_4: -4052696964263776178
+      Scissors_Left_5: -6528854570351941688
       Scissors_Left_7: 2984600808660444204
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

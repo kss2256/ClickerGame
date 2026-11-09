@@ -3,6 +3,7 @@ using UnityEngine;
 
 
 
+//Data Àü¿ë
 public interface ILoader<key, value>
 {
     Dictionary<key, value> MakeDict();
@@ -10,16 +11,14 @@ public interface ILoader<key, value>
 }
 public class DataManager
 {
-
-    public Dictionary<int, Data.Stat> mStatMap { get; private set; } 
-        = new Dictionary<int, Data.Stat>();
+    
+    public Dictionary<int, DATA.LEVEL> mLevelMap { get; private set; } 
+        = new Dictionary<int, DATA.LEVEL>();
 
 
     public void Init()
     {
-        mStatMap = LoadJson<Data.StatData, int, Data.Stat>("StatData").MakeDict();
-
-
+        mLevelMap = LoadJson<DATA.StatData, int, DATA.LEVEL>("LevelData").MakeDict();
 
 
     }

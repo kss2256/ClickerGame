@@ -128,7 +128,7 @@ public class PlayerController : MonoBehaviour
     public void PlayerStatInit()
     {
         mStat = new PlayerStat();
-        mStat.Init(Define.eCharacterType.PLAYER);
+        
     }
 
 
@@ -142,6 +142,7 @@ public class PlayerController : MonoBehaviour
       
 
         transform.localScale = Vector3.one * 0.3f;
+        transform.position += Vector3.up * -0.7f;
     }
 
     public void ChangeWeapon(eWeapons _weapon)

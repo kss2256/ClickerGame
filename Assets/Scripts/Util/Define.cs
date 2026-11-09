@@ -22,13 +22,21 @@ public class Define
     public enum eCharacterType
     {
         NONE,
+        CloverSoldier = 1,
+        SpadeSoldier = 2,
 
-        PLAYER = 1000,
 
 
 
+        PLAYER = 100,
     }
 
+
+    public enum eCompanionSide
+    {
+        Left,
+        Right,
+    }
 
 
 }

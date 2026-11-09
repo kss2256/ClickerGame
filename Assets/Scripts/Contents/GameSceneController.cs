@@ -15,6 +15,9 @@ public class GameSceneController : MonoBehaviour
         Util.GetOrAddGameObject("Player").GetOrAddComponent<PlayerController>();
 
 
+        //TODO Companion 구매시 생성으로 변경 해야함 Test용
+        Util.GetOrAddGameObject("CloverSoldier").GetOrAddComponent<CloverSoldier>();
+        Util.GetOrAddGameObject("SpadeSoldier").GetOrAddComponent<SpadeSoldier>();
 
     }
 

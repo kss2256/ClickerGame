@@ -2,41 +2,33 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-/*
-  json 문법 기초
-  [] -> 리스트와 비슷
-  {} -> 구조체와 비슷
-*/
+namespace DATA
 
-namespace Data
 {
-
-    #region Stat
+    #region Level
 
     [Serializable]
-    public class Stat
+    public class LEVEL
     {
-        public int ID;
-        public int MP;
-        public int MaxMp;
+        public int ID;      //Key값 + 레벨
+        public int MaxMp;   
         public int Attack;
         public float AttackSpeed;
         public int MaxExp;
     }
 
     [Serializable]
-    public class StatData : ILoader<int, Stat>
+    public class StatData : ILoader<int, LEVEL>//Key, Value
     {
-        public List<Stat> stats = new List<Stat>();
+        public List<DATA.LEVEL> Level = new List<DATA.LEVEL>();
 
-        public Dictionary<int, Stat> MakeDict()
+        public Dictionary<int, DATA.LEVEL> MakeDict()
         {
 
-            Dictionary<int, Stat> StatMap = new Dictionary<int, Stat>();
-
-            foreach (Stat stat in stats)
+            Dictionary<int, DATA.LEVEL> StatMap = new Dictionary<int, DATA.LEVEL>();
+            foreach (DATA.LEVEL stat in Level)
             {
-                StatMap[stat.ID] = stat;
+                StatMap.Add(stat.ID, stat);
             }
 
             return StatMap;
@@ -44,5 +36,8 @@ namespace Data
     }
 
     #endregion
+
+
+
 
 }
