@@ -3,11 +3,11 @@ using UnityEngine;
 public class PlayerStat : Stat
 {
 
-    public int Level;
-    public int Exp;
-    public int MaxExp;
+    public int MP;
+    public int MaxMp;
 
-     public PlayerStat() : base(Define.eCharacterType.PLAYER)
+
+    public PlayerStat() 
     {
 
         MP = 10;

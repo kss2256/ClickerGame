@@ -18,7 +18,6 @@ public class GameSceneController : MonoBehaviour
         Util.GetOrAddGameObject("Player").GetOrAddComponent<PlayerController>();
 
 
-        
 
 
 

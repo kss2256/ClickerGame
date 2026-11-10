@@ -13,8 +13,7 @@ public abstract class Companion_Base : MonoBehaviour
     protected Sprite mSpriteIdle;
     protected Sprite mSpriteAttack;
 
-    [SerializeField]
-    protected float mAttackSpeed = 0.5f;
+
 
     
 
@@ -26,6 +25,23 @@ public abstract class Companion_Base : MonoBehaviour
     protected virtual void Start()
     {
         Init();
+
+        SetInfo();
+        
+
+
+        /*
+         
+         
+        //Level Data
+        public int ID;
+        public int CompanionID;
+        public int Level;
+        public float Attack;
+        public int UpgradeCost;
+
+         */
+
         StartCoroutine(Attack());
     }
 
@@ -54,12 +70,33 @@ public abstract class Companion_Base : MonoBehaviour
         transform.localScale = Vector3.one * 0.3f;
     }
 
+    protected virtual void SetInfo()
+    {
+        DATA.COMPANION companion = null;
+        mStat = new Stat();
+        companion = Managers.Data.GetCompanion((int)CharacterType);
+
+        if (companion == null)
+        {
+            Debug.LogError($"Companion Data Not Found : {CharacterType}");
+            return;
+        }
+
+        mStat.ID = companion.ID;
+        mStat.Level = 1;
+        mStat.Attack = companion.Attack;
+        mStat.AttackSpeed = companion.AttackSpeed;
+        mStat.AttackSpeed = companion.AttackSpeed;
+        mStat.Price = companion.Price;
+
+    }
+
     protected virtual IEnumerator Attack()
     {
         while (true)
         {
             float lerpValue = Mathf.InverseLerp(
-                0.5f, 3.0f, mAttackSpeed);
+                0.5f, 3.0f, mStat.AttackSpeed);
 
             float time = Mathf.Lerp(2.0f, 0.2f, lerpValue);
 

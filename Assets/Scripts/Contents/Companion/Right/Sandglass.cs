@@ -9,7 +9,7 @@ public class Sandglass : Companion_Base
 
     protected override void Init()
     {
-        mStat = new Stat(CharacterType);
+       
 
         mFixPos = new Vector3(1.55f, 1.79f, 0f);
         mSide = eCompanionSide.Right;

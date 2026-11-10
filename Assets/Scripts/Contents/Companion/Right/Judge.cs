@@ -9,7 +9,7 @@ public class Judge : Companion_Base
 
     protected override void Init()
     {
-        mStat = new Stat(CharacterType);
+       
 
         mFixPos = new Vector3(2.3f, 0.6f, 0f);
         mSide = eCompanionSide.Right;

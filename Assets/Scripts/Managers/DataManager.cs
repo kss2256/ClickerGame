@@ -44,16 +44,25 @@ public class DataManager
 
     }
 
-    public DATA.COMPANION_LEVEL GetCompanionLevel(int _CompanionID, int _level)
+    public DATA.COMPANION GetCompanion(int _id)
     {
-        int idx = (_CompanionID - 1);
-
-        COMPANION_LEVEL resule; 
-
-
+        if (mCompanionMap.TryGetValue(_id, out COMPANION companion))
+            return companion;
 
         return null;
     }
+
+
+    public DATA.COMPANION_LEVEL GetCompanionLevel(int _companionID, int _level)
+    {
+        int idx = (_companionID - 1) * 50 + _level ;
+        
+        if (mCompanionLevelMap.TryGetValue(idx, out DATA.COMPANION_LEVEL result))
+            return result;
+
+        return null;      
+    }
+
 
 
 }

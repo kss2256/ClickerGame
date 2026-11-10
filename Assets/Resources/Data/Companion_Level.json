@@ -5,6 +5,7 @@
       "CompanionID": 1,
       "Level": 1,
       "Attack": 4.0,
+      "AttackSpeed": 1.2,
       "UpgradeCost": 10
     },
     {
@@ -12,6 +13,7 @@
       "CompanionID": 1,
       "Level": 2,
       "Attack": 5.0,
+      "AttackSpeed": 1.22,
       "UpgradeCost": 11
     },
     {
@@ -19,6 +21,7 @@
       "CompanionID": 1,
       "Level": 3,
       "Attack": 5.0,
+      "AttackSpeed": 1.25,
       "UpgradeCost": 13
     },
     {
@@ -26,6 +29,7 @@
       "CompanionID": 1,
       "Level": 4,
       "Attack": 6.0,
+      "AttackSpeed": 1.27,
       "UpgradeCost": 14
     },
     {
@@ -33,6 +37,7 @@
       "CompanionID": 1,
       "Level": 5,
       "Attack": 7.0,
+      "AttackSpeed": 1.3,
       "UpgradeCost": 16
     },
     {
@@ -40,6 +45,7 @@
       "CompanionID": 1,
       "Level": 6,
       "Attack": 8.0,
+      "AttackSpeed": 1.32,
       "UpgradeCost": 18
     },
     {
@@ -47,6 +53,7 @@
       "CompanionID": 1,
       "Level": 7,
       "Attack": 10.0,
+      "AttackSpeed": 1.35,
       "UpgradeCost": 20
     },
     {
@@ -54,6 +61,7 @@
       "CompanionID": 1,
       "Level": 8,
       "Attack": 11.0,
+      "AttackSpeed": 1.37,
       "UpgradeCost": 22
     },
     {
@@ -61,6 +69,7 @@
       "CompanionID": 1,
       "Level": 9,
       "Attack": 12.0,
+      "AttackSpeed": 1.4,
       "UpgradeCost": 25
     },
     {
@@ -68,6 +77,7 @@
       "CompanionID": 1,
       "Level": 10,
       "Attack": 14.0,
+      "AttackSpeed": 1.42,
       "UpgradeCost": 28
     },
     {
@@ -75,6 +85,7 @@
       "CompanionID": 1,
       "Level": 11,
       "Attack": 15.0,
+      "AttackSpeed": 1.44,
       "UpgradeCost": 31
     },
     {
@@ -82,6 +93,7 @@
       "CompanionID": 1,
       "Level": 12,
       "Attack": 16.0,
+      "AttackSpeed": 1.47,
       "UpgradeCost": 35
     },
     {
@@ -89,6 +101,7 @@
       "CompanionID": 1,
       "Level": 13,
       "Attack": 18.0,
+      "AttackSpeed": 1.49,
       "UpgradeCost": 39
     },
     {
@@ -96,6 +109,7 @@
       "CompanionID": 1,
       "Level": 14,
       "Attack": 19.0,
+      "AttackSpeed": 1.52,
       "UpgradeCost": 44
     },
     {
@@ -103,6 +117,7 @@
       "CompanionID": 1,
       "Level": 15,
       "Attack": 21.0,
+      "AttackSpeed": 1.54,
       "UpgradeCost": 49
     },
     {
@@ -110,6 +125,7 @@
       "CompanionID": 1,
       "Level": 16,
       "Attack": 22.0,
+      "AttackSpeed": 1.57,
       "UpgradeCost": 55
     },
     {
@@ -117,6 +133,7 @@
       "CompanionID": 1,
       "Level": 17,
       "Attack": 24.0,
+      "AttackSpeed": 1.59,
       "UpgradeCost": 61
     },
     {
@@ -124,6 +141,7 @@
       "CompanionID": 1,
       "Level": 18,
       "Attack": 26.0,
+      "AttackSpeed": 1.62,
       "UpgradeCost": 69
     },
     {
@@ -131,6 +149,7 @@
       "CompanionID": 1,
       "Level": 19,
       "Attack": 27.0,
+      "AttackSpeed": 1.64,
       "UpgradeCost": 77
     },
     {
@@ -138,6 +157,7 @@
       "CompanionID": 1,
       "Level": 20,
       "Attack": 29.0,
+      "AttackSpeed": 1.67,
       "UpgradeCost": 86
     },
     {
@@ -145,6 +165,7 @@
       "CompanionID": 1,
       "Level": 21,
       "Attack": 31.0,
+      "AttackSpeed": 1.69,
       "UpgradeCost": 96
     },
     {
@@ -152,6 +173,7 @@
       "CompanionID": 1,
       "Level": 22,
       "Attack": 33.0,
+      "AttackSpeed": 1.71,
       "UpgradeCost": 108
     },
     {
@@ -159,6 +181,7 @@
       "CompanionID": 1,
       "Level": 23,
       "Attack": 34.0,
+      "AttackSpeed": 1.74,
       "UpgradeCost": 121
     },
     {
@@ -166,6 +189,7 @@
       "CompanionID": 1,
       "Level": 24,
       "Attack": 36.0,
+      "AttackSpeed": 1.76,
       "UpgradeCost": 136
     },
     {
@@ -173,6 +197,7 @@
       "CompanionID": 1,
       "Level": 25,
       "Attack": 38.0,
+      "AttackSpeed": 1.79,
       "UpgradeCost": 152
     },
     {
@@ -180,6 +205,7 @@
       "CompanionID": 1,
       "Level": 26,
       "Attack": 40.0,
+      "AttackSpeed": 1.81,
       "UpgradeCost": 170
     },
     {
@@ -187,6 +213,7 @@
       "CompanionID": 1,
       "Level": 27,
       "Attack": 42.0,
+      "AttackSpeed": 1.84,
       "UpgradeCost": 190
     },
     {
@@ -194,6 +221,7 @@
       "CompanionID": 1,
       "Level": 28,
       "Attack": 44.0,
+      "AttackSpeed": 1.86,
       "UpgradeCost": 213
     },
     {
@@ -201,6 +229,7 @@
       "CompanionID": 1,
       "Level": 29,
       "Attack": 46.0,
+      "AttackSpeed": 1.89,
       "UpgradeCost": 239
     },
     {
@@ -208,6 +237,7 @@
       "CompanionID": 1,
       "Level": 30,
       "Attack": 47.0,
+      "AttackSpeed": 1.91,
       "UpgradeCost": 267
     },
     {
@@ -215,6 +245,7 @@
       "CompanionID": 1,
       "Level": 31,
       "Attack": 49.0,
+      "AttackSpeed": 1.93,
       "UpgradeCost": 300
     },
     {
@@ -222,6 +253,7 @@
       "CompanionID": 1,
       "Level": 32,
       "Attack": 51.0,
+      "AttackSpeed": 1.96,
       "UpgradeCost": 336
     },
     {
@@ -229,6 +261,7 @@
       "CompanionID": 1,
       "Level": 33,
       "Attack": 53.0,
+      "AttackSpeed": 1.98,
       "UpgradeCost": 376
     },
     {
@@ -236,6 +269,7 @@
       "CompanionID": 1,
       "Level": 34,
       "Attack": 55.0,
+      "AttackSpeed": 2.01,
       "UpgradeCost": 421
     },
     {
@@ -243,6 +277,7 @@
       "CompanionID": 1,
       "Level": 35,
       "Attack": 57.0,
+      "AttackSpeed": 2.03,
       "UpgradeCost": 471
     },
     {
@@ -250,6 +285,7 @@
       "CompanionID": 1,
       "Level": 36,
       "Attack": 60.0,
+      "AttackSpeed": 2.06,
       "UpgradeCost": 528
     },
     {
@@ -257,6 +293,7 @@
       "CompanionID": 1,
       "Level": 37,
       "Attack": 62.0,
+      "AttackSpeed": 2.08,
       "UpgradeCost": 591
     },
     {
@@ -264,6 +301,7 @@
       "CompanionID": 1,
       "Level": 38,
       "Attack": 64.0,
+      "AttackSpeed": 2.11,
       "UpgradeCost": 662
     },
     {
@@ -271,6 +309,7 @@
       "CompanionID": 1,
       "Level": 39,
       "Attack": 66.0,
+      "AttackSpeed": 2.13,
       "UpgradeCost": 742
     },
     {
@@ -278,6 +317,7 @@
       "CompanionID": 1,
       "Level": 40,
       "Attack": 68.0,
+      "AttackSpeed": 2.16,
       "UpgradeCost": 831
     },
     {
@@ -285,6 +325,7 @@
       "CompanionID": 1,
       "Level": 41,
       "Attack": 70.0,
+      "AttackSpeed": 2.18,
       "UpgradeCost": 931
     },
     {
@@ -292,6 +333,7 @@
       "CompanionID": 1,
       "Level": 42,
       "Attack": 72.0,
+      "AttackSpeed": 2.2,
       "UpgradeCost": 1042
     },
     {
@@ -299,6 +341,7 @@
       "CompanionID": 1,
       "Level": 43,
       "Attack": 74.0,
+      "AttackSpeed": 2.23,
       "UpgradeCost": 1167
     },
     {
@@ -306,6 +349,7 @@
       "CompanionID": 1,
       "Level": 44,
       "Attack": 77.0,
+      "AttackSpeed": 2.25,
       "UpgradeCost": 1307
     },
     {
@@ -313,6 +357,7 @@
       "CompanionID": 1,
       "Level": 45,
       "Attack": 79.0,
+      "AttackSpeed": 2.28,
       "UpgradeCost": 1464
     },
     {
@@ -320,6 +365,7 @@
       "CompanionID": 1,
       "Level": 46,
       "Attack": 81.0,
+      "AttackSpeed": 2.3,
       "UpgradeCost": 1640
     },
     {
@@ -327,6 +373,7 @@
       "CompanionID": 1,
       "Level": 47,
       "Attack": 83.0,
+      "AttackSpeed": 2.33,
       "UpgradeCost": 1837
     },
     {
@@ -334,6 +381,7 @@
       "CompanionID": 1,
       "Level": 48,
       "Attack": 85.0,
+      "AttackSpeed": 2.35,
       "UpgradeCost": 2057
     },
     {
@@ -341,6 +389,7 @@
       "CompanionID": 1,
       "Level": 49,
       "Attack": 88.0,
+      "AttackSpeed": 2.38,
       "UpgradeCost": 2304
     },
     {
@@ -348,6 +397,7 @@
       "CompanionID": 1,
       "Level": 50,
       "Attack": 90.0,
+      "AttackSpeed": 2.4,
       "UpgradeCost": 0
     },
     {
@@ -355,6 +405,7 @@
       "CompanionID": 2,
       "Level": 1,
       "Attack": 6.0,
+      "AttackSpeed": 1.0,
       "UpgradeCost": 30
     },
     {
@@ -362,6 +413,7 @@
       "CompanionID": 2,
       "Level": 2,
       "Attack": 7.0,
+      "AttackSpeed": 1.03,
       "UpgradeCost": 34
     },
     {
@@ -369,6 +421,7 @@
       "CompanionID": 2,
       "Level": 3,
       "Attack": 8.0,
+      "AttackSpeed": 1.06,
       "UpgradeCost": 38
     },
     {
@@ -376,6 +429,7 @@
       "CompanionID": 2,
       "Level": 4,
       "Attack": 9.0,
+      "AttackSpeed": 1.08,
       "UpgradeCost": 42
     },
     {
@@ -383,6 +437,7 @@
       "CompanionID": 2,
       "Level": 5,
       "Attack": 10.0,
+      "AttackSpeed": 1.11,
       "UpgradeCost": 47
     },
     {
@@ -390,6 +445,7 @@
       "CompanionID": 2,
       "Level": 6,
       "Attack": 11.0,
+      "AttackSpeed": 1.14,
       "UpgradeCost": 53
     },
     {
@@ -397,6 +453,7 @@
       "CompanionID": 2,
       "Level": 7,
       "Attack": 12.0,
+      "AttackSpeed": 1.17,
       "UpgradeCost": 59
     },
     {
@@ -404,6 +461,7 @@
       "CompanionID": 2,
       "Level": 8,
       "Attack": 14.0,
+      "AttackSpeed": 1.19,
       "UpgradeCost": 66
     },
     {
@@ -411,6 +469,7 @@
       "CompanionID": 2,
       "Level": 9,
       "Attack": 15.0,
+      "AttackSpeed": 1.22,
       "UpgradeCost": 74
     },
     {
@@ -418,6 +477,7 @@
       "CompanionID": 2,
       "Level": 10,
       "Attack": 17.0,
+      "AttackSpeed": 1.25,
       "UpgradeCost": 83
     },
     {
@@ -425,6 +485,7 @@
       "CompanionID": 2,
       "Level": 11,
       "Attack": 19.0,
+      "AttackSpeed": 1.28,
       "UpgradeCost": 93
     },
     {
@@ -432,6 +493,7 @@
       "CompanionID": 2,
       "Level": 12,
       "Attack": 20.0,
+      "AttackSpeed": 1.3,
       "UpgradeCost": 104
     },
     {
@@ -439,6 +501,7 @@
       "CompanionID": 2,
       "Level": 13,
       "Attack": 22.0,
+      "AttackSpeed": 1.33,
       "UpgradeCost": 117
     },
     {
@@ -446,6 +509,7 @@
       "CompanionID": 2,
       "Level": 14,
       "Attack": 24.0,
+      "AttackSpeed": 1.36,
       "UpgradeCost": 131
     },
     {
@@ -453,6 +517,7 @@
       "CompanionID": 2,
       "Level": 15,
       "Attack": 25.0,
+      "AttackSpeed": 1.39,
       "UpgradeCost": 147
     },
     {
@@ -460,6 +525,7 @@
       "CompanionID": 2,
       "Level": 16,
       "Attack": 27.0,
+      "AttackSpeed": 1.41,
       "UpgradeCost": 164
     },
     {
@@ -467,6 +533,7 @@
       "CompanionID": 2,
       "Level": 17,
       "Attack": 29.0,
+      "AttackSpeed": 1.44,
       "UpgradeCost": 184
     },
     {
@@ -474,6 +541,7 @@
       "CompanionID": 2,
       "Level": 18,
       "Attack": 31.0,
+      "AttackSpeed": 1.47,
       "UpgradeCost": 206
     },
     {
@@ -481,6 +549,7 @@
       "CompanionID": 2,
       "Level": 19,
       "Attack": 33.0,
+      "AttackSpeed": 1.5,
       "UpgradeCost": 231
     },
     {
@@ -488,6 +557,7 @@
       "CompanionID": 2,
       "Level": 20,
       "Attack": 35.0,
+      "AttackSpeed": 1.52,
       "UpgradeCost": 258
     },
     {
@@ -495,6 +565,7 @@
       "CompanionID": 2,
       "Level": 21,
       "Attack": 37.0,
+      "AttackSpeed": 1.55,
       "UpgradeCost": 289
     },
     {
@@ -502,6 +573,7 @@
       "CompanionID": 2,
       "Level": 22,
       "Attack": 39.0,
+      "AttackSpeed": 1.58,
       "UpgradeCost": 324
     },
     {
@@ -509,6 +581,7 @@
       "CompanionID": 2,
       "Level": 23,
       "Attack": 41.0,
+      "AttackSpeed": 1.61,
       "UpgradeCost": 363
     },
     {
@@ -516,6 +589,7 @@
       "CompanionID": 2,
       "Level": 24,
       "Attack": 43.0,
+      "AttackSpeed": 1.63,
       "UpgradeCost": 407
     },
     {
@@ -523,6 +597,7 @@
       "CompanionID": 2,
       "Level": 25,
       "Attack": 45.0,
+      "AttackSpeed": 1.66,
       "UpgradeCost": 455
     },
     {
@@ -530,6 +605,7 @@
       "CompanionID": 2,
       "Level": 26,
       "Attack": 47.0,
+      "AttackSpeed": 1.69,
       "UpgradeCost": 510
     },
     {
@@ -537,6 +613,7 @@
       "CompanionID": 2,
       "Level": 27,
       "Attack": 49.0,
+      "AttackSpeed": 1.72,
       "UpgradeCost": 571
     },
     {
@@ -544,6 +621,7 @@
       "CompanionID": 2,
       "Level": 28,
       "Attack": 52.0,
+      "AttackSpeed": 1.74,
       "UpgradeCost": 640
     },
     {
@@ -551,6 +629,7 @@
       "CompanionID": 2,
       "Level": 29,
       "Attack": 54.0,
+      "AttackSpeed": 1.77,
       "UpgradeCost": 717
     },
     {
@@ -558,6 +637,7 @@
       "CompanionID": 2,
       "Level": 30,
       "Attack": 56.0,
+      "AttackSpeed": 1.8,
       "UpgradeCost": 802
     },
     {
@@ -565,6 +645,7 @@
       "CompanionID": 2,
       "Level": 31,
       "Attack": 58.0,
+      "AttackSpeed": 1.83,
       "UpgradeCost": 899
     },
     {
@@ -572,6 +653,7 @@
       "CompanionID": 2,
       "Level": 32,
       "Attack": 61.0,
+      "AttackSpeed": 1.85,
       "UpgradeCost": 1007
     },
     {
@@ -579,6 +661,7 @@
       "CompanionID": 2,
       "Level": 33,
       "Attack": 63.0,
+      "AttackSpeed": 1.88,
       "UpgradeCost": 1127
     },
     {
@@ -586,6 +669,7 @@
       "CompanionID": 2,
       "Level": 34,
       "Attack": 65.0,
+      "AttackSpeed": 1.91,
       "UpgradeCost": 1263
     },
     {
@@ -593,6 +677,7 @@
       "CompanionID": 2,
       "Level": 35,
       "Attack": 68.0,
+      "AttackSpeed": 1.94,
       "UpgradeCost": 1414
     },
     {
@@ -600,6 +685,7 @@
       "CompanionID": 2,
       "Level": 36,
       "Attack": 70.0,
+      "AttackSpeed": 1.96,
       "UpgradeCost": 1584
     },
     {
@@ -607,6 +693,7 @@
       "CompanionID": 2,
       "Level": 37,
       "Attack": 72.0,
+      "AttackSpeed": 1.99,
       "UpgradeCost": 1774
     },
     {
@@ -614,6 +701,7 @@
       "CompanionID": 2,
       "Level": 38,
       "Attack": 75.0,
+      "AttackSpeed": 2.02,
       "UpgradeCost": 1987
     },
     {
@@ -621,6 +709,7 @@
       "CompanionID": 2,
       "Level": 39,
       "Attack": 77.0,
+      "AttackSpeed": 2.05,
       "UpgradeCost": 2225
     },
     {
@@ -628,6 +717,7 @@
       "CompanionID": 2,
       "Level": 40,
       "Attack": 80.0,
+      "AttackSpeed": 2.07,
       "UpgradeCost": 2492
     },
     {
@@ -635,6 +725,7 @@
       "CompanionID": 2,
       "Level": 41,
       "Attack": 82.0,
+      "AttackSpeed": 2.1,
       "UpgradeCost": 2792
     },
     {
@@ -642,6 +733,7 @@
       "CompanionID": 2,
       "Level": 42,
       "Attack": 85.0,
+      "AttackSpeed": 2.13,
       "UpgradeCost": 3127
     },
     {
@@ -649,6 +741,7 @@
       "CompanionID": 2,
       "Level": 43,
       "Attack": 87.0,
+      "AttackSpeed": 2.16,
       "UpgradeCost": 3502
     },
     {
@@ -656,6 +749,7 @@
       "CompanionID": 2,
       "Level": 44,
       "Attack": 90.0,
+      "AttackSpeed": 2.18,
       "UpgradeCost": 3922
     },
     {
@@ -663,6 +757,7 @@
       "CompanionID": 2,
       "Level": 45,
       "Attack": 92.0,
+      "AttackSpeed": 2.21,
       "UpgradeCost": 4393
     },
     {
@@ -670,6 +765,7 @@
       "CompanionID": 2,
       "Level": 46,
       "Attack": 95.0,
+      "AttackSpeed": 2.24,
       "UpgradeCost": 4920
     },
     {
@@ -677,6 +773,7 @@
       "CompanionID": 2,
       "Level": 47,
       "Attack": 97.0,
+      "AttackSpeed": 2.27,
       "UpgradeCost": 5510
     },
     {
@@ -684,6 +781,7 @@
       "CompanionID": 2,
       "Level": 48,
       "Attack": 100.0,
+      "AttackSpeed": 2.29,
       "UpgradeCost": 6171
     },
     {
@@ -691,6 +789,7 @@
       "CompanionID": 2,
       "Level": 49,
       "Attack": 102.0,
+      "AttackSpeed": 2.32,
       "UpgradeCost": 6912
     },
     {
@@ -698,6 +797,7 @@
       "CompanionID": 2,
       "Level": 50,
       "Attack": 105.0,
+      "AttackSpeed": 2.35,
       "UpgradeCost": 0
     },
     {
@@ -705,6 +805,7 @@
       "CompanionID": 3,
       "Level": 1,
       "Attack": 8.0,
+      "AttackSpeed": 1.4,
       "UpgradeCost": 100
     },
     {
@@ -712,6 +813,7 @@
       "CompanionID": 3,
       "Level": 2,
       "Attack": 9.0,
+      "AttackSpeed": 1.43,
       "UpgradeCost": 112
     },
     {
@@ -719,6 +821,7 @@
       "CompanionID": 3,
       "Level": 3,
       "Attack": 10.0,
+      "AttackSpeed": 1.45,
       "UpgradeCost": 125
     },
     {
@@ -726,6 +829,7 @@
       "CompanionID": 3,
       "Level": 4,
       "Attack": 11.0,
+      "AttackSpeed": 1.48,
       "UpgradeCost": 140
     },
     {
@@ -733,6 +837,7 @@
       "CompanionID": 3,
       "Level": 5,
       "Attack": 12.0,
+      "AttackSpeed": 1.5,
       "UpgradeCost": 157
     },
     {
@@ -740,6 +845,7 @@
       "CompanionID": 3,
       "Level": 6,
       "Attack": 14.0,
+      "AttackSpeed": 1.53,
       "UpgradeCost": 176
     },
     {
@@ -747,6 +853,7 @@
       "CompanionID": 3,
       "Level": 7,
       "Attack": 15.0,
+      "AttackSpeed": 1.55,
       "UpgradeCost": 197
     },
     {
@@ -754,6 +861,7 @@
       "CompanionID": 3,
       "Level": 8,
       "Attack": 17.0,
+      "AttackSpeed": 1.58,
       "UpgradeCost": 221
     },
     {
@@ -761,6 +869,7 @@
       "CompanionID": 3,
       "Level": 9,
       "Attack": 19.0,
+      "AttackSpeed": 1.6,
       "UpgradeCost": 248
     },
     {
@@ -768,6 +877,7 @@
       "CompanionID": 3,
       "Level": 10,
       "Attack": 20.0,
+      "AttackSpeed": 1.63,
       "UpgradeCost": 277
     },
     {
@@ -775,6 +885,7 @@
       "CompanionID": 3,
       "Level": 11,
       "Attack": 22.0,
+      "AttackSpeed": 1.66,
       "UpgradeCost": 311
     },
     {
@@ -782,6 +893,7 @@
       "CompanionID": 3,
       "Level": 12,
       "Attack": 24.0,
+      "AttackSpeed": 1.68,
       "UpgradeCost": 348
     },
     {
@@ -789,6 +901,7 @@
       "CompanionID": 3,
       "Level": 13,
       "Attack": 26.0,
+      "AttackSpeed": 1.71,
       "UpgradeCost": 390
     },
     {
@@ -796,6 +909,7 @@
       "CompanionID": 3,
       "Level": 14,
       "Attack": 28.0,
+      "AttackSpeed": 1.73,
       "UpgradeCost": 436
     },
     {
@@ -803,6 +917,7 @@
       "CompanionID": 3,
       "Level": 15,
       "Attack": 30.0,
+      "AttackSpeed": 1.76,
       "UpgradeCost": 489
     },
     {
@@ -810,6 +925,7 @@
       "CompanionID": 3,
       "Level": 16,
       "Attack": 32.0,
+      "AttackSpeed": 1.78,
       "UpgradeCost": 547
     },
     {
@@ -817,6 +933,7 @@
       "CompanionID": 3,
       "Level": 17,
       "Attack": 34.0,
+      "AttackSpeed": 1.81,
       "UpgradeCost": 613
     },
     {
@@ -824,6 +941,7 @@
       "CompanionID": 3,
       "Level": 18,
       "Attack": 36.0,
+      "AttackSpeed": 1.83,
       "UpgradeCost": 687
     },
     {
@@ -831,6 +949,7 @@
       "CompanionID": 3,
       "Level": 19,
       "Attack": 38.0,
+      "AttackSpeed": 1.86,
       "UpgradeCost": 769
     },
     {
@@ -838,6 +957,7 @@
       "CompanionID": 3,
       "Level": 20,
       "Attack": 41.0,
+      "AttackSpeed": 1.88,
       "UpgradeCost": 861
     },
     {
@@ -845,6 +965,7 @@
       "CompanionID": 3,
       "Level": 21,
       "Attack": 43.0,
+      "AttackSpeed": 1.91,
       "UpgradeCost": 965
     },
     {
@@ -852,6 +973,7 @@
       "CompanionID": 3,
       "Level": 22,
       "Attack": 45.0,
+      "AttackSpeed": 1.94,
       "UpgradeCost": 1080
     },
     {
@@ -859,6 +981,7 @@
       "CompanionID": 3,
       "Level": 23,
       "Attack": 48.0,
+      "AttackSpeed": 1.96,
       "UpgradeCost": 1210
     },
     {
@@ -866,6 +989,7 @@
       "CompanionID": 3,
       "Level": 24,
       "Attack": 50.0,
+      "AttackSpeed": 1.99,
       "UpgradeCost": 1355
     },
     {
@@ -873,6 +997,7 @@
       "CompanionID": 3,
       "Level": 25,
       "Attack": 52.0,
+      "AttackSpeed": 2.01,
       "UpgradeCost": 1518
     },
     {
@@ -880,6 +1005,7 @@
       "CompanionID": 3,
       "Level": 26,
       "Attack": 55.0,
+      "AttackSpeed": 2.04,
       "UpgradeCost": 1700
     },
     {
@@ -887,6 +1013,7 @@
       "CompanionID": 3,
       "Level": 27,
       "Attack": 57.0,
+      "AttackSpeed": 2.06,
       "UpgradeCost": 1904
     },
     {
@@ -894,6 +1021,7 @@
       "CompanionID": 3,
       "Level": 28,
       "Attack": 60.0,
+      "AttackSpeed": 2.09,
       "UpgradeCost": 2132
     },
     {
@@ -901,6 +1029,7 @@
       "CompanionID": 3,
       "Level": 29,
       "Attack": 62.0,
+      "AttackSpeed": 2.11,
       "UpgradeCost": 2388
     },
     {
@@ -908,6 +1037,7 @@
       "CompanionID": 3,
       "Level": 30,
       "Attack": 65.0,
+      "AttackSpeed": 2.14,
       "UpgradeCost": 2675
     },
     {
@@ -915,6 +1045,7 @@
       "CompanionID": 3,
       "Level": 31,
       "Attack": 67.0,
+      "AttackSpeed": 2.17,
       "UpgradeCost": 2996
     },
     {
@@ -922,6 +1053,7 @@
       "CompanionID": 3,
       "Level": 32,
       "Attack": 70.0,
+      "AttackSpeed": 2.19,
       "UpgradeCost": 3356
     },
     {
@@ -929,6 +1061,7 @@
       "CompanionID": 3,
       "Level": 33,
       "Attack": 72.0,
+      "AttackSpeed": 2.22,
       "UpgradeCost": 3758
     },
     {
@@ -936,6 +1069,7 @@
       "CompanionID": 3,
       "Level": 34,
       "Attack": 75.0,
+      "AttackSpeed": 2.24,
       "UpgradeCost": 4209
     },
     {
@@ -943,6 +1077,7 @@
       "CompanionID": 3,
       "Level": 35,
       "Attack": 78.0,
+      "AttackSpeed": 2.27,
       "UpgradeCost": 4714
     },
     {
@@ -950,6 +1085,7 @@
       "CompanionID": 3,
       "Level": 36,
       "Attack": 80.0,
+      "AttackSpeed": 2.29,
       "UpgradeCost": 5280
     },
     {
@@ -957,6 +1093,7 @@
       "CompanionID": 3,
       "Level": 37,
       "Attack": 83.0,
+      "AttackSpeed": 2.32,
       "UpgradeCost": 5914
     },
     {
@@ -964,6 +1101,7 @@
       "CompanionID": 3,
       "Level": 38,
       "Attack": 86.0,
+      "AttackSpeed": 2.34,
       "UpgradeCost": 6623
     },
     {
@@ -971,6 +1109,7 @@
       "CompanionID": 3,
       "Level": 39,
       "Attack": 88.0,
+      "AttackSpeed": 2.37,
       "UpgradeCost": 7418
     },
     {
@@ -978,6 +1117,7 @@
       "CompanionID": 3,
       "Level": 40,
       "Attack": 91.0,
+      "AttackSpeed": 2.39,
       "UpgradeCost": 8308
     },
     {
@@ -985,6 +1125,7 @@
       "CompanionID": 3,
       "Level": 41,
       "Attack": 94.0,
+      "AttackSpeed": 2.42,
       "UpgradeCost": 9305
     },
     {
@@ -992,6 +1133,7 @@
       "CompanionID": 3,
       "Level": 42,
       "Attack": 97.0,
+      "AttackSpeed": 2.45,
       "UpgradeCost": 10422
     },
     {
@@ -999,6 +1141,7 @@
       "CompanionID": 3,
       "Level": 43,
       "Attack": 100.0,
+      "AttackSpeed": 2.47,
       "UpgradeCost": 11672
     },
     {
@@ -1006,6 +1149,7 @@
       "CompanionID": 3,
       "Level": 44,
       "Attack": 103.0,
+      "AttackSpeed": 2.5,
       "UpgradeCost": 13073
     },
     {
@@ -1013,6 +1157,7 @@
       "CompanionID": 3,
       "Level": 45,
       "Attack": 105.0,
+      "AttackSpeed": 2.52,
       "UpgradeCost": 14642
     },
     {
@@ -1020,6 +1165,7 @@
       "CompanionID": 3,
       "Level": 46,
       "Attack": 108.0,
+      "AttackSpeed": 2.55,
       "UpgradeCost": 16399
     },
     {
@@ -1027,6 +1173,7 @@
       "CompanionID": 3,
       "Level": 47,
       "Attack": 111.0,
+      "AttackSpeed": 2.57,
       "UpgradeCost": 18367
     },
     {
@@ -1034,6 +1181,7 @@
       "CompanionID": 3,
       "Level": 48,
       "Attack": 114.0,
+      "AttackSpeed": 2.6,
       "UpgradeCost": 20571
     },
     {
@@ -1041,6 +1189,7 @@
       "CompanionID": 3,
       "Level": 49,
       "Attack": 117.0,
+      "AttackSpeed": 2.62,
       "UpgradeCost": 23039
     },
     {
@@ -1048,6 +1197,7 @@
       "CompanionID": 3,
       "Level": 50,
       "Attack": 120.0,
+      "AttackSpeed": 2.65,
       "UpgradeCost": 0
     },
     {
@@ -1055,6 +1205,7 @@
       "CompanionID": 4,
       "Level": 1,
       "Attack": 10.0,
+      "AttackSpeed": 1.7,
       "UpgradeCost": 300
     },
     {
@@ -1062,6 +1213,7 @@
       "CompanionID": 4,
       "Level": 2,
       "Attack": 11.0,
+      "AttackSpeed": 1.72,
       "UpgradeCost": 336
     },
     {
@@ -1069,6 +1221,7 @@
       "CompanionID": 4,
       "Level": 3,
       "Attack": 12.0,
+      "AttackSpeed": 1.74,
       "UpgradeCost": 376
     },
     {
@@ -1076,6 +1229,7 @@
       "CompanionID": 4,
       "Level": 4,
       "Attack": 13.0,
+      "AttackSpeed": 1.77,
       "UpgradeCost": 421
     },
     {
@@ -1083,6 +1237,7 @@
       "CompanionID": 4,
       "Level": 5,
       "Attack": 15.0,
+      "AttackSpeed": 1.79,
       "UpgradeCost": 472
     },
     {
@@ -1090,6 +1245,7 @@
       "CompanionID": 4,
       "Level": 6,
       "Attack": 16.0,
+      "AttackSpeed": 1.81,
       "UpgradeCost": 529
     },
     {
@@ -1097,6 +1253,7 @@
       "CompanionID": 4,
       "Level": 7,
       "Attack": 18.0,
+      "AttackSpeed": 1.83,
       "UpgradeCost": 592
     },
     {
@@ -1104,6 +1261,7 @@
       "CompanionID": 4,
       "Level": 8,
       "Attack": 20.0,
+      "AttackSpeed": 1.86,
       "UpgradeCost": 663
     },
     {
@@ -1111,6 +1269,7 @@
       "CompanionID": 4,
       "Level": 9,
       "Attack": 22.0,
+      "AttackSpeed": 1.88,
       "UpgradeCost": 743
     },
     {
@@ -1118,6 +1277,7 @@
       "CompanionID": 4,
       "Level": 10,
       "Attack": 24.0,
+      "AttackSpeed": 1.9,
       "UpgradeCost": 832
     },
     {
@@ -1125,6 +1285,7 @@
       "CompanionID": 4,
       "Level": 11,
       "Attack": 26.0,
+      "AttackSpeed": 1.92,
       "UpgradeCost": 932
     },
     {
@@ -1132,6 +1293,7 @@
       "CompanionID": 4,
       "Level": 12,
       "Attack": 28.0,
+      "AttackSpeed": 1.95,
       "UpgradeCost": 1044
     },
     {
@@ -1139,6 +1301,7 @@
       "CompanionID": 4,
       "Level": 13,
       "Attack": 30.0,
+      "AttackSpeed": 1.97,
       "UpgradeCost": 1169
     },
     {
@@ -1146,6 +1309,7 @@
       "CompanionID": 4,
       "Level": 14,
       "Attack": 32.0,
+      "AttackSpeed": 1.99,
       "UpgradeCost": 1309
     },
     {
@@ -1153,6 +1317,7 @@
       "CompanionID": 4,
       "Level": 15,
       "Attack": 35.0,
+      "AttackSpeed": 2.01,
       "UpgradeCost": 1466
     },
     {
@@ -1160,6 +1325,7 @@
       "CompanionID": 4,
       "Level": 16,
       "Attack": 37.0,
+      "AttackSpeed": 2.04,
       "UpgradeCost": 1642
     },
     {
@@ -1167,6 +1333,7 @@
       "CompanionID": 4,
       "Level": 17,
       "Attack": 39.0,
+      "AttackSpeed": 2.06,
       "UpgradeCost": 1839
     },
     {
@@ -1174,6 +1341,7 @@
       "CompanionID": 4,
       "Level": 18,
       "Attack": 42.0,
+      "AttackSpeed": 2.08,
       "UpgradeCost": 2060
     },
     {
@@ -1181,6 +1349,7 @@
       "CompanionID": 4,
       "Level": 19,
       "Attack": 44.0,
+      "AttackSpeed": 2.1,
       "UpgradeCost": 2307
     },
     {
@@ -1188,6 +1357,7 @@
       "CompanionID": 4,
       "Level": 20,
       "Attack": 46.0,
+      "AttackSpeed": 2.13,
       "UpgradeCost": 2584
     },
     {
@@ -1195,6 +1365,7 @@
       "CompanionID": 4,
       "Level": 21,
       "Attack": 49.0,
+      "AttackSpeed": 2.15,
       "UpgradeCost": 2894
     },
     {
@@ -1202,6 +1373,7 @@
       "CompanionID": 4,
       "Level": 22,
       "Attack": 52.0,
+      "AttackSpeed": 2.17,
       "UpgradeCost": 3241
     },
     {
@@ -1209,6 +1381,7 @@
       "CompanionID": 4,
       "Level": 23,
       "Attack": 54.0,
+      "AttackSpeed": 2.19,
       "UpgradeCost": 3630
     },
     {
@@ -1216,6 +1389,7 @@
       "CompanionID": 4,
       "Level": 24,
       "Attack": 57.0,
+      "AttackSpeed": 2.22,
       "UpgradeCost": 4066
     },
     {
@@ -1223,6 +1397,7 @@
       "CompanionID": 4,
       "Level": 25,
       "Attack": 59.0,
+      "AttackSpeed": 2.24,
       "UpgradeCost": 4554
     },
     {
@@ -1230,6 +1405,7 @@
       "CompanionID": 4,
       "Level": 26,
       "Attack": 62.0,
+      "AttackSpeed": 2.26,
       "UpgradeCost": 5100
     },
     {
@@ -1237,6 +1413,7 @@
       "CompanionID": 4,
       "Level": 27,
       "Attack": 65.0,
+      "AttackSpeed": 2.28,
       "UpgradeCost": 5712
     },
     {
@@ -1244,6 +1421,7 @@
       "CompanionID": 4,
       "Level": 28,
       "Attack": 68.0,
+      "AttackSpeed": 2.31,
       "UpgradeCost": 6397
     },
     {
@@ -1251,6 +1429,7 @@
       "CompanionID": 4,
       "Level": 29,
       "Attack": 70.0,
+      "AttackSpeed": 2.33,
       "UpgradeCost": 7165
     },
     {
@@ -1258,6 +1437,7 @@
       "CompanionID": 4,
       "Level": 30,
       "Attack": 73.0,
+      "AttackSpeed": 2.35,
       "UpgradeCost": 8025
     },
     {
@@ -1265,6 +1445,7 @@
       "CompanionID": 4,
       "Level": 31,
       "Attack": 76.0,
+      "AttackSpeed": 2.37,
       "UpgradeCost": 8988
     },
     {
@@ -1272,6 +1453,7 @@
       "CompanionID": 4,
       "Level": 32,
       "Attack": 79.0,
+      "AttackSpeed": 2.4,
       "UpgradeCost": 10067
     },
     {
@@ -1279,6 +1461,7 @@
       "CompanionID": 4,
       "Level": 33,
       "Attack": 82.0,
+      "AttackSpeed": 2.42,
       "UpgradeCost": 11275
     },
     {
@@ -1286,6 +1469,7 @@
       "CompanionID": 4,
       "Level": 34,
       "Attack": 85.0,
+      "AttackSpeed": 2.44,
       "UpgradeCost": 12627
     },
     {
@@ -1293,6 +1477,7 @@
       "CompanionID": 4,
       "Level": 35,
       "Attack": 88.0,
+      "AttackSpeed": 2.46,
       "UpgradeCost": 14143
     },
     {
@@ -1300,6 +1485,7 @@
       "CompanionID": 4,
       "Level": 36,
       "Attack": 91.0,
+      "AttackSpeed": 2.49,
       "UpgradeCost": 15840
     },
     {
@@ -1307,6 +1493,7 @@
       "CompanionID": 4,
       "Level": 37,
       "Attack": 94.0,
+      "AttackSpeed": 2.51,
       "UpgradeCost": 17741
     },
     {
@@ -1314,6 +1501,7 @@
       "CompanionID": 4,
       "Level": 38,
       "Attack": 97.0,
+      "AttackSpeed": 2.53,
       "UpgradeCost": 19870
     },
     {
@@ -1321,6 +1509,7 @@
       "CompanionID": 4,
       "Level": 39,
       "Attack": 100.0,
+      "AttackSpeed": 2.55,
       "UpgradeCost": 22254
     },
     {
@@ -1328,6 +1517,7 @@
       "CompanionID": 4,
       "Level": 40,
       "Attack": 103.0,
+      "AttackSpeed": 2.58,
       "UpgradeCost": 24924
     },
     {
@@ -1335,6 +1525,7 @@
       "CompanionID": 4,
       "Level": 41,
       "Attack": 106.0,
+      "AttackSpeed": 2.6,
       "UpgradeCost": 27915
     },
     {
@@ -1342,6 +1533,7 @@
       "CompanionID": 4,
       "Level": 42,
       "Attack": 109.0,
+      "AttackSpeed": 2.62,
       "UpgradeCost": 31265
     },
     {
@@ -1349,6 +1541,7 @@
       "CompanionID": 4,
       "Level": 43,
       "Attack": 112.0,
+      "AttackSpeed": 2.64,
       "UpgradeCost": 35017
     },
     {
@@ -1356,6 +1549,7 @@
       "CompanionID": 4,
       "Level": 44,
       "Attack": 115.0,
+      "AttackSpeed": 2.67,
       "UpgradeCost": 39219
     },
     {
@@ -1363,6 +1557,7 @@
       "CompanionID": 4,
       "Level": 45,
       "Attack": 119.0,
+      "AttackSpeed": 2.69,
       "UpgradeCost": 43925
     },
     {
@@ -1370,6 +1565,7 @@
       "CompanionID": 4,
       "Level": 46,
       "Attack": 122.0,
+      "AttackSpeed": 2.71,
       "UpgradeCost": 49196
     },
     {
@@ -1377,6 +1573,7 @@
       "CompanionID": 4,
       "Level": 47,
       "Attack": 125.0,
+      "AttackSpeed": 2.73,
       "UpgradeCost": 55100
     },
     {
@@ -1384,6 +1581,7 @@
       "CompanionID": 4,
       "Level": 48,
       "Attack": 128.0,
+      "AttackSpeed": 2.76,
       "UpgradeCost": 61712
     },
     {
@@ -1391,6 +1589,7 @@
       "CompanionID": 4,
       "Level": 49,
       "Attack": 132.0,
+      "AttackSpeed": 2.78,
       "UpgradeCost": 69117
     },
     {
@@ -1398,6 +1597,7 @@
       "CompanionID": 4,
       "Level": 50,
       "Attack": 135.0,
+      "AttackSpeed": 2.8,
       "UpgradeCost": 0
     },
     {
@@ -1405,6 +1605,7 @@
       "CompanionID": 5,
       "Level": 1,
       "Attack": 12.0,
+      "AttackSpeed": 1.5,
       "UpgradeCost": 1000
     },
     {
@@ -1412,6 +1613,7 @@
       "CompanionID": 5,
       "Level": 2,
       "Attack": 13.0,
+      "AttackSpeed": 1.52,
       "UpgradeCost": 1120
     },
     {
@@ -1419,6 +1621,7 @@
       "CompanionID": 5,
       "Level": 3,
       "Attack": 14.0,
+      "AttackSpeed": 1.55,
       "UpgradeCost": 1254
     },
     {
@@ -1426,6 +1629,7 @@
       "CompanionID": 5,
       "Level": 4,
       "Attack": 16.0,
+      "AttackSpeed": 1.57,
       "UpgradeCost": 1405
     },
     {
@@ -1433,6 +1637,7 @@
       "CompanionID": 5,
       "Level": 5,
       "Attack": 17.0,
+      "AttackSpeed": 1.6,
       "UpgradeCost": 1574
     },
     {
@@ -1440,6 +1645,7 @@
       "CompanionID": 5,
       "Level": 6,
       "Attack": 19.0,
+      "AttackSpeed": 1.62,
       "UpgradeCost": 1762
     },
     {
@@ -1447,6 +1653,7 @@
       "CompanionID": 5,
       "Level": 7,
       "Attack": 21.0,
+      "AttackSpeed": 1.65,
       "UpgradeCost": 1974
     },
     {
@@ -1454,6 +1661,7 @@
       "CompanionID": 5,
       "Level": 8,
       "Attack": 23.0,
+      "AttackSpeed": 1.67,
       "UpgradeCost": 2211
     },
     {
@@ -1461,6 +1669,7 @@
       "CompanionID": 5,
       "Level": 9,
       "Attack": 25.0,
+      "AttackSpeed": 1.7,
       "UpgradeCost": 2476
     },
     {
@@ -1468,6 +1677,7 @@
       "CompanionID": 5,
       "Level": 10,
       "Attack": 27.0,
+      "AttackSpeed": 1.72,
       "UpgradeCost": 2773
     },
     {
@@ -1475,6 +1685,7 @@
       "CompanionID": 5,
       "Level": 11,
       "Attack": 29.0,
+      "AttackSpeed": 1.74,
       "UpgradeCost": 3106
     },
     {
@@ -1482,6 +1693,7 @@
       "CompanionID": 5,
       "Level": 12,
       "Attack": 32.0,
+      "AttackSpeed": 1.77,
       "UpgradeCost": 3479
     },
     {
@@ -1489,6 +1701,7 @@
       "CompanionID": 5,
       "Level": 13,
       "Attack": 34.0,
+      "AttackSpeed": 1.79,
       "UpgradeCost": 3896
     },
     {
@@ -1496,6 +1709,7 @@
       "CompanionID": 5,
       "Level": 14,
       "Attack": 37.0,
+      "AttackSpeed": 1.82,
       "UpgradeCost": 4363
     },
     {
@@ -1503,6 +1717,7 @@
       "CompanionID": 5,
       "Level": 15,
       "Attack": 39.0,
+      "AttackSpeed": 1.84,
       "UpgradeCost": 4887
     },
     {
@@ -1510,6 +1725,7 @@
       "CompanionID": 5,
       "Level": 16,
       "Attack": 42.0,
+      "AttackSpeed": 1.87,
       "UpgradeCost": 5474
     },
     {
@@ -1517,6 +1733,7 @@
       "CompanionID": 5,
       "Level": 17,
       "Attack": 44.0,
+      "AttackSpeed": 1.89,
       "UpgradeCost": 6130
     },
     {
@@ -1524,6 +1741,7 @@
       "CompanionID": 5,
       "Level": 18,
       "Attack": 47.0,
+      "AttackSpeed": 1.92,
       "UpgradeCost": 6866
     },
     {
@@ -1531,6 +1749,7 @@
       "CompanionID": 5,
       "Level": 19,
       "Attack": 50.0,
+      "AttackSpeed": 1.94,
       "UpgradeCost": 7690
     },
     {
@@ -1538,6 +1757,7 @@
       "CompanionID": 5,
       "Level": 20,
       "Attack": 52.0,
+      "AttackSpeed": 1.97,
       "UpgradeCost": 8613
     },
     {
@@ -1545,6 +1765,7 @@
       "CompanionID": 5,
       "Level": 21,
       "Attack": 55.0,
+      "AttackSpeed": 1.99,
       "UpgradeCost": 9646
     },
     {
@@ -1552,6 +1773,7 @@
       "CompanionID": 5,
       "Level": 22,
       "Attack": 58.0,
+      "AttackSpeed": 2.01,
       "UpgradeCost": 10804
     },
     {
@@ -1559,6 +1781,7 @@
       "CompanionID": 5,
       "Level": 23,
       "Attack": 61.0,
+      "AttackSpeed": 2.04,
       "UpgradeCost": 12100
     },
     {
@@ -1566,6 +1789,7 @@
       "CompanionID": 5,
       "Level": 24,
       "Attack": 64.0,
+      "AttackSpeed": 2.06,
       "UpgradeCost": 13552
     },
     {
@@ -1573,6 +1797,7 @@
       "CompanionID": 5,
       "Level": 25,
       "Attack": 67.0,
+      "AttackSpeed": 2.09,
       "UpgradeCost": 15179
     },
     {
@@ -1580,6 +1805,7 @@
       "CompanionID": 5,
       "Level": 26,
       "Attack": 70.0,
+      "AttackSpeed": 2.11,
       "UpgradeCost": 17000
     },
     {
@@ -1587,6 +1813,7 @@
       "CompanionID": 5,
       "Level": 27,
       "Attack": 73.0,
+      "AttackSpeed": 2.14,
       "UpgradeCost": 19040
     },
     {
@@ -1594,6 +1821,7 @@
       "CompanionID": 5,
       "Level": 28,
       "Attack": 76.0,
+      "AttackSpeed": 2.16,
       "UpgradeCost": 21325
     },
     {
@@ -1601,6 +1829,7 @@
       "CompanionID": 5,
       "Level": 29,
       "Attack": 79.0,
+      "AttackSpeed": 2.19,
       "UpgradeCost": 23884
     },
     {
@@ -1608,6 +1837,7 @@
       "CompanionID": 5,
       "Level": 30,
       "Attack": 82.0,
+      "AttackSpeed": 2.21,
       "UpgradeCost": 26750
     },
     {
@@ -1615,6 +1845,7 @@
       "CompanionID": 5,
       "Level": 31,
       "Attack": 85.0,
+      "AttackSpeed": 2.23,
       "UpgradeCost": 29960
     },
     {
@@ -1622,6 +1853,7 @@
       "CompanionID": 5,
       "Level": 32,
       "Attack": 88.0,
+      "AttackSpeed": 2.26,
       "UpgradeCost": 33555
     },
     {
@@ -1629,6 +1861,7 @@
       "CompanionID": 5,
       "Level": 33,
       "Attack": 91.0,
+      "AttackSpeed": 2.28,
       "UpgradeCost": 37582
     },
     {
@@ -1636,6 +1869,7 @@
       "CompanionID": 5,
       "Level": 34,
       "Attack": 95.0,
+      "AttackSpeed": 2.31,
       "UpgradeCost": 42092
     },
     {
@@ -1643,6 +1877,7 @@
       "CompanionID": 5,
       "Level": 35,
       "Attack": 98.0,
+      "AttackSpeed": 2.33,
       "UpgradeCost": 47143
     },
     {
@@ -1650,6 +1885,7 @@
       "CompanionID": 5,
       "Level": 36,
       "Attack": 101.0,
+      "AttackSpeed": 2.36,
       "UpgradeCost": 52800
     },
     {
@@ -1657,6 +1893,7 @@
       "CompanionID": 5,
       "Level": 37,
       "Attack": 104.0,
+      "AttackSpeed": 2.38,
       "UpgradeCost": 59136
     },
     {
@@ -1664,6 +1901,7 @@
       "CompanionID": 5,
       "Level": 38,
       "Attack": 108.0,
+      "AttackSpeed": 2.41,
       "UpgradeCost": 66232
     },
     {
@@ -1671,6 +1909,7 @@
       "CompanionID": 5,
       "Level": 39,
       "Attack": 111.0,
+      "AttackSpeed": 2.43,
       "UpgradeCost": 74180
     },
     {
@@ -1678,6 +1917,7 @@
       "CompanionID": 5,
       "Level": 40,
       "Attack": 115.0,
+      "AttackSpeed": 2.46,
       "UpgradeCost": 83081
     },
     {
@@ -1685,6 +1925,7 @@
       "CompanionID": 5,
       "Level": 41,
       "Attack": 118.0,
+      "AttackSpeed": 2.48,
       "UpgradeCost": 93051
     },
     {
@@ -1692,6 +1933,7 @@
       "CompanionID": 5,
       "Level": 42,
       "Attack": 121.0,
+      "AttackSpeed": 2.5,
       "UpgradeCost": 104217
     },
     {
@@ -1699,6 +1941,7 @@
       "CompanionID": 5,
       "Level": 43,
       "Attack": 125.0,
+      "AttackSpeed": 2.53,
       "UpgradeCost": 116723
     },
     {
@@ -1706,6 +1949,7 @@
       "CompanionID": 5,
       "Level": 44,
       "Attack": 128.0,
+      "AttackSpeed": 2.55,
       "UpgradeCost": 130730
     },
     {
@@ -1713,6 +1957,7 @@
       "CompanionID": 5,
       "Level": 45,
       "Attack": 132.0,
+      "AttackSpeed": 2.58,
       "UpgradeCost": 146418
     },
     {
@@ -1720,6 +1965,7 @@
       "CompanionID": 5,
       "Level": 46,
       "Attack": 136.0,
+      "AttackSpeed": 2.6,
       "UpgradeCost": 163988
     },
     {
@@ -1727,6 +1973,7 @@
       "CompanionID": 5,
       "Level": 47,
       "Attack": 139.0,
+      "AttackSpeed": 2.63,
       "UpgradeCost": 183666
     },
     {
@@ -1734,6 +1981,7 @@
       "CompanionID": 5,
       "Level": 48,
       "Attack": 143.0,
+      "AttackSpeed": 2.65,
       "UpgradeCost": 205706
     },
     {
@@ -1741,6 +1989,7 @@
       "CompanionID": 5,
       "Level": 49,
       "Attack": 146.0,
+      "AttackSpeed": 2.68,
       "UpgradeCost": 230391
     },
     {
@@ -1748,6 +1997,7 @@
       "CompanionID": 5,
       "Level": 50,
       "Attack": 150.0,
+      "AttackSpeed": 2.7,
       "UpgradeCost": 0
     },
     {
@@ -1755,6 +2005,7 @@
       "CompanionID": 6,
       "Level": 1,
       "Attack": 20.0,
+      "AttackSpeed": 1.3,
       "UpgradeCost": 3000
     },
     {
@@ -1762,6 +2013,7 @@
       "CompanionID": 6,
       "Level": 2,
       "Attack": 21.0,
+      "AttackSpeed": 1.33,
       "UpgradeCost": 3360
     },
     {
@@ -1769,6 +2021,7 @@
       "CompanionID": 6,
       "Level": 3,
       "Attack": 23.0,
+      "AttackSpeed": 1.36,
       "UpgradeCost": 3763
     },
     {
@@ -1776,6 +2029,7 @@
       "CompanionID": 6,
       "Level": 4,
       "Attack": 25.0,
+      "AttackSpeed": 1.39,
       "UpgradeCost": 4215
     },
     {
@@ -1783,6 +2037,7 @@
       "CompanionID": 6,
       "Level": 5,
       "Attack": 28.0,
+      "AttackSpeed": 1.42,
       "UpgradeCost": 4721
     },
     {
@@ -1790,6 +2045,7 @@
       "CompanionID": 6,
       "Level": 6,
       "Attack": 30.0,
+      "AttackSpeed": 1.45,
       "UpgradeCost": 5287
     },
     {
@@ -1797,6 +2053,7 @@
       "CompanionID": 6,
       "Level": 7,
       "Attack": 33.0,
+      "AttackSpeed": 1.48,
       "UpgradeCost": 5921
     },
     {
@@ -1804,6 +2061,7 @@
       "CompanionID": 6,
       "Level": 8,
       "Attack": 36.0,
+      "AttackSpeed": 1.51,
       "UpgradeCost": 6632
     },
     {
@@ -1811,6 +2069,7 @@
       "CompanionID": 6,
       "Level": 9,
       "Attack": 39.0,
+      "AttackSpeed": 1.54,
       "UpgradeCost": 7428
     },
     {
@@ -1818,6 +2077,7 @@
       "CompanionID": 6,
       "Level": 10,
       "Attack": 42.0,
+      "AttackSpeed": 1.57,
       "UpgradeCost": 8319
     },
     {
@@ -1825,6 +2085,7 @@
       "CompanionID": 6,
       "Level": 11,
       "Attack": 45.0,
+      "AttackSpeed": 1.6,
       "UpgradeCost": 9318
     },
     {
@@ -1832,6 +2093,7 @@
       "CompanionID": 6,
       "Level": 12,
       "Attack": 49.0,
+      "AttackSpeed": 1.63,
       "UpgradeCost": 10436
     },
     {
@@ -1839,6 +2101,7 @@
       "CompanionID": 6,
       "Level": 13,
       "Attack": 52.0,
+      "AttackSpeed": 1.66,
       "UpgradeCost": 11688
     },
     {
@@ -1846,6 +2109,7 @@
       "CompanionID": 6,
       "Level": 14,
       "Attack": 56.0,
+      "AttackSpeed": 1.68,
       "UpgradeCost": 13090
     },
     {
@@ -1853,6 +2117,7 @@
       "CompanionID": 6,
       "Level": 15,
       "Attack": 59.0,
+      "AttackSpeed": 1.71,
       "UpgradeCost": 14661
     },
     {
@@ -1860,6 +2125,7 @@
       "CompanionID": 6,
       "Level": 16,
       "Attack": 63.0,
+      "AttackSpeed": 1.74,
       "UpgradeCost": 16421
     },
     {
@@ -1867,6 +2133,7 @@
       "CompanionID": 6,
       "Level": 17,
       "Attack": 67.0,
+      "AttackSpeed": 1.77,
       "UpgradeCost": 18391
     },
     {
@@ -1874,6 +2141,7 @@
       "CompanionID": 6,
       "Level": 18,
       "Attack": 71.0,
+      "AttackSpeed": 1.8,
       "UpgradeCost": 20598
     },
     {
@@ -1881,6 +2149,7 @@
       "CompanionID": 6,
       "Level": 19,
       "Attack": 74.0,
+      "AttackSpeed": 1.83,
       "UpgradeCost": 23070
     },
     {
@@ -1888,6 +2157,7 @@
       "CompanionID": 6,
       "Level": 20,
       "Attack": 78.0,
+      "AttackSpeed": 1.86,
       "UpgradeCost": 25838
     },
     {
@@ -1895,6 +2165,7 @@
       "CompanionID": 6,
       "Level": 21,
       "Attack": 82.0,
+      "AttackSpeed": 1.89,
       "UpgradeCost": 28939
     },
     {
@@ -1902,6 +2173,7 @@
       "CompanionID": 6,
       "Level": 22,
       "Attack": 86.0,
+      "AttackSpeed": 1.92,
       "UpgradeCost": 32412
     },
     {
@@ -1909,6 +2181,7 @@
       "CompanionID": 6,
       "Level": 23,
       "Attack": 91.0,
+      "AttackSpeed": 1.95,
       "UpgradeCost": 36301
     },
     {
@@ -1916,6 +2189,7 @@
       "CompanionID": 6,
       "Level": 24,
       "Attack": 95.0,
+      "AttackSpeed": 1.98,
       "UpgradeCost": 40657
     },
     {
@@ -1923,6 +2197,7 @@
       "CompanionID": 6,
       "Level": 25,
       "Attack": 99.0,
+      "AttackSpeed": 2.01,
       "UpgradeCost": 45536
     },
     {
@@ -1930,6 +2205,7 @@
       "CompanionID": 6,
       "Level": 26,
       "Attack": 103.0,
+      "AttackSpeed": 2.04,
       "UpgradeCost": 51000
     },
     {
@@ -1937,6 +2213,7 @@
       "CompanionID": 6,
       "Level": 27,
       "Attack": 108.0,
+      "AttackSpeed": 2.07,
       "UpgradeCost": 57120
     },
     {
@@ -1944,6 +2221,7 @@
       "CompanionID": 6,
       "Level": 28,
       "Attack": 112.0,
+      "AttackSpeed": 2.1,
       "UpgradeCost": 63975
     },
     {
@@ -1951,6 +2229,7 @@
       "CompanionID": 6,
       "Level": 29,
       "Attack": 117.0,
+      "AttackSpeed": 2.13,
       "UpgradeCost": 71652
     },
     {
@@ -1958,6 +2237,7 @@
       "CompanionID": 6,
       "Level": 30,
       "Attack": 121.0,
+      "AttackSpeed": 2.16,
       "UpgradeCost": 80250
     },
     {
@@ -1965,6 +2245,7 @@
       "CompanionID": 6,
       "Level": 31,
       "Attack": 126.0,
+      "AttackSpeed": 2.19,
       "UpgradeCost": 89880
     },
     {
@@ -1972,6 +2253,7 @@
       "CompanionID": 6,
       "Level": 32,
       "Attack": 130.0,
+      "AttackSpeed": 2.22,
       "UpgradeCost": 100665
     },
     {
@@ -1979,6 +2261,7 @@
       "CompanionID": 6,
       "Level": 33,
       "Attack": 135.0,
+      "AttackSpeed": 2.25,
       "UpgradeCost": 112745
     },
     {
@@ -1986,6 +2269,7 @@
       "CompanionID": 6,
       "Level": 34,
       "Attack": 140.0,
+      "AttackSpeed": 2.28,
       "UpgradeCost": 126275
     },
     {
@@ -1993,6 +2277,7 @@
       "CompanionID": 6,
       "Level": 35,
       "Attack": 144.0,
+      "AttackSpeed": 2.31,
       "UpgradeCost": 141428
     },
     {
@@ -2000,6 +2285,7 @@
       "CompanionID": 6,
       "Level": 36,
       "Attack": 149.0,
+      "AttackSpeed": 2.34,
       "UpgradeCost": 158399
     },
     {
@@ -2007,6 +2293,7 @@
       "CompanionID": 6,
       "Level": 37,
       "Attack": 154.0,
+      "AttackSpeed": 2.37,
       "UpgradeCost": 177407
     },
     {
@@ -2014,6 +2301,7 @@
       "CompanionID": 6,
       "Level": 38,
       "Attack": 159.0,
+      "AttackSpeed": 2.39,
       "UpgradeCost": 198696
     },
     {
@@ -2021,6 +2309,7 @@
       "CompanionID": 6,
       "Level": 39,
       "Attack": 164.0,
+      "AttackSpeed": 2.42,
       "UpgradeCost": 222539
     },
     {
@@ -2028,6 +2317,7 @@
       "CompanionID": 6,
       "Level": 40,
       "Attack": 169.0,
+      "AttackSpeed": 2.45,
       "UpgradeCost": 249244
     },
     {
@@ -2035,6 +2325,7 @@
       "CompanionID": 6,
       "Level": 41,
       "Attack": 174.0,
+      "AttackSpeed": 2.48,
       "UpgradeCost": 279153
     },
     {
@@ -2042,6 +2333,7 @@
       "CompanionID": 6,
       "Level": 42,
       "Attack": 179.0,
+      "AttackSpeed": 2.51,
       "UpgradeCost": 312651
     },
     {
@@ -2049,6 +2341,7 @@
       "CompanionID": 6,
       "Level": 43,
       "Attack": 184.0,
+      "AttackSpeed": 2.54,
       "UpgradeCost": 350169
     },
     {
@@ -2056,6 +2349,7 @@
       "CompanionID": 6,
       "Level": 44,
       "Attack": 189.0,
+      "AttackSpeed": 2.57,
       "UpgradeCost": 392190
     },
     {
@@ -2063,6 +2357,7 @@
       "CompanionID": 6,
       "Level": 45,
       "Attack": 194.0,
+      "AttackSpeed": 2.6,
       "UpgradeCost": 439253
     },
     {
@@ -2070,6 +2365,7 @@
       "CompanionID": 6,
       "Level": 46,
       "Attack": 199.0,
+      "AttackSpeed": 2.63,
       "UpgradeCost": 491963
     },
     {
@@ -2077,6 +2373,7 @@
       "CompanionID": 6,
       "Level": 47,
       "Attack": 204.0,
+      "AttackSpeed": 2.66,
       "UpgradeCost": 550998
     },
     {
@@ -2084,6 +2381,7 @@
       "CompanionID": 6,
       "Level": 48,
       "Attack": 209.0,
+      "AttackSpeed": 2.69,
       "UpgradeCost": 617118
     },
     {
@@ -2091,6 +2389,7 @@
       "CompanionID": 6,
       "Level": 49,
       "Attack": 215.0,
+      "AttackSpeed": 2.72,
       "UpgradeCost": 691172
     },
     {
@@ -2098,6 +2397,7 @@
       "CompanionID": 6,
       "Level": 50,
       "Attack": 220.0,
+      "AttackSpeed": 2.75,
       "UpgradeCost": 0
     },
     {
@@ -2105,6 +2405,7 @@
       "CompanionID": 7,
       "Level": 1,
       "Attack": 25.0,
+      "AttackSpeed": 2.0,
       "UpgradeCost": 10000
     },
     {
@@ -2112,6 +2413,7 @@
       "CompanionID": 7,
       "Level": 2,
       "Attack": 26.0,
+      "AttackSpeed": 2.02,
       "UpgradeCost": 11200
     },
     {
@@ -2119,6 +2421,7 @@
       "CompanionID": 7,
       "Level": 3,
       "Attack": 29.0,
+      "AttackSpeed": 2.04,
       "UpgradeCost": 12544
     },
     {
@@ -2126,6 +2429,7 @@
       "CompanionID": 7,
       "Level": 4,
       "Attack": 31.0,
+      "AttackSpeed": 2.06,
       "UpgradeCost": 14049
     },
     {
@@ -2133,6 +2437,7 @@
       "CompanionID": 7,
       "Level": 5,
       "Attack": 34.0,
+      "AttackSpeed": 2.07,
       "UpgradeCost": 15735
     },
     {
@@ -2140,6 +2445,7 @@
       "CompanionID": 7,
       "Level": 6,
       "Attack": 37.0,
+      "AttackSpeed": 2.09,
       "UpgradeCost": 17623
     },
     {
@@ -2147,6 +2453,7 @@
       "CompanionID": 7,
       "Level": 7,
       "Attack": 40.0,
+      "AttackSpeed": 2.11,
       "UpgradeCost": 19738
     },
     {
@@ -2154,6 +2461,7 @@
       "CompanionID": 7,
       "Level": 8,
       "Attack": 44.0,
+      "AttackSpeed": 2.13,
       "UpgradeCost": 22107
     },
     {
@@ -2161,6 +2469,7 @@
       "CompanionID": 7,
       "Level": 9,
       "Attack": 47.0,
+      "AttackSpeed": 2.15,
       "UpgradeCost": 24760
     },
     {
@@ -2168,6 +2477,7 @@
       "CompanionID": 7,
       "Level": 10,
       "Attack": 51.0,
+      "AttackSpeed": 2.17,
       "UpgradeCost": 27731
     },
     {
@@ -2175,6 +2485,7 @@
       "CompanionID": 7,
       "Level": 11,
       "Attack": 55.0,
+      "AttackSpeed": 2.18,
       "UpgradeCost": 31058
     },
     {
@@ -2182,6 +2493,7 @@
       "CompanionID": 7,
       "Level": 12,
       "Attack": 59.0,
+      "AttackSpeed": 2.2,
       "UpgradeCost": 34785
     },
     {
@@ -2189,6 +2501,7 @@
       "CompanionID": 7,
       "Level": 13,
       "Attack": 63.0,
+      "AttackSpeed": 2.22,
       "UpgradeCost": 38960
     },
     {
@@ -2196,6 +2509,7 @@
       "CompanionID": 7,
       "Level": 14,
       "Attack": 67.0,
+      "AttackSpeed": 2.24,
       "UpgradeCost": 43635
     },
     {
@@ -2203,6 +2517,7 @@
       "CompanionID": 7,
       "Level": 15,
       "Attack": 71.0,
+      "AttackSpeed": 2.26,
       "UpgradeCost": 48871
     },
     {
@@ -2210,6 +2525,7 @@
       "CompanionID": 7,
       "Level": 16,
       "Attack": 75.0,
+      "AttackSpeed": 2.28,
       "UpgradeCost": 54736
     },
     {
@@ -2217,6 +2533,7 @@
       "CompanionID": 7,
       "Level": 17,
       "Attack": 80.0,
+      "AttackSpeed": 2.29,
       "UpgradeCost": 61304
     },
     {
@@ -2224,6 +2541,7 @@
       "CompanionID": 7,
       "Level": 18,
       "Attack": 84.0,
+      "AttackSpeed": 2.31,
       "UpgradeCost": 68660
     },
     {
@@ -2231,6 +2549,7 @@
       "CompanionID": 7,
       "Level": 19,
       "Attack": 89.0,
+      "AttackSpeed": 2.33,
       "UpgradeCost": 76900
     },
     {
@@ -2238,6 +2557,7 @@
       "CompanionID": 7,
       "Level": 20,
       "Attack": 94.0,
+      "AttackSpeed": 2.35,
       "UpgradeCost": 86128
     },
     {
@@ -2245,6 +2565,7 @@
       "CompanionID": 7,
       "Level": 21,
       "Attack": 98.0,
+      "AttackSpeed": 2.37,
       "UpgradeCost": 96463
     },
     {
@@ -2252,6 +2573,7 @@
       "CompanionID": 7,
       "Level": 22,
       "Attack": 103.0,
+      "AttackSpeed": 2.39,
       "UpgradeCost": 108038
     },
     {
@@ -2259,6 +2581,7 @@
       "CompanionID": 7,
       "Level": 23,
       "Attack": 108.0,
+      "AttackSpeed": 2.4,
       "UpgradeCost": 121003
     },
     {
@@ -2266,6 +2589,7 @@
       "CompanionID": 7,
       "Level": 24,
       "Attack": 113.0,
+      "AttackSpeed": 2.42,
       "UpgradeCost": 135523
     },
     {
@@ -2273,6 +2597,7 @@
       "CompanionID": 7,
       "Level": 25,
       "Attack": 118.0,
+      "AttackSpeed": 2.44,
       "UpgradeCost": 151786
     },
     {
@@ -2280,6 +2605,7 @@
       "CompanionID": 7,
       "Level": 26,
       "Attack": 123.0,
+      "AttackSpeed": 2.46,
       "UpgradeCost": 170001
     },
     {
@@ -2287,6 +2613,7 @@
       "CompanionID": 7,
       "Level": 27,
       "Attack": 128.0,
+      "AttackSpeed": 2.48,
       "UpgradeCost": 190401
     },
     {
@@ -2294,6 +2621,7 @@
       "CompanionID": 7,
       "Level": 28,
       "Attack": 133.0,
+      "AttackSpeed": 2.5,
       "UpgradeCost": 213249
     },
     {
@@ -2301,6 +2629,7 @@
       "CompanionID": 7,
       "Level": 29,
       "Attack": 139.0,
+      "AttackSpeed": 2.51,
       "UpgradeCost": 238839
     },
     {
@@ -2308,6 +2637,7 @@
       "CompanionID": 7,
       "Level": 30,
       "Attack": 144.0,
+      "AttackSpeed": 2.53,
       "UpgradeCost": 267499
     },
     {
@@ -2315,6 +2645,7 @@
       "CompanionID": 7,
       "Level": 31,
       "Attack": 149.0,
+      "AttackSpeed": 2.55,
       "UpgradeCost": 299599
     },
     {
@@ -2322,6 +2653,7 @@
       "CompanionID": 7,
       "Level": 32,
       "Attack": 155.0,
+      "AttackSpeed": 2.57,
       "UpgradeCost": 335551
     },
     {
@@ -2329,6 +2661,7 @@
       "CompanionID": 7,
       "Level": 33,
       "Attack": 160.0,
+      "AttackSpeed": 2.59,
       "UpgradeCost": 375817
     },
     {
@@ -2336,6 +2669,7 @@
       "CompanionID": 7,
       "Level": 34,
       "Attack": 166.0,
+      "AttackSpeed": 2.61,
       "UpgradeCost": 420915
     },
     {
@@ -2343,6 +2677,7 @@
       "CompanionID": 7,
       "Level": 35,
       "Attack": 171.0,
+      "AttackSpeed": 2.62,
       "UpgradeCost": 471425
     },
     {
@@ -2350,6 +2685,7 @@
       "CompanionID": 7,
       "Level": 36,
       "Attack": 177.0,
+      "AttackSpeed": 2.64,
       "UpgradeCost": 527996
     },
     {
@@ -2357,6 +2693,7 @@
       "CompanionID": 7,
       "Level": 37,
       "Attack": 182.0,
+      "AttackSpeed": 2.66,
       "UpgradeCost": 591356
     },
     {
@@ -2364,6 +2701,7 @@
       "CompanionID": 7,
       "Level": 38,
       "Attack": 188.0,
+      "AttackSpeed": 2.68,
       "UpgradeCost": 662318
     },
     {
@@ -2371,6 +2709,7 @@
       "CompanionID": 7,
       "Level": 39,
       "Attack": 194.0,
+      "AttackSpeed": 2.7,
       "UpgradeCost": 741797
     },
     {
@@ -2378,6 +2717,7 @@
       "CompanionID": 7,
       "Level": 40,
       "Attack": 200.0,
+      "AttackSpeed": 2.72,
       "UpgradeCost": 830812
     },
     {
@@ -2385,6 +2725,7 @@
       "CompanionID": 7,
       "Level": 41,
       "Attack": 206.0,
+      "AttackSpeed": 2.73,
       "UpgradeCost": 930510
     },
     {
@@ -2392,6 +2733,7 @@
       "CompanionID": 7,
       "Level": 42,
       "Attack": 211.0,
+      "AttackSpeed": 2.75,
       "UpgradeCost": 1042171
     },
     {
@@ -2399,6 +2741,7 @@
       "CompanionID": 7,
       "Level": 43,
       "Attack": 217.0,
+      "AttackSpeed": 2.77,
       "UpgradeCost": 1167231
     },
     {
@@ -2406,6 +2749,7 @@
       "CompanionID": 7,
       "Level": 44,
       "Attack": 223.0,
+      "AttackSpeed": 2.79,
       "UpgradeCost": 1307299
     },
     {
@@ -2413,6 +2757,7 @@
       "CompanionID": 7,
       "Level": 45,
       "Attack": 229.0,
+      "AttackSpeed": 2.81,
       "UpgradeCost": 1464175
     },
     {
@@ -2420,6 +2765,7 @@
       "CompanionID": 7,
       "Level": 46,
       "Attack": 235.0,
+      "AttackSpeed": 2.83,
       "UpgradeCost": 1639876
     },
     {
@@ -2427,6 +2773,7 @@
       "CompanionID": 7,
       "Level": 47,
       "Attack": 241.0,
+      "AttackSpeed": 2.84,
       "UpgradeCost": 1836661
     },
     {
@@ -2434,6 +2781,7 @@
       "CompanionID": 7,
       "Level": 48,
       "Attack": 248.0,
+      "AttackSpeed": 2.86,
       "UpgradeCost": 2057061
     },
     {
@@ -2441,6 +2789,7 @@
       "CompanionID": 7,
       "Level": 49,
       "Attack": 254.0,
+      "AttackSpeed": 2.88,
       "UpgradeCost": 2303908
     },
     {
@@ -2448,6 +2797,7 @@
       "CompanionID": 7,
       "Level": 50,
       "Attack": 260.0,
+      "AttackSpeed": 2.9,
       "UpgradeCost": 0
     },
     {
@@ -2455,6 +2805,7 @@
       "CompanionID": 8,
       "Level": 1,
       "Attack": 35.0,
+      "AttackSpeed": 2.3,
       "UpgradeCost": 30000
     },
     {
@@ -2462,6 +2813,7 @@
       "CompanionID": 8,
       "Level": 2,
       "Attack": 37.0,
+      "AttackSpeed": 2.31,
       "UpgradeCost": 33600
     },
     {
@@ -2469,6 +2821,7 @@
       "CompanionID": 8,
       "Level": 3,
       "Attack": 40.0,
+      "AttackSpeed": 2.33,
       "UpgradeCost": 37632
     },
     {
@@ -2476,6 +2829,7 @@
       "CompanionID": 8,
       "Level": 4,
       "Attack": 43.0,
+      "AttackSpeed": 2.34,
       "UpgradeCost": 42148
     },
     {
@@ -2483,6 +2837,7 @@
       "CompanionID": 8,
       "Level": 5,
       "Attack": 47.0,
+      "AttackSpeed": 2.36,
       "UpgradeCost": 47206
     },
     {
@@ -2490,6 +2845,7 @@
       "CompanionID": 8,
       "Level": 6,
       "Attack": 51.0,
+      "AttackSpeed": 2.37,
       "UpgradeCost": 52870
     },
     {
@@ -2497,6 +2853,7 @@
       "CompanionID": 8,
       "Level": 7,
       "Attack": 56.0,
+      "AttackSpeed": 2.39,
       "UpgradeCost": 59215
     },
     {
@@ -2504,6 +2861,7 @@
       "CompanionID": 8,
       "Level": 8,
       "Attack": 60.0,
+      "AttackSpeed": 2.4,
       "UpgradeCost": 66320
     },
     {
@@ -2511,6 +2869,7 @@
       "CompanionID": 8,
       "Level": 9,
       "Attack": 65.0,
+      "AttackSpeed": 2.41,
       "UpgradeCost": 74279
     },
     {
@@ -2518,6 +2877,7 @@
       "CompanionID": 8,
       "Level": 10,
       "Attack": 70.0,
+      "AttackSpeed": 2.43,
       "UpgradeCost": 83192
     },
     {
@@ -2525,6 +2885,7 @@
       "CompanionID": 8,
       "Level": 11,
       "Attack": 75.0,
+      "AttackSpeed": 2.44,
       "UpgradeCost": 93175
     },
     {
@@ -2532,6 +2893,7 @@
       "CompanionID": 8,
       "Level": 12,
       "Attack": 80.0,
+      "AttackSpeed": 2.46,
       "UpgradeCost": 104356
     },
     {
@@ -2539,6 +2901,7 @@
       "CompanionID": 8,
       "Level": 13,
       "Attack": 86.0,
+      "AttackSpeed": 2.47,
       "UpgradeCost": 116879
     },
     {
@@ -2546,6 +2909,7 @@
       "CompanionID": 8,
       "Level": 14,
       "Attack": 91.0,
+      "AttackSpeed": 2.49,
       "UpgradeCost": 130905
     },
     {
@@ -2553,6 +2917,7 @@
       "CompanionID": 8,
       "Level": 15,
       "Attack": 97.0,
+      "AttackSpeed": 2.5,
       "UpgradeCost": 146613
     },
     {
@@ -2560,6 +2925,7 @@
       "CompanionID": 8,
       "Level": 16,
       "Attack": 103.0,
+      "AttackSpeed": 2.51,
       "UpgradeCost": 164207
     },
     {
@@ -2567,6 +2933,7 @@
       "CompanionID": 8,
       "Level": 17,
       "Attack": 109.0,
+      "AttackSpeed": 2.53,
       "UpgradeCost": 183912
     },
     {
@@ -2574,6 +2941,7 @@
       "CompanionID": 8,
       "Level": 18,
       "Attack": 115.0,
+      "AttackSpeed": 2.54,
       "UpgradeCost": 205981
     },
     {
@@ -2581,6 +2949,7 @@
       "CompanionID": 8,
       "Level": 19,
       "Attack": 121.0,
+      "AttackSpeed": 2.56,
       "UpgradeCost": 230699
     },
     {
@@ -2588,6 +2957,7 @@
       "CompanionID": 8,
       "Level": 20,
       "Attack": 127.0,
+      "AttackSpeed": 2.57,
       "UpgradeCost": 258383
     },
     {
@@ -2595,6 +2965,7 @@
       "CompanionID": 8,
       "Level": 21,
       "Attack": 133.0,
+      "AttackSpeed": 2.59,
       "UpgradeCost": 289389
     },
     {
@@ -2602,6 +2973,7 @@
       "CompanionID": 8,
       "Level": 22,
       "Attack": 140.0,
+      "AttackSpeed": 2.6,
       "UpgradeCost": 324115
     },
     {
@@ -2609,6 +2981,7 @@
       "CompanionID": 8,
       "Level": 23,
       "Attack": 146.0,
+      "AttackSpeed": 2.61,
       "UpgradeCost": 363009
     },
     {
@@ -2616,6 +2989,7 @@
       "CompanionID": 8,
       "Level": 24,
       "Attack": 153.0,
+      "AttackSpeed": 2.63,
       "UpgradeCost": 406570
     },
     {
@@ -2623,6 +2997,7 @@
       "CompanionID": 8,
       "Level": 25,
       "Attack": 160.0,
+      "AttackSpeed": 2.64,
       "UpgradeCost": 455359
     },
     {
@@ -2630,6 +3005,7 @@
       "CompanionID": 8,
       "Level": 26,
       "Attack": 166.0,
+      "AttackSpeed": 2.66,
       "UpgradeCost": 510002
     },
     {
@@ -2637,6 +3013,7 @@
       "CompanionID": 8,
       "Level": 27,
       "Attack": 173.0,
+      "AttackSpeed": 2.67,
       "UpgradeCost": 571202
     },
     {
@@ -2644,6 +3021,7 @@
       "CompanionID": 8,
       "Level": 28,
       "Attack": 180.0,
+      "AttackSpeed": 2.69,
       "UpgradeCost": 639746
     },
     {
@@ -2651,6 +3029,7 @@
       "CompanionID": 8,
       "Level": 29,
       "Attack": 187.0,
+      "AttackSpeed": 2.7,
       "UpgradeCost": 716516
     },
     {
@@ -2658,6 +3037,7 @@
       "CompanionID": 8,
       "Level": 30,
       "Attack": 194.0,
+      "AttackSpeed": 2.71,
       "UpgradeCost": 802498
     },
     {
@@ -2665,6 +3045,7 @@
       "CompanionID": 8,
       "Level": 31,
       "Attack": 201.0,
+      "AttackSpeed": 2.73,
       "UpgradeCost": 898798
     },
     {
@@ -2672,6 +3053,7 @@
       "CompanionID": 8,
       "Level": 32,
       "Attack": 209.0,
+      "AttackSpeed": 2.74,
       "UpgradeCost": 1006653
     },
     {
@@ -2679,6 +3061,7 @@
       "CompanionID": 8,
       "Level": 33,
       "Attack": 216.0,
+      "AttackSpeed": 2.76,
       "UpgradeCost": 1127452
     },
     {
@@ -2686,6 +3069,7 @@
       "CompanionID": 8,
       "Level": 34,
       "Attack": 223.0,
+      "AttackSpeed": 2.77,
       "UpgradeCost": 1262746
     },
     {
@@ -2693,6 +3077,7 @@
       "CompanionID": 8,
       "Level": 35,
       "Attack": 231.0,
+      "AttackSpeed": 2.79,
       "UpgradeCost": 1414276
     },
     {
@@ -2700,6 +3085,7 @@
       "CompanionID": 8,
       "Level": 36,
       "Attack": 238.0,
+      "AttackSpeed": 2.8,
       "UpgradeCost": 1583989
     },
     {
@@ -2707,6 +3093,7 @@
       "CompanionID": 8,
       "Level": 37,
       "Attack": 246.0,
+      "AttackSpeed": 2.81,
       "UpgradeCost": 1774067
     },
     {
@@ -2714,6 +3101,7 @@
       "CompanionID": 8,
       "Level": 38,
       "Attack": 254.0,
+      "AttackSpeed": 2.83,
       "UpgradeCost": 1986955
     },
     {
@@ -2721,6 +3109,7 @@
       "CompanionID": 8,
       "Level": 39,
       "Attack": 261.0,
+      "AttackSpeed": 2.84,
       "UpgradeCost": 2225390
     },
     {
@@ -2728,6 +3117,7 @@
       "CompanionID": 8,
       "Level": 40,
       "Attack": 269.0,
+      "AttackSpeed": 2.86,
       "UpgradeCost": 2492437
     },
     {
@@ -2735,6 +3125,7 @@
       "CompanionID": 8,
       "Level": 41,
       "Attack": 277.0,
+      "AttackSpeed": 2.87,
       "UpgradeCost": 2791529
     },
     {
@@ -2742,6 +3133,7 @@
       "CompanionID": 8,
       "Level": 42,
       "Attack": 285.0,
+      "AttackSpeed": 2.89,
       "UpgradeCost": 3126513
     },
     {
@@ -2749,6 +3141,7 @@
       "CompanionID": 8,
       "Level": 43,
       "Attack": 293.0,
+      "AttackSpeed": 2.9,
       "UpgradeCost": 3501694
     },
     {
@@ -2756,6 +3149,7 @@
       "CompanionID": 8,
       "Level": 44,
       "Attack": 301.0,
+      "AttackSpeed": 2.91,
       "UpgradeCost": 3921897
     },
     {
@@ -2763,6 +3157,7 @@
       "CompanionID": 8,
       "Level": 45,
       "Attack": 309.0,
+      "AttackSpeed": 2.93,
       "UpgradeCost": 4392525
     },
     {
@@ -2770,6 +3165,7 @@
       "CompanionID": 8,
       "Level": 46,
       "Attack": 317.0,
+      "AttackSpeed": 2.94,
       "UpgradeCost": 4919628
     },
     {
@@ -2777,6 +3173,7 @@
       "CompanionID": 8,
       "Level": 47,
       "Attack": 325.0,
+      "AttackSpeed": 2.96,
       "UpgradeCost": 5509983
     },
     {
@@ -2784,6 +3181,7 @@
       "CompanionID": 8,
       "Level": 48,
       "Attack": 333.0,
+      "AttackSpeed": 2.97,
       "UpgradeCost": 6171182
     },
     {
@@ -2791,6 +3189,7 @@
       "CompanionID": 8,
       "Level": 49,
       "Attack": 342.0,
+      "AttackSpeed": 2.99,
       "UpgradeCost": 6911723
     },
     {
@@ -2798,6 +3197,7 @@
       "CompanionID": 8,
       "Level": 50,
       "Attack": 350.0,
+      "AttackSpeed": 3.0,
       "UpgradeCost": 0
     }
   ]

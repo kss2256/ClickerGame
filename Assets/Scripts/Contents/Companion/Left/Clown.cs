@@ -7,7 +7,7 @@ public class Clown : Companion_Base
 
     protected override void Init()
     {
-        mStat = new Stat(CharacterType);
+       
 
         mFixPos = new Vector3(-1.58f, 1.77f, 0f);
         mSide = eCompanionSide.Left;

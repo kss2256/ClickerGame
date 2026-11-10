@@ -9,7 +9,7 @@ public class Chef : Companion_Base
 
     protected override void Init()
     {
-        mStat = new Stat(CharacterType);
+      
 
         mFixPos = new Vector3(2.3f, 1.88f, 0f);
         mSide = eCompanionSide.Right;
