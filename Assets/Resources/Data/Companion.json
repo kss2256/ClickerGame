@@ -1,0 +1,60 @@
+{
+  "Companion": [
+    {
+      "ID": 1,
+      "Name": "CloverSoldier",
+      "Attack": 4,
+      "AttackSpeed": 1.2,
+      "Price": 50
+    },
+    {
+      "ID": 2,
+      "Name": "SpadeSoldier",
+      "Attack": 6,
+      "AttackSpeed": 1,
+      "Price": 150
+    },
+    {
+      "ID": 3,
+      "Name": "Judge",
+      "Attack": 8,
+      "AttackSpeed": 1.4,
+      "Price": 500
+    },
+    {
+      "ID": 4,
+      "Name": "Turnip",
+      "Attack": 10,
+      "AttackSpeed": 1.7,
+      "Price": 1500
+    },
+    {
+      "ID": 5,
+      "Name": "Chef",
+      "Attack": 12,
+      "AttackSpeed": 1.5,
+      "Price": 5000
+    },
+    {
+      "ID": 6,
+      "Name": "King",
+      "Attack": 20,
+      "AttackSpeed": 1.3,
+      "Price": 15000
+    },
+    {
+      "ID": 7,
+      "Name": "Sandglass",
+      "Attack": 25,
+      "AttackSpeed": 2,
+      "Price": 50000
+    },
+    {
+      "ID": 8,
+      "Name": "Clown",
+      "Attack": 35,
+      "AttackSpeed": 2.3,
+      "Price": 150000
+    }
+  ]
+}

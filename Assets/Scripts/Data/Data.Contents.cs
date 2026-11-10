@@ -58,12 +58,12 @@ namespace DATA
     #endregion
 
 
-    #region Companion
+    #region Companion 
     [Serializable]
     public class COMPANION : IGameData
     {
         public int ID;      //Key값 (eCharacterType 값 동일하게 맞추기)
-        public string DisplayName;
+        public string Name;
         public int Attack;
         public float AttackSpeed;
         public int Price;
@@ -86,6 +86,39 @@ namespace DATA
 
 
     }
+
+
+    #endregion
+
+    #region Companion Level
+
+
+    [Serializable]
+    public class COMPANION_LEVEL : IGameData
+    {
+        public int ID;
+        public int CompanionID;
+        public int Level;
+        public float Attack;
+        public int UpgradeCost;
+
+        int IGameData.ID => this.ID;
+    }
+
+
+    [Serializable]
+    public class CompanionLevelData : ILoader<int, COMPANION_LEVEL> 
+    {
+        public List<DATA.COMPANION_LEVEL> Companion_Level = new List<DATA.COMPANION_LEVEL>();
+
+        public Dictionary<int, COMPANION_LEVEL> MakeDict()
+        {
+            Dictionary<int, COMPANION_LEVEL>  value = DataConverter.MakeDict(Companion_Level);
+
+            return value;
+        }
+    }
+
 
 
     #endregion

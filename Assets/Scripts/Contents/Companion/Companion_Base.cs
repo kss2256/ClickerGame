@@ -65,11 +65,11 @@ public abstract class Companion_Base : MonoBehaviour
 
             mSpriteRenderer.sprite = mSpriteAttack;
 
-            yield return new WaitForSeconds(0.1f);
+            yield return new WaitForSeconds(0.15f);
 
             mSpriteRenderer.sprite = mSpriteIdle;
 
-            yield return new WaitForSeconds(time - 0.1f);
+            yield return new WaitForSeconds(time - 0.15f);
         }
     }
 }
