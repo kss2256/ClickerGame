@@ -22,10 +22,14 @@ public class Define
     public enum eCharacterType
     {
         NONE,
-        CloverSoldier = 1,
-        SpadeSoldier = 2,
-
-
+        CloverSoldier = 1,  //Right
+        SpadeSoldier = 2,   //Left
+        Judge = 3,
+        Turnip = 4,
+        Chef = 5,
+        King = 6,
+        Sandglass = 7,
+        Clown = 8,
 
 
         PLAYER = 100,

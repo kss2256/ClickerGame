@@ -38,7 +38,7 @@ namespace DATA
         public int MaxMp;   
         public int Attack;
         public float AttackSpeed;
-        public int MaxExp;
+        public int UpgradeCost;
 
         int IGameData.ID => this.ID;
     }

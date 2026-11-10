@@ -5,350 +5,350 @@
       "MaxMp": 5,
       "Attack": 10,
       "AttackSpeed": 0.5,
-      "MaxExp": 10
+      "UpgradeCost": 10
     },
     {
       "ID": 2,
       "MaxMp": 7,
       "Attack": 13,
       "AttackSpeed": 0.55,
-      "MaxExp": 20
+      "UpgradeCost": 12
     },
     {
       "ID": 3,
       "MaxMp": 9,
       "Attack": 16,
       "AttackSpeed": 0.6,
-      "MaxExp": 30
+      "UpgradeCost": 14
     },
     {
       "ID": 4,
       "MaxMp": 11,
       "Attack": 19,
       "AttackSpeed": 0.64,
-      "MaxExp": 20
+      "UpgradeCost": 17
     },
     {
       "ID": 5,
       "MaxMp": 13,
       "Attack": 22,
       "AttackSpeed": 0.68,
-      "MaxExp": 21
+      "UpgradeCost": 21
     },
     {
       "ID": 6,
       "MaxMp": 15,
       "Attack": 25,
       "AttackSpeed": 0.72,
-      "MaxExp": 21
+      "UpgradeCost": 25
     },
     {
       "ID": 7,
       "MaxMp": 17,
       "Attack": 28,
       "AttackSpeed": 0.76,
-      "MaxExp": 22
+      "UpgradeCost": 30
     },
     {
       "ID": 8,
       "MaxMp": 19,
       "Attack": 31,
       "AttackSpeed": 0.8,
-      "MaxExp": 22
+      "UpgradeCost": 36
     },
     {
       "ID": 9,
       "MaxMp": 21,
       "Attack": 34,
       "AttackSpeed": 0.84,
-      "MaxExp": 23
+      "UpgradeCost": 43
     },
     {
       "ID": 10,
       "MaxMp": 23,
       "Attack": 37,
       "AttackSpeed": 0.88,
-      "MaxExp": 23
+      "UpgradeCost": 52
     },
     {
       "ID": 11,
       "MaxMp": 25,
       "Attack": 40,
       "AttackSpeed": 0.92,
-      "MaxExp": 24
+      "UpgradeCost": 62
     },
     {
       "ID": 12,
       "MaxMp": 27,
       "Attack": 43,
       "AttackSpeed": 0.96,
-      "MaxExp": 24
+      "UpgradeCost": 74
     },
     {
       "ID": 13,
       "MaxMp": 29,
       "Attack": 46,
       "AttackSpeed": 1.0,
-      "MaxExp": 25
+      "UpgradeCost": 89
     },
     {
       "ID": 14,
       "MaxMp": 31,
       "Attack": 49,
       "AttackSpeed": 1.04,
-      "MaxExp": 26
+      "UpgradeCost": 107
     },
     {
       "ID": 15,
       "MaxMp": 33,
       "Attack": 52,
       "AttackSpeed": 1.09,
-      "MaxExp": 26
+      "UpgradeCost": 128
     },
     {
       "ID": 16,
       "MaxMp": 35,
       "Attack": 55,
       "AttackSpeed": 1.13,
-      "MaxExp": 27
+      "UpgradeCost": 154
     },
     {
       "ID": 17,
       "MaxMp": 37,
       "Attack": 58,
       "AttackSpeed": 1.17,
-      "MaxExp": 27
+      "UpgradeCost": 185
     },
     {
       "ID": 18,
       "MaxMp": 39,
       "Attack": 61,
       "AttackSpeed": 1.21,
-      "MaxExp": 28
+      "UpgradeCost": 222
     },
     {
       "ID": 19,
       "MaxMp": 41,
       "Attack": 64,
       "AttackSpeed": 1.25,
-      "MaxExp": 28
+      "UpgradeCost": 266
     },
     {
       "ID": 20,
       "MaxMp": 43,
       "Attack": 67,
       "AttackSpeed": 1.29,
-      "MaxExp": 29
+      "UpgradeCost": 319
     },
     {
       "ID": 21,
       "MaxMp": 45,
       "Attack": 70,
       "AttackSpeed": 1.33,
-      "MaxExp": 29
+      "UpgradeCost": 383
     },
     {
       "ID": 22,
       "MaxMp": 47,
       "Attack": 73,
       "AttackSpeed": 1.37,
-      "MaxExp": 30
+      "UpgradeCost": 460
     },
     {
       "ID": 23,
       "MaxMp": 49,
       "Attack": 76,
       "AttackSpeed": 1.41,
-      "MaxExp": 30
+      "UpgradeCost": 552
     },
     {
       "ID": 24,
       "MaxMp": 51,
       "Attack": 79,
       "AttackSpeed": 1.45,
-      "MaxExp": 31
+      "UpgradeCost": 662
     },
     {
       "ID": 25,
       "MaxMp": 53,
       "Attack": 82,
       "AttackSpeed": 1.49,
-      "MaxExp": 32
+      "UpgradeCost": 795
     },
     {
       "ID": 26,
       "MaxMp": 55,
       "Attack": 85,
       "AttackSpeed": 1.53,
-      "MaxExp": 32
+      "UpgradeCost": 954
     },
     {
       "ID": 27,
       "MaxMp": 57,
       "Attack": 88,
       "AttackSpeed": 1.57,
-      "MaxExp": 33
+      "UpgradeCost": 1145
     },
     {
       "ID": 28,
       "MaxMp": 59,
       "Attack": 91,
       "AttackSpeed": 1.61,
-      "MaxExp": 33
+      "UpgradeCost": 1374
     },
     {
       "ID": 29,
       "MaxMp": 61,
       "Attack": 94,
       "AttackSpeed": 1.65,
-      "MaxExp": 34
+      "UpgradeCost": 1648
     },
     {
       "ID": 30,
       "MaxMp": 63,
       "Attack": 97,
       "AttackSpeed": 1.69,
-      "MaxExp": 34
+      "UpgradeCost": 1978
     },
     {
       "ID": 31,
       "MaxMp": 65,
       "Attack": 100,
       "AttackSpeed": 1.73,
-      "MaxExp": 35
+      "UpgradeCost": 2374
     },
     {
       "ID": 32,
       "MaxMp": 67,
       "Attack": 103,
       "AttackSpeed": 1.77,
-      "MaxExp": 35
+      "UpgradeCost": 2849
     },
     {
       "ID": 33,
       "MaxMp": 69,
       "Attack": 106,
       "AttackSpeed": 1.81,
-      "MaxExp": 36
+      "UpgradeCost": 3418
     },
     {
       "ID": 34,
       "MaxMp": 71,
       "Attack": 109,
       "AttackSpeed": 1.85,
-      "MaxExp": 36
+      "UpgradeCost": 4102
     },
     {
       "ID": 35,
       "MaxMp": 73,
       "Attack": 112,
       "AttackSpeed": 1.89,
-      "MaxExp": 37
+      "UpgradeCost": 4922
     },
     {
       "ID": 36,
       "MaxMp": 75,
       "Attack": 115,
       "AttackSpeed": 1.93,
-      "MaxExp": 38
+      "UpgradeCost": 5907
     },
     {
       "ID": 37,
       "MaxMp": 77,
       "Attack": 118,
       "AttackSpeed": 1.97,
-      "MaxExp": 38
+      "UpgradeCost": 7088
     },
     {
       "ID": 38,
       "MaxMp": 79,
       "Attack": 121,
       "AttackSpeed": 2.01,
-      "MaxExp": 39
+      "UpgradeCost": 8506
     },
     {
       "ID": 39,
       "MaxMp": 81,
       "Attack": 124,
       "AttackSpeed": 2.06,
-      "MaxExp": 39
+      "UpgradeCost": 10207
     },
     {
       "ID": 40,
       "MaxMp": 83,
       "Attack": 127,
       "AttackSpeed": 2.1,
-      "MaxExp": 40
+      "UpgradeCost": 12248
     },
     {
       "ID": 41,
       "MaxMp": 85,
       "Attack": 130,
       "AttackSpeed": 2.14,
-      "MaxExp": 40
+      "UpgradeCost": 14698
     },
     {
       "ID": 42,
       "MaxMp": 87,
       "Attack": 133,
       "AttackSpeed": 2.18,
-      "MaxExp": 41
+      "UpgradeCost": 17637
     },
     {
       "ID": 43,
       "MaxMp": 89,
       "Attack": 136,
       "AttackSpeed": 2.22,
-      "MaxExp": 41
+      "UpgradeCost": 21165
     },
     {
       "ID": 44,
       "MaxMp": 91,
       "Attack": 139,
       "AttackSpeed": 2.26,
-      "MaxExp": 42
+      "UpgradeCost": 25398
     },
     {
       "ID": 45,
       "MaxMp": 93,
       "Attack": 142,
       "AttackSpeed": 2.3,
-      "MaxExp": 43
+      "UpgradeCost": 30477
     },
     {
       "ID": 46,
       "MaxMp": 95,
       "Attack": 145,
       "AttackSpeed": 2.34,
-      "MaxExp": 43
+      "UpgradeCost": 36573
     },
     {
       "ID": 47,
       "MaxMp": 97,
       "Attack": 148,
       "AttackSpeed": 2.38,
-      "MaxExp": 44
+      "UpgradeCost": 43887
     },
     {
       "ID": 48,
       "MaxMp": 99,
       "Attack": 151,
       "AttackSpeed": 2.42,
-      "MaxExp": 44
+      "UpgradeCost": 52665
     },
     {
       "ID": 49,
       "MaxMp": 101,
       "Attack": 154,
       "AttackSpeed": 2.46,
-      "MaxExp": 45
+      "UpgradeCost": 63197
     },
     {
       "ID": 50,
       "MaxMp": 103,
       "Attack": 157,
       "AttackSpeed": 2.5,
-      "MaxExp": 0
+      "UpgradeCost": 0
     }
   ]
 }

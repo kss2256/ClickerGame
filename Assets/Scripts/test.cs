@@ -14,6 +14,10 @@ public class test : MonoBehaviour
         //Managers.UI.ShowSceneUI<UI_Scene>("UI_Title");
 
 
+     
+
+
+
     }
 
     public void Test()
