@@ -1,3 +1,4 @@
+using DG.Tweening;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -9,6 +10,7 @@ public class UI_Title : UI_Scene
 {
 
     private TextMeshProUGUI mText = null;
+    private bool bCanStartGame = false;
 
     public enum TextMeshPros
     {
@@ -20,6 +22,10 @@ public class UI_Title : UI_Scene
         UI_Title_StartButton,
     }
 
+    public enum Images
+    {
+        UI_Title_LogoImage,
+    }
 
 
     public override bool Init()
@@ -30,14 +36,18 @@ public class UI_Title : UI_Scene
 
         Bind<TextMeshProUGUI>(typeof(TextMeshPros));
         Bind<Button>(typeof(Buttons));
+        Bind<Image>(typeof(Images));
 
        
 
         mText = GetText((int)TextMeshPros.UI_Title_Start);
+        mText.gameObject.SetActive(false);
+
         GetButton((int)Buttons.UI_Title_StartButton).gameObject.BindEvent(SceneChangeButtonClick, Define.eMouseEvent.Click);
 
 
-
+        GetImage((int)Images.UI_Title_LogoImage).rectTransform.DOAnchorPosY(0f, 2.0f).SetEase(Ease.OutBounce).OnComplete(() => 
+        { bCanStartGame = true; mText.gameObject.SetActive(true); } );
 
 
         return true;
@@ -46,6 +56,7 @@ public class UI_Title : UI_Scene
    
     private void Update()
     {
+        if(bCanStartGame)
         StartTextFade();
     }
 
@@ -59,6 +70,7 @@ public class UI_Title : UI_Scene
 
     public void SceneChangeButtonClick()
     {
+        if(bCanStartGame)
         Managers.Scene.ChangeScene(Define.eSceneType.GameScene);
     }
 
