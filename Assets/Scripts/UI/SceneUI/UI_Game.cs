@@ -24,14 +24,18 @@ public class UI_Game : UI_Scene
         Bind<Button>(typeof(Buttons));
         GetButton((int)Buttons.Player_Button).gameObject.BindEvent(Test, Define.eMouseEvent.Click);
 
-        GetButton((int)Buttons.Companion_Button).gameObject.BindEvent(TESET, Define.eMouseEvent.Click);
+        GetButton((int)Buttons.Companion_Button).gameObject.BindEvent(Companion_ShopOpen, Define.eMouseEvent.Click);
 
         return true;
     }
 
-    public void TESET()
+    public void Companion_ShopOpen()
     {
-        Debug.Log("용병 버튼");
+        Managers.UI.ShowPopUpUI<Companion_Shop>("Prefabs/UI/Popup/Companion_Shop");
+
+
+
+
     }
     public void Test()
     {
@@ -42,10 +46,10 @@ public class UI_Game : UI_Scene
     private void Update()
     {
 
-        //if (Keyboard.current.qKey.wasPressedThisFrame)
-        //{
-        //    Managers.Scene.ChangeScene(Define.eSceneType.TiTleScene);
-        //}
+        if (Keyboard.current.qKey.wasPressedThisFrame)
+        {
+            Managers.UI.ClosePopupUI();
+        }
 
     }
 
