@@ -14,7 +14,6 @@ public abstract class Companion_Base : MonoBehaviour
     protected Sprite mSpriteAttack;
 
 
-
     
 
     protected Vector3 mFixPos;
@@ -55,6 +54,7 @@ public abstract class Companion_Base : MonoBehaviour
         transform.localScale = Vector3.one * 0.3f;
     }
 
+    //¾È¾¸
     protected virtual void SetInfo()
     {
         DATA.COMPANION companion = null;

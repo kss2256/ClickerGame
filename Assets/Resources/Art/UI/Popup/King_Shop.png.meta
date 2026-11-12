@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 44009a1d13554514bb192af87a924f37
+guid: 1e7a1b5c051ee2a41bff9b4f1836bea1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6522001761655899289
-    second: Shop_Turnip_0
+      213: -2711367539443909846
+    second: King_Shop_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shop_Turnip_0
+      name: King_Shop_0
       rect:
         serializedVersion: 2
-        x: 13
-        y: 12
-        width: 1285
-        height: 1187
+        x: 0
+        y: 7
+        width: 1312
+        height: 1192
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 994c8f31c0ec28a50800000000000000
-      internalID: 6522001761655899289
+      spriteID: a2bbbeb96994f5ad0800000000000000
+      internalID: -2711367539443909846
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Shop_Turnip_0: 6522001761655899289
+      King_Shop_0: -2711367539443909846
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

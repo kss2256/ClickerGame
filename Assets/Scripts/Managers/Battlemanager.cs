@@ -128,6 +128,7 @@ public class BattleManager
         stat = new Stat();
 
         stat.ID = (int)_type;
+        stat.Level = 1;
         stat.Attack = com.Attack;
         stat.AttackSpeed = com.AttackSpeed;
         stat.Price = com.Price;
@@ -142,10 +143,10 @@ public class BattleManager
     {
         Stat stat = GetCharacter(_type);
 
-        if (stat == null)
+        if (stat == null || 50 < stat.Level + 1 )
             return;
 
-        DATA.COMPANION_LEVEL com = Managers.Data.GetCompanionLevel((int)_type, stat.Level);
+        DATA.COMPANION_LEVEL com = Managers.Data.GetCompanionLevel((int)_type, stat.Level + 1);
 
         if (com == null)
             return;
@@ -153,6 +154,7 @@ public class BattleManager
 
         stat.ID = (int)_type;
         stat.Attack = com.Attack;
+        stat.Level = com.Level;
         stat.AttackSpeed = com.AttackSpeed;
         stat.Price = com.Price;
 
@@ -162,7 +164,7 @@ public class BattleManager
     {
         Stat stat = GetCharacter(_type);
 
-        if (stat == null)
+        if (stat == null || 50 < stat.Level + 1)
             return;
 
         DATA.COMPANION_LEVEL com = Managers.Data.GetCompanionLevel((int)_type, _level);
@@ -173,6 +175,7 @@ public class BattleManager
 
         stat.ID = (int)_type;
         stat.Attack = com.Attack;
+        stat.Level = com.Level;
         stat.AttackSpeed = com.AttackSpeed;
         stat.Price = com.Price;
 
