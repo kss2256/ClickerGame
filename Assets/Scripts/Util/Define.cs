@@ -21,7 +21,6 @@ public class Define
 
     public enum eCharacterType
     {
-        NONE,
         CloverSoldier = 1,  //Right
         SpadeSoldier = 2,   //Left
         Judge = 3,

@@ -5,6 +5,7 @@ public class Managers : MonoBehaviour
     private static Managers sInstance;
 
 
+    private BattleManager mBattleManager = new BattleManager();
     private DataManager mDataManager = new DataManager();
     private InputManager mInpuManager = new InputManager();
     private ResourceManager mResourceManager = new ResourceManager();
@@ -12,6 +13,7 @@ public class Managers : MonoBehaviour
     private UIManager mUIManager = new UIManager();
 
 
+    public static BattleManager Battle => sInstance?.mBattleManager;
     public static DataManager Data => sInstance?.mDataManager;
     public static InputManager Input => sInstance?.mInpuManager;
     public static ResourceManager Resource => sInstance?.mResourceManager;
@@ -30,6 +32,7 @@ public class Managers : MonoBehaviour
 
 
             Data.Init();
+            Battle.Init();
         }
 
     }

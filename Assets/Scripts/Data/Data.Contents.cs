@@ -99,9 +99,9 @@ namespace DATA
         public int ID;
         public int CompanionID;
         public int Level;
-        public float Attack;
+        public int Attack;
         public float AttackSpeed;
-        public int UpgradeCost;
+        public int Price;
 
         int IGameData.ID => this.ID;
     }

@@ -36,7 +36,7 @@ public class CloverSoldier_Shop : UI_Popup
     public void ShopInfo()
     {
         //TODO 다녀와서 용병 정보 끌어와서 Text 셋팅하기!
-        Managers.Data.mCompanionLevelMap.TryGetValue();
+    
 
 
 

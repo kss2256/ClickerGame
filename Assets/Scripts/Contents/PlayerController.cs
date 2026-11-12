@@ -26,10 +26,12 @@ public class PlayerController : MonoBehaviour
     private Animator mAni = null;
     private SpriteRenderer mSprite = null;
     private PlayerStat mStat = null;
-     
+    
 
     private bool bLeftAttack = false;
 
+    
+    public PlayerStat Stat { get { return mStat; } set { mStat = value; } }
     public eWeapons Weapon { get { return mWeapons; } set { mWeapons = value; } }
     public eStatus Status { get {return mStatus; } set
         { 

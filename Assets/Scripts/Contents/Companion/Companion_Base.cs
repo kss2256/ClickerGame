@@ -22,25 +22,11 @@ public abstract class Companion_Base : MonoBehaviour
 
     protected abstract Define.eCharacterType CharacterType { get; }
 
+    public Stat Stat { get { return mStat; } set { mStat = value; } }
+
     protected virtual void Start()
     {
         Init();
-
-        SetInfo();
-        
-
-
-        /*
-         
-         
-        //Level Data
-        public int ID;
-        public int CompanionID;
-        public int Level;
-        public float Attack;
-        public int UpgradeCost;
-
-         */
 
         StartCoroutine(Attack());
     }
@@ -48,7 +34,6 @@ public abstract class Companion_Base : MonoBehaviour
     protected virtual void Init()
     {
 
-        
 
         string name = gameObject.name;
 

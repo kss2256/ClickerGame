@@ -52,6 +52,12 @@ public class DataManager
         return null;
     }
 
+    public DATA.LEVEL GetPlayerLevelInfo(int _level = 1)
+    {
+        mLevelMap.TryGetValue(_level, out DATA.LEVEL level);
+        return level;
+    }
+
 
     public DATA.COMPANION_LEVEL GetCompanionLevel(int _companionID, int _level)
     {
