@@ -13,6 +13,7 @@ public class UI_MouseEvent : MonoBehaviour, IPointerClickHandler , IPointerDownH
 
     public void OnPointerClick(PointerEventData eventData)
     {
+       
         if (mOnClickEvent != null)
             mOnClickEvent.Invoke();
     }

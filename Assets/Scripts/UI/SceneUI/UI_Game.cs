@@ -1,5 +1,8 @@
+using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using static UI_Title;
@@ -7,13 +10,16 @@ using static UI_Title;
 public class UI_Game : UI_Scene
 {
 
+
+    private Companion_Shop mIsShop = null;
+
     public enum Buttons
     {
         Player_Button,
         Companion_Button
     }
 
-
+ 
 
     public override bool Init()
     {
@@ -22,18 +28,28 @@ public class UI_Game : UI_Scene
 
 
         Bind<Button>(typeof(Buttons));
+        
+
         GetButton((int)Buttons.Player_Button).gameObject.BindEvent(Test, Define.eMouseEvent.Click);
 
         GetButton((int)Buttons.Companion_Button).gameObject.BindEvent(Companion_ShopOpen, Define.eMouseEvent.Click);
 
+        
+
+
         return true;
     }
 
+
     public void Companion_ShopOpen()
     {
-        Managers.UI.ShowPopUpUI<Companion_Shop>("Prefabs/UI/Popup/Companion_Shop");
+        if (null == mIsShop)
+        {
+            mIsShop = Managers.UI.ShowPopUpUI<Companion_Shop>("Prefabs/UI/Popup/Companion_Shop");
 
 
+        }
+        
 
 
     }
@@ -42,16 +58,6 @@ public class UI_Game : UI_Scene
         Debug.Log("플레이어 버튼");
     }
 
-
-    private void Update()
-    {
-
-        if (Keyboard.current.qKey.wasPressedThisFrame)
-        {
-            Managers.UI.ClosePopupUI();
-        }
-
-    }
 
 
 }

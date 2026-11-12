@@ -8,10 +8,11 @@ using UnityEngine.UI;
 public class UIManager
 {
 
-    int mOrder = -20;
+    int mOrder = 20;
     public UI_Scene mUI_Scene { get; private set; }
 
     Stack<UI_Popup> mPopupStack = new Stack<UI_Popup>();
+
 
     public GameObject Root
     {
@@ -49,7 +50,6 @@ public class UIManager
 
         T PopUp = Util.GetOrAddComponent<T>(go);
         mPopupStack.Push(PopUp);
-
 
         go.transform.SetParent(Root.transform);
 
@@ -94,7 +94,7 @@ public class UIManager
 
         UI_Popup popup = mPopupStack.Pop();
         Managers.Resource.Destory(popup.gameObject);
-        popup = null;
+
 
         --mOrder;
 
@@ -119,6 +119,8 @@ public class UIManager
         canvasScaler.screenMatchMode = CanvasScaler.ScreenMatchMode.MatchWidthOrHeight;
         canvasScaler.matchWidthOrHeight = 0.5f;
         canvasScaler.referencePixelsPerUnit = 100f;
+
+        Util.GetOrAddComponent<GraphicRaycaster>(_go);
 
         return canvas;
     }

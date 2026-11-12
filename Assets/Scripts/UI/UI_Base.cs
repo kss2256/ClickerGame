@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using System.Xml.Linq;
 using TMPro;
 using Unity.VisualScripting;
@@ -88,6 +89,12 @@ public class UI_Base : MonoBehaviour
                 {
                     mouseEvent.mOnDownEvent -= _action; 
                     mouseEvent.mOnDownEvent += _action;
+                }
+                break;
+                case Define.eMouseEvent.Up:
+                {
+                    mouseEvent.mOnUpEnent -= _action;
+                    mouseEvent.mOnUpEnent += _action;
                 }
                 break;
             default:
