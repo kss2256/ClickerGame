@@ -6,6 +6,7 @@ public class BackGround : MonoBehaviour
 {
     private void Awake()
     {
+        //¿¬±¸
         Camera cam = Camera.main;
 
         float targetAspect = 9f / 16f;

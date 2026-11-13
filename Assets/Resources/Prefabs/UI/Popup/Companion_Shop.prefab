@@ -3002,6 +3002,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 955512208191204066}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f9aee04056157e14db6f03f66bc994a1, type: 3}
+  m_Script: {fileID: 11500000, guid: a6d3bfa8bc6ecd5479fa9342e2f9a29f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Companion_Panel

@@ -11,8 +11,7 @@ public class BattleManager
 
     private Dictionary<int, Stat> mCharacterMap = new Dictionary<int, Stat>();
 
-
-    
+    public PlayerController PlayerController { get; set; }
 
     public Stat GetCharacter(Define.eCharacterType _type)
     {
@@ -42,12 +41,12 @@ public class BattleManager
     public void CreatePlayer()
     {
         GameObject go = Util.GetOrAddGameObject("Player");
-        PlayerController player = go.GetOrAddComponent<PlayerController>();
-
+        PlayerController = go.GetOrAddComponent<PlayerController>();
+         
 
         PlayerUpdateLevelStat();
 
-        player.Stat = mCharacterMap[(int)Define.eCharacterType.PLAYER] as PlayerStat;
+        PlayerController.Stat = mCharacterMap[(int)Define.eCharacterType.PLAYER] as PlayerStat;
 
     }
 

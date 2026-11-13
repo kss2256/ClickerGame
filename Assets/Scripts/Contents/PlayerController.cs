@@ -104,21 +104,6 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    void Update()
-    {
-         
-
-        if (Keyboard.current.wKey.wasPressedThisFrame)
-        {
-            ChangeWeapon(eWeapons.HAMMER);           
-        }
-        if (Keyboard.current.eKey.wasPressedThisFrame)
-        {
-            ChangeWeapon(eWeapons.SCISSORS);            
-        }
-
-
-    }
 
 
 

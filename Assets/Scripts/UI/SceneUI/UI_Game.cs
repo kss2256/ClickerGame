@@ -8,6 +8,7 @@ public class UI_Game : UI_Scene
 
 
     private Companion_Shop mIsShop = null;
+    private Player_Info mIsInfo = null;
 
     private Vector3 mButtonFixSize = Vector3.zero;
 
@@ -35,7 +36,7 @@ public class UI_Game : UI_Scene
 
         mButtonFixSize = GetImage((int)Images.Player_ButtonImage).transform.localScale;
 
-        GetButton((int)Buttons.Player_Button).gameObject.BindEvent(Test, Define.eMouseEvent.Click);
+        GetButton((int)Buttons.Player_Button).gameObject.BindEvent(Player_InfoOpen, Define.eMouseEvent.Click);
 
         GetButton((int)Buttons.Companion_Button).gameObject.BindEvent(Companion_ShopOpen, Define.eMouseEvent.Click);
 
@@ -48,7 +49,7 @@ public class UI_Game : UI_Scene
 
     public void Companion_ShopOpen()
     {
-        if (null == mIsShop)
+        if (null == mIsShop && null == mIsInfo)
         {
 
             Transform tr = GetImage((int)Images.Companion_ButtonImage).rectTransform;
@@ -64,10 +65,10 @@ public class UI_Game : UI_Scene
 
 
     }
-    public void Test()
+    public void Player_InfoOpen()
     {
 
-        if (null == mIsShop)
+        if (null == mIsShop && null == mIsInfo)
         {
             Transform tr = GetImage((int)Images.Player_ButtonImage).rectTransform;
 
@@ -75,7 +76,7 @@ public class UI_Game : UI_Scene
             tr.localScale = mButtonFixSize;
 
             tr.DOPunchScale(Vector3.one * -0.15f, 0.30f, 5, 0.5f).OnComplete
-                (() => { Debug.Log("플레이어 버튼"); });
+                (() => { mIsInfo = Managers.UI.ShowPopUpUI<Player_Info>("Prefabs/UI/Popup/Player_Info"); });
         }
 
 
