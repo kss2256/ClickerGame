@@ -9,7 +9,7 @@ public class King : Companion_Base
     {
        
 
-        mFixPos = new Vector3(-2.3f, 1.75f, 0f);
+        mFixPos = new Vector3(-2.3f, 2.55f, 0f);
         mSide = eCompanionSide.Left;
 
 

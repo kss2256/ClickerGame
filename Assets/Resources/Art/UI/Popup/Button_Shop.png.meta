@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: dccf9a0377eccf24f9136c3a61c9a647
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3252050418927409469
+    second: Button_Shop_0
+  - first:
+      213: 5937512936138049550
+    second: Button_Shop_1
+  - first:
+      213: -8747170872786026104
+    second: Button_Shop_2
+  - first:
+      213: -5394817944451162132
+    second: Button_Shop_3
+  - first:
+      213: -2628643548733356472
+    second: Button_Shop_4
+  - first:
+      213: -2483235892063398988
+    second: Button_Shop_5
+  - first:
+      213: 5134321647089010772
+    second: Button_Shop_6
+  - first:
+      213: -5338403987462804715
+    second: Button_Shop_7
+  - first:
+      213: -5469289524862640123
+    second: Button_Shop_8
+  - first:
+      213: 8359814459063297752
+    second: Button_Shop_9
+  - first:
+      213: 982787574049692140
+    second: Button_Shop_10
+  - first:
+      213: -6794654170967987669
+    second: Button_Shop_11
+  - first:
+      213: 2203115700433020115
+    second: Button_Shop_12
+  - first:
+      213: -8403382405996978265
+    second: Button_Shop_13
+  - first:
+      213: -1605764267412098474
+    second: Button_Shop_14
+  - first:
+      213: 1599090083651295529
+    second: Button_Shop_15
+  - first:
+      213: -3979352612888439536
+    second: Button_Shop_16
+  - first:
+      213: -2108955122686831500
+    second: Button_Shop_17
+  - first:
+      213: -4735040991418210775
+    second: Button_Shop_18
+  - first:
+      213: 8601830533310988665
+    second: Button_Shop_19
+  - first:
+      213: 7520907110144614856
+    second: Button_Shop_20
+  - first:
+      213: 1326132119658617199
+    second: Button_Shop_21
+  - first:
+      213: 6155954094899825186
+    second: Button_Shop_22
+  - first:
+      213: -2304751665587867168
+    second: Button_Shop_23
+  - first:
+      213: -7582411644479916493
+    second: Button_Shop_24
+  - first:
+      213: -4022745284944961695
+    second: Button_Shop_25
+  - first:
+      213: -4849649271418461925
+    second: Button_Shop_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Button_Shop_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 2052
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6eb24cf556ed2d0800000000000000
+      internalID: -3252050418927409469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_1
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 699
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e088bcf9e88466250800000000000000
+      internalID: 5937512936138049550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_2
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 702
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88102f98f6ecb9680800000000000000
+      internalID: -8747170872786026104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_3
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 715
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefd51999a1c125b0800000000000000
+      internalID: -5394817944451162132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_4
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 707
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84640ac9e9e258bd0800000000000000
+      internalID: -2628643548733356472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 671
+        width: 44
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b39f08ec16c98dd0800000000000000
+      internalID: -2483235892063398988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_6
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 689
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458c651d556c04740800000000000000
+      internalID: 5134321647089010772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_7
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 695
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b20c38bdd2ae5b0800000000000000
+      internalID: -5338403987462804715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_8
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 682
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5002cc8972e2914b0800000000000000
+      internalID: -5469289524862640123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_9
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 703
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d664a455f6040470800000000000000
+      internalID: 8359814459063297752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_10
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 691
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce956e0771093ad00800000000000000
+      internalID: 982787574049692140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_11
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 681
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2aa3d7f70a84b1a0800000000000000
+      internalID: -6794654170967987669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_12
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 693
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d465639e0a039e10800000000000000
+      internalID: 2203115700433020115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_13
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 691
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7af58ca8930316b80800000000000000
+      internalID: -8403382405996978265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_14
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 680
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652f2ef08ed27b9e0800000000000000
+      internalID: -1605764267412098474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_15
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 677
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92992ef65fb113610800000000000000
+      internalID: 1599090083651295529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_16
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 680
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01513c0d1ef76c8c0800000000000000
+      internalID: -3979352612888439536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_17
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 679
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474d2095d7c7bb2e0800000000000000
+      internalID: -2108955122686831500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_18
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 678
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926aa9d3e41c94eb0800000000000000
+      internalID: -4735040991418210775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_19
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 677
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9714c1cab47df5770800000000000000
+      internalID: 8601830533310988665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_20
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 33
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c121e05b21af5860800000000000000
+      internalID: 7520907110144614856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_21
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 33
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69dc7df22e576210800000000000000
+      internalID: 1326132119658617199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_22
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 31
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a8d1832a75e6550800000000000000
+      internalID: 6155954094899825186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_23
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 33
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1352d3290e300e0800000000000000
+      internalID: -2304751665587867168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_24
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 23
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3363dfd58ccd5c690800000000000000
+      internalID: -7582411644479916493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_25
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 31
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f5afc0a765c28c0800000000000000
+      internalID: -4022745284944961695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button_Shop_26
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 17
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11eed3aea592bcb0800000000000000
+      internalID: -4849649271418461925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Button_Shop_0: -3252050418927409469
+      Button_Shop_1: 5937512936138049550
+      Button_Shop_10: 982787574049692140
+      Button_Shop_11: -6794654170967987669
+      Button_Shop_12: 2203115700433020115
+      Button_Shop_13: -8403382405996978265
+      Button_Shop_14: -1605764267412098474
+      Button_Shop_15: 1599090083651295529
+      Button_Shop_16: -3979352612888439536
+      Button_Shop_17: -2108955122686831500
+      Button_Shop_18: -4735040991418210775
+      Button_Shop_19: 8601830533310988665
+      Button_Shop_2: -8747170872786026104
+      Button_Shop_20: 7520907110144614856
+      Button_Shop_21: 1326132119658617199
+      Button_Shop_22: 6155954094899825186
+      Button_Shop_23: -2304751665587867168
+      Button_Shop_24: -7582411644479916493
+      Button_Shop_25: -4022745284944961695
+      Button_Shop_26: -4849649271418461925
+      Button_Shop_3: -5394817944451162132
+      Button_Shop_4: -2628643548733356472
+      Button_Shop_5: -2483235892063398988
+      Button_Shop_6: 5134321647089010772
+      Button_Shop_7: -5338403987462804715
+      Button_Shop_8: -5469289524862640123
+      Button_Shop_9: 8359814459063297752
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

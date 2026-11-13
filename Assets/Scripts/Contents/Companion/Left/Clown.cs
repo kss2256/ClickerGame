@@ -9,7 +9,7 @@ public class Clown : Companion_Base
     {
        
 
-        mFixPos = new Vector3(-1.58f, 1.77f, 0f);
+        mFixPos = new Vector3(-1.58f, 2.57f, 0f);
         mSide = eCompanionSide.Left;
 
 

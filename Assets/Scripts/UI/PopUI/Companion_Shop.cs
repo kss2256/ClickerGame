@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,6 +8,10 @@ public class Companion_Shop : UI_Popup
     {
         Exit,
     }
+    public enum Images
+    {
+        Exit_Image,
+    }
 
 
     public override bool Init()
@@ -15,6 +20,8 @@ public class Companion_Shop : UI_Popup
             return false;
 
         Bind<GameObject>(typeof(GameObjects));
+        Bind<Image>(typeof(Images));
+
         GetGameObject((int)GameObjects.Exit).gameObject.BindEvent(Shop_Exit, Define.eMouseEvent.Click);
 
 
@@ -27,7 +34,9 @@ public class Companion_Shop : UI_Popup
 
     public void Shop_Exit()
     {
-        Managers.UI.ClosePopupUI();
+        Transform imageGo = GetImage((int)Images.Exit_Image).rectTransform;
+        imageGo.transform.DOPunchScale(Vector3.one * -0.15f, 0.15f, 5, 0.5f).OnComplete(() => { Managers.UI.ClosePopupUI(); });
+
     }
 
 

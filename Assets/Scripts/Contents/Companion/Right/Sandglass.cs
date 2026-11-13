@@ -11,7 +11,7 @@ public class Sandglass : Companion_Base
     {
        
 
-        mFixPos = new Vector3(1.55f, 1.79f, 0f);
+        mFixPos = new Vector3(1.55f, 2.59f, 0f);
         mSide = eCompanionSide.Right;
 
         base.Init();

@@ -1,10 +1,6 @@
-using System.Collections.Generic;
-using System.Runtime.CompilerServices;
-using TMPro;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using DG.Tweening;
 using static UI_Title;
 
 public class UI_Game : UI_Scene
@@ -13,12 +9,19 @@ public class UI_Game : UI_Scene
 
     private Companion_Shop mIsShop = null;
 
+    private Vector3 mButtonFixSize = Vector3.zero;
+
     public enum Buttons
     {
         Player_Button,
         Companion_Button
     }
 
+    public enum Images
+    {
+        Player_ButtonImage,
+        Companion_ButtonImage,
+    }
  
 
     public override bool Init()
@@ -28,7 +31,9 @@ public class UI_Game : UI_Scene
 
 
         Bind<Button>(typeof(Buttons));
-        
+        Bind<Image>(typeof(Images));
+
+        mButtonFixSize = GetImage((int)Images.Player_ButtonImage).transform.localScale;
 
         GetButton((int)Buttons.Player_Button).gameObject.BindEvent(Test, Define.eMouseEvent.Click);
 
@@ -45,8 +50,14 @@ public class UI_Game : UI_Scene
     {
         if (null == mIsShop)
         {
-            mIsShop = Managers.UI.ShowPopUpUI<Companion_Shop>("Prefabs/UI/Popup/Companion_Shop");
 
+            Transform tr = GetImage((int)Images.Companion_ButtonImage).rectTransform;
+            
+            tr.DOKill();
+            tr.localScale = mButtonFixSize;
+
+            tr.DOPunchScale(Vector3.one * -0.15f, 0.30f, 5, 0.5f).OnComplete
+                (() => { mIsShop = Managers.UI.ShowPopUpUI<Companion_Shop>("Prefabs/UI/Popup/Companion_Shop"); });
 
         }
         
@@ -55,7 +66,20 @@ public class UI_Game : UI_Scene
     }
     public void Test()
     {
-        Debug.Log("플레이어 버튼");
+
+        if (null == mIsShop)
+        {
+            Transform tr = GetImage((int)Images.Player_ButtonImage).rectTransform;
+
+            tr.DOKill();
+            tr.localScale = mButtonFixSize;
+
+            tr.DOPunchScale(Vector3.one * -0.15f, 0.30f, 5, 0.5f).OnComplete
+                (() => { Debug.Log("플레이어 버튼"); });
+        }
+
+
+
     }
 
 

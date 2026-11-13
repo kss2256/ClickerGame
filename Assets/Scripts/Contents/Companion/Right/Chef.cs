@@ -11,7 +11,7 @@ public class Chef : Companion_Base
     {
       
 
-        mFixPos = new Vector3(2.3f, 1.88f, 0f);
+        mFixPos = new Vector3(2.3f, 2.68f, 0f);
         mSide = eCompanionSide.Right;
 
         base.Init();

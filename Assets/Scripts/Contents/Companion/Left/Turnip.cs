@@ -9,7 +9,7 @@ public class Turnip : Companion_Base
     {
       
 
-        mFixPos = new Vector3(-2.3f, 0.55f, 0f);
+        mFixPos = new Vector3(-2.3f, 1.35f, 0f);
         mSide = eCompanionSide.Left;
 
 

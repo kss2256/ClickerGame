@@ -4,7 +4,16 @@ using static TMPro.SpriteAssetUtilities.TexturePacker_JsonArray;
 
 public class BackGround : MonoBehaviour
 {
+    private void Awake()
+    {
+        Camera cam = Camera.main;
 
+        float targetAspect = 9f / 16f;
+        float currentAspect = cam.aspect;
+
+        cam.orthographicSize = 5f *
+            Mathf.Max(1f, targetAspect / currentAspect);
+    }
 
     private void Start()
     {
@@ -36,7 +45,7 @@ public class BackGround : MonoBehaviour
 
 
         transform.localScale = new Vector3(scale, scale, 1f);
-        transform.position += Vector3.up * -0.8f;
+        
     }
 
 

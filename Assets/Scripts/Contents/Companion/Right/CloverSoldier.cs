@@ -11,7 +11,7 @@ public class CloverSoldier : Companion_Base
     {
         
 
-        mFixPos = new Vector3(1.5f, 0.5f, 0f);
+        mFixPos = new Vector3(1.5f, 1.3f, 0f);
         mSide = eCompanionSide.Right;
 
         base.Init();

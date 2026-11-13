@@ -144,7 +144,7 @@ public class PlayerController : MonoBehaviour
       
 
         transform.localScale = Vector3.one * 0.3f;
-        transform.position += Vector3.up * -0.7f;
+        transform.position += Vector3.up * 0.1f;
     }
 
     public void ChangeWeapon(eWeapons _weapon)

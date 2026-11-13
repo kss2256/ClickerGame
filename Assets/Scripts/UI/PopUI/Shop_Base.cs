@@ -1,11 +1,17 @@
+using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
+using static UI_Title;
 
 
 public abstract class Shop_Base : UI_Popup
 {
         
     protected abstract Define.eCharacterType CharacterType { get; }
+
+
+    private Vector3 mButtonFixSize = Vector3.zero;
     protected enum GameObjects
     {
         Exit,
@@ -22,17 +28,28 @@ public abstract class Shop_Base : UI_Popup
         Sell_Text,
     }
 
+    protected enum Images
+    {
+        Sell_Image,
+        Exit_Image,
+    }
+
     public override bool Init()
     {
         if (base.Init() == false)
             return false;
 
         Bind<GameObject>(typeof(GameObjects));
+        Bind<TextMeshProUGUI>(typeof(Texts));
+        Bind<Image>(typeof(Images));
+
+        mButtonFixSize = GetImage((int)Images.Sell_Image).transform.localScale;
+
         GetGameObject((int)GameObjects.Exit).gameObject.BindEvent(Shop_Exit, Define.eMouseEvent.Click);
 
         GetGameObject((int)GameObjects.Sell_Button).gameObject.BindEvent(Shop_Sell, Define.eMouseEvent.Click);
 
-        Bind<TextMeshProUGUI>(typeof(Texts));
+    
 
 
         
@@ -102,16 +119,29 @@ public abstract class Shop_Base : UI_Popup
             ShopInfo();
         }
 
+
+        Transform imageGo = GetImage((int)Images.Sell_Image).rectTransform;
+
+        imageGo.DOKill();
+        imageGo.localScale = mButtonFixSize;
+
+        imageGo.transform.DOPunchScale(Vector3.one * -0.15f, 0.25f, 5, 0.5f);
+
+
     }
 
     public virtual void Shop_Exit()
     {
-        Managers.UI.ClosePopupUI();
 
+        Transform imageGo = GetImage((int)Images.Exit_Image).rectTransform;
+        imageGo.transform.DOPunchScale(Vector3.one * -0.15f, 0.15f, 5, 0.5f).OnComplete(() => 
+        {
+            Managers.UI.ClosePopupUI();
+            if (mPrevPopup != null)
+                mPrevPopup.SetActive(true);
+        });
 
-
-        if (mPrevPopup != null)
-            mPrevPopup.SetActive(true);
+        
 
     }
 

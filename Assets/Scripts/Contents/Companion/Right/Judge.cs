@@ -11,7 +11,7 @@ public class Judge : Companion_Base
     {
        
 
-        mFixPos = new Vector3(2.3f, 0.6f, 0f);
+        mFixPos = new Vector3(2.3f, 1.4f, 0f);
         mSide = eCompanionSide.Right;
 
         base.Init();
