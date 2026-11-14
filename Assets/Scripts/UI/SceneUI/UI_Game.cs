@@ -10,6 +10,8 @@ public class UI_Game : UI_Scene
     private Companion_Shop mIsShop = null;
     private Player_Info mIsInfo = null;
 
+    
+
     private Vector3 mButtonFixSize = Vector3.zero;
 
     public enum Buttons
@@ -49,13 +51,16 @@ public class UI_Game : UI_Scene
 
     public void Companion_ShopOpen()
     {
-        if (null == mIsShop && null == mIsInfo)
+        if (null == mIsShop)
         {
 
             Transform tr = GetImage((int)Images.Companion_ButtonImage).rectTransform;
             
             tr.DOKill();
             tr.localScale = mButtonFixSize;
+
+            if(mIsInfo)
+                Managers.UI.ClosePopupUI();
 
             tr.DOPunchScale(Vector3.one * -0.15f, 0.30f, 5, 0.5f).OnComplete
                 (() => { mIsShop = Managers.UI.ShowPopUpUI<Companion_Shop>("Prefabs/UI/Popup/Companion_Shop"); });
@@ -68,12 +73,15 @@ public class UI_Game : UI_Scene
     public void Player_InfoOpen()
     {
 
-        if (null == mIsShop && null == mIsInfo)
+        if (null == mIsInfo)
         {
             Transform tr = GetImage((int)Images.Player_ButtonImage).rectTransform;
 
             tr.DOKill();
             tr.localScale = mButtonFixSize;
+
+            if (mIsShop)
+                Managers.UI.ClosePopupUI();
 
             tr.DOPunchScale(Vector3.one * -0.15f, 0.30f, 5, 0.5f).OnComplete
                 (() => { mIsInfo = Managers.UI.ShowPopUpUI<Player_Info>("Prefabs/UI/Popup/Player_Info"); });

@@ -11,8 +11,8 @@ public class PlayerController : MonoBehaviour
     public enum eWeapons
     {
         NONE,
-        HAMMER,
-        SCISSORS,
+        HAMMER = 2,
+        SCISSORS = 3,
     }
     public enum eStatus
     {
@@ -114,7 +114,7 @@ public class PlayerController : MonoBehaviour
 
     public void PlayerStatInit()
     {
-        mStat = new PlayerStat();
+        
         
     }
 

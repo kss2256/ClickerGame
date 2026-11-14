@@ -28,7 +28,7 @@ public class UI_Base : MonoBehaviour
         if (bInit)
             return false;
 
-        return true;    
+        return bInit = true;    
     }
 
     private void Start()
