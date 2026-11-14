@@ -16,6 +16,7 @@ public class GameSceneController : MonoBehaviour
 
         Managers.Resource.Instantiate("Prefabs/Contents/BackGround");
 
+        Managers.Resource.Instantiate("Prefabs/Contents/Boss/Boss_1");
 
         Managers.Battle.CreatePlayer();
 

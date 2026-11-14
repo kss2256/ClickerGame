@@ -15,39 +15,118 @@ public class InputManager
     public void OnUpdate()
     {
 
-
-        if (EventSystem.current.IsPointerOverGameObject())
+        if (mMouseEvent == null)
             return;
 
+        //마우스 터치 이벤트 확인
+        bool down = false;
+        bool press = false;
+        bool up = false;
+        bool isUI = false;
 
-
-        if (mMouseEvent != null && Mouse.current.leftButton.wasPressedThisFrame)
+        if (Touchscreen.current != null)
         {
-            bMouseDown = true;
+            var touch = Touchscreen.current.primaryTouch;
 
-            mMouseEvent.Invoke(Define.eMouseEvent.Down);
+            down = touch.press.wasPressedThisFrame;
+            press = touch.press.isPressed;
+            up = touch.press.wasReleasedThisFrame;
+
+            if (down && EventSystem.current != null)
+            {
+                int touchId = touch.touchId.ReadValue();
+
+                isUI = EventSystem.current
+                    .IsPointerOverGameObject(touchId);
+            }
         }
-        if (mMouseEvent != null && Mouse.current.leftButton.isPressed)
+
+        else if (Mouse.current != null)
         {
+            var mouse = Mouse.current.leftButton;
+
+            down = mouse.wasPressedThisFrame;
+            press = mouse.isPressed;
+            up = mouse.wasReleasedThisFrame;
+
+            if (down && EventSystem.current != null)
+            {
+                isUI = EventSystem.current
+                    .IsPointerOverGameObject();
+            }
+        }
+
+        // Down
+        if (down)
+        {
+            bMouseDown = !isUI;
+            mPressTime = 0.0f;
+
             if (bMouseDown)
-                mPressTime += Time.deltaTime;
+                mMouseEvent.Invoke(Define.eMouseEvent.Down);
+        }
+
+        // Press
+        if (press && bMouseDown)
+        {
+            mPressTime += Time.deltaTime;
 
             mMouseEvent.Invoke(Define.eMouseEvent.Press);
         }
-        if (mMouseEvent != null && Mouse.current.leftButton.wasReleasedThisFrame)
+
+        // Up
+        if (up)
         {
-
-            mMouseEvent.Invoke(Define.eMouseEvent.Up);
-
-            if (mPressTime < 0.2f && bMouseDown)
+            if (bMouseDown)
             {
-                mMouseEvent.Invoke(Define.eMouseEvent.Click);
+                mMouseEvent.Invoke(Define.eMouseEvent.Up);
+
+                if (mPressTime < 0.2f)
+                {
+                    mMouseEvent.Invoke(Define.eMouseEvent.Click);
+                }
             }
 
             mPressTime = 0.0f;
             bMouseDown = false;
         }
-      
+
+
+        #region PC Mouse Event
+        //if (EventSystem.current.IsPointerOverGameObject())
+        //    return;
+
+
+
+        //if (mMouseEvent != null && Mouse.current.leftButton.wasPressedThisFrame)
+        //{
+        //    bMouseDown = true;
+
+        //    mMouseEvent.Invoke(Define.eMouseEvent.Down);
+        //}
+        //if (mMouseEvent != null && Mouse.current.leftButton.isPressed)
+        //{
+        //    if (bMouseDown)
+        //        mPressTime += Time.deltaTime;
+
+        //    mMouseEvent.Invoke(Define.eMouseEvent.Press);
+        //}
+        //if (mMouseEvent != null && Mouse.current.leftButton.wasReleasedThisFrame)
+        //{
+
+        //    mMouseEvent.Invoke(Define.eMouseEvent.Up);
+
+        //    if (mPressTime < 0.2f && bMouseDown)
+        //    {
+        //        mMouseEvent.Invoke(Define.eMouseEvent.Click);
+        //    }
+
+        //    mPressTime = 0.0f;
+        //    bMouseDown = false;
+        //}
+
+        #endregion
+
 
     }
 
