@@ -12,15 +12,14 @@ public class GameSceneController : MonoBehaviour
     {
         
         Managers.UI.ShowSceneUI<UI_Game>("UI_Game");
-
+        Managers.Resource.Instantiate("Prefabs/UI/HP_Bar");
 
         Managers.Resource.Instantiate("Prefabs/Contents/BackGround");
-
-        Managers.Resource.Instantiate("Prefabs/Contents/Boss/Boss_1");
+        Managers.Resource.Instantiate("Prefabs/Contents/Gold_Pool");
 
         Managers.Battle.CreatePlayer();
 
-
+        Managers.Boss.SpawnRandomBoss();
 
     }
 
@@ -28,7 +27,7 @@ public class GameSceneController : MonoBehaviour
     void Update()
     {
 
-
+        
 
        
 

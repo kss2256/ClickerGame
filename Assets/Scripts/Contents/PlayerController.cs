@@ -99,6 +99,8 @@ public class PlayerController : MonoBehaviour
         if(_eve == Define.eMouseEvent.Down && Status == eStatus.IDLE)
         {
             Status = eStatus.ATTACK;
+            Managers.Boss.CurBoss.GetComponent<Boss_Base>().Battle(Stat.Attack);
+
         }
 
     }

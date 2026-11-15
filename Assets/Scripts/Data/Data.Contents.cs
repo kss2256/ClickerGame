@@ -57,7 +57,6 @@ namespace DATA
 
     #endregion
 
-
     #region Companion 
     [Serializable]
     public class COMPANION : IGameData
@@ -121,6 +120,35 @@ namespace DATA
     }
 
 
+
+    #endregion
+
+
+    #region Stage
+
+    [Serializable]
+    public class STAGE : IGameData
+    {
+        public int ID;
+        public int Level;
+        public int HP;
+        public int Gold;
+
+        int IGameData.ID => this.ID;
+    }
+
+    [Serializable]
+    public class StageData : ILoader<int, STAGE>
+    {
+        public List<DATA.STAGE> Stage = new List<DATA.STAGE>();
+
+        public Dictionary<int, STAGE> MakeDict()
+        {
+            Dictionary<int, STAGE> value = DataConverter.MakeDict(Stage);
+
+            return value;
+        }
+    }
 
     #endregion
 

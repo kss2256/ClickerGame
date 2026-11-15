@@ -22,6 +22,8 @@ public class DataManager
     public Dictionary<int, DATA.COMPANION_LEVEL> mCompanionLevelMap { get; private set; }
     = new Dictionary<int, DATA.COMPANION_LEVEL>();
 
+    public Dictionary<int, DATA.STAGE> mStageMap { get; private set; }
+    = new Dictionary<int, DATA.STAGE>();
 
     public void Init()
     {
@@ -29,8 +31,9 @@ public class DataManager
         mCompanionMap = LoadJson<DATA.CompanionData, int, DATA.COMPANION>("Companion").MakeDict();
         mCompanionLevelMap = LoadJson<DATA.CompanionLevelData, int, DATA.COMPANION_LEVEL>("Companion_Level").MakeDict();
 
+        mStageMap = LoadJson<DATA.StageData, int, DATA.STAGE>("Stage").MakeDict();
 
-      
+
 
     }
 
@@ -69,6 +72,12 @@ public class DataManager
         return null;      
     }
 
+    public DATA.STAGE GetStage(int _stage)
+    {
+        if(mStageMap.TryGetValue(_stage, out DATA.STAGE result))
+        return result;
 
+        return null;        
+    }
 
 }

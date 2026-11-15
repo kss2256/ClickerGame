@@ -154,10 +154,10 @@ TextureImporter:
       name: "\uBCF4\uB77C \uBC15\uC950 \uBCF4\uC2A4 \uD53C\uACA9 \uC560\uB2C8\uBA54\uC774\uC158-3_0"
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 724
-        height: 724
+        x: 49
+        y: 63
+        width: 669
+        height: 589
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,9 +177,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 724
-        y: 0
-        width: 724
-        height: 724
+        y: 62
+        width: 663
+        height: 589
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,10 +198,10 @@ TextureImporter:
       name: "\uBCF4\uB77C \uBC15\uC950 \uBCF4\uC2A4 \uD53C\uACA9 \uC560\uB2C8\uBA54\uC774\uC158-3_2"
       rect:
         serializedVersion: 2
-        x: 1448
-        y: 0
-        width: 724
-        height: 724
+        x: 1429
+        y: 61
+        width: 669
+        height: 589
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

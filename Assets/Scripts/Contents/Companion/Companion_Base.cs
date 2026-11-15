@@ -80,6 +80,11 @@ public abstract class Companion_Base : MonoBehaviour
     {
         while (true)
         {
+            if(Managers.Boss.CurBoss != null)
+            {
+                Managers.Boss.CurBoss.GetComponent<Boss_Base>().Battle(Stat.Attack);
+            }
+            
             float lerpValue = Mathf.InverseLerp(
                 0.5f, 3.0f, mStat.AttackSpeed);
 

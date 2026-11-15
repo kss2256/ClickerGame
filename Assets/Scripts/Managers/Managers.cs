@@ -6,16 +6,20 @@ public class Managers : MonoBehaviour
 
 
     private BattleManager mBattleManager = new BattleManager();
+    private BossManager mBossManager = new BossManager();
     private DataManager mDataManager = new DataManager();
     private InputManager mInpuManager = new InputManager();
+    private PoolManager mPoolManager = new PoolManager();
     private ResourceManager mResourceManager = new ResourceManager();
     private SceneManagerEx mSceneManager = new SceneManagerEx();
     private UIManager mUIManager = new UIManager();
 
 
     public static BattleManager Battle => sInstance?.mBattleManager;
+    public static BossManager Boss => sInstance?.mBossManager;
     public static DataManager Data => sInstance?.mDataManager;
     public static InputManager Input => sInstance?.mInpuManager;
+    public static PoolManager Pool => sInstance?.mPoolManager;
     public static ResourceManager Resource => sInstance?.mResourceManager;
     public static SceneManagerEx Scene => sInstance?.mSceneManager;
     public static UIManager UI => sInstance?.mUIManager;
@@ -33,6 +37,8 @@ public class Managers : MonoBehaviour
 
             Data.Init();
             Battle.Init();
+            Pool.Init();
+            Boss.Init();
         }
 
     }
@@ -45,7 +51,10 @@ public class Managers : MonoBehaviour
 
     public static void Clear()
     {
-        sInstance.mUIManager.Clear();
+        UI.Clear();
+
+
+       
 
     }
 

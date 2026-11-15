@@ -1,5 +1,6 @@
 using Unity.VisualScripting;
 using UnityEngine;
+using static UnityEngine.UI.Image;
 
 
 public class ResourceManager
@@ -35,6 +36,12 @@ public class ResourceManager
         go.name = original.name; 
 
 
+        return go;
+    }
+    public GameObject Instantiate(GameObject _obj, Transform _parent = null)
+    {
+        GameObject go = GameObject.Instantiate(_obj, _parent);
+        go.name = _obj.name;
         return go;
     }
 
