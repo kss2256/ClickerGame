@@ -18,6 +18,7 @@ public class BossManager
 
     private int mStage = 0;
     private const int MAX_STAGE = 30;
+    public Gold_Pool mGold;
         
 
     public Poolable CurBoss { get; set; }
@@ -44,6 +45,12 @@ public class BossManager
             Managers.Pool.CreatePool(go, 3);
 
         }
+    }
+
+
+    public void Gold_PoolCreate()
+    {
+        mGold = Managers.Resource.Instantiate("Prefabs/Contents/Gold_Pool").GetOrAddComponent<Gold_Pool>();
     }
 
 

@@ -15,7 +15,7 @@ public class GameSceneController : MonoBehaviour
         Managers.Resource.Instantiate("Prefabs/UI/HP_Bar");
 
         Managers.Resource.Instantiate("Prefabs/Contents/BackGround");
-        Managers.Resource.Instantiate("Prefabs/Contents/Gold_Pool");
+        Managers.Boss.Gold_PoolCreate();
 
         Managers.Battle.CreatePlayer();
 

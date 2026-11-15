@@ -66,8 +66,9 @@ public class Boss_Base : MonoBehaviour
 
         if(mStatus == eStatus.DIE)
         {
+            Managers.Boss.mGold.DropGolds(mGold, mLevel);
             Managers.Boss.SpawnRandomBoss();
-
+            
         }
 
    
