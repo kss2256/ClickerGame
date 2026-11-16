@@ -12,6 +12,7 @@ public abstract class Shop_Base : UI_Popup
 
 
     private Vector3 mButtonFixSize = Vector3.zero;
+    private Color mOriginalColor;
     protected enum GameObjects
     {
         Exit,
@@ -44,6 +45,7 @@ public abstract class Shop_Base : UI_Popup
         Bind<Image>(typeof(Images));
 
         mButtonFixSize = GetImage((int)Images.Sell_Image).transform.localScale;
+        mOriginalColor = GetImage((int)Images.Sell_Image).color;
 
         GetGameObject((int)GameObjects.Exit).gameObject.BindEvent(Shop_Exit, Define.eMouseEvent.Click);
 
@@ -107,7 +109,40 @@ public abstract class Shop_Base : UI_Popup
     public virtual void Shop_Sell()
     {
         Stat stat = Managers.Battle.GetCharacter(CharacterType);
+        PlayerController player = Managers.Battle.PlayerController;
 
+        DATA.COMPANION_LEVEL curstat = Managers.Data.GetCompanionLevel((int)CharacterType, 1);
+
+        long much;
+        if (stat == null)
+        {
+            much = curstat.Price;
+        }
+        else
+            much = stat.Price;
+
+
+
+        long wallet = player.Stat.mGold;
+
+        long result = wallet - much;
+
+        if (result < 0)
+        {
+            Image image = GetImage((int)Images.Sell_Image);
+            image.DOKill();
+            image.color = mOriginalColor;
+
+            Sequence seq = DOTween.Sequence();
+
+            seq.Append(image.DOColor(Color.red, 0.2f));
+            seq.Append(image.DOColor(mOriginalColor, 0.2f));
+
+
+            return;
+        }
+
+        player.Stat.mGold = result;
         if (stat == null)
         {
             Managers.Battle.CreateCompanion(CharacterType);
@@ -145,6 +180,10 @@ public abstract class Shop_Base : UI_Popup
 
     }
 
+    public virtual bool CanSell(long _price)
+    {
+        return false;
+    }
 
 
 

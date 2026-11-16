@@ -12,7 +12,8 @@ public class GameSceneController : MonoBehaviour
     {
         
         Managers.UI.ShowSceneUI<UI_Game>("UI_Game");
-        Managers.Resource.Instantiate("Prefabs/UI/HP_Bar");
+        GameObject hp_bar = Managers.Resource.Instantiate("Prefabs/UI/HP_Bar");
+        Managers.UI.SetCanvas(hp_bar, false);
 
         Managers.Resource.Instantiate("Prefabs/Contents/BackGround");
         Managers.Boss.Gold_PoolCreate();

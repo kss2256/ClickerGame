@@ -17,7 +17,9 @@ public class Gold_Pool : MonoBehaviour
         go.GetComponent<SpriteRenderer>().sortingOrder = 2;
 
         GameObject gold = Managers.Resource.Instantiate("Prefabs/UI/UI_Gold");
+        
         mGold_UI = gold.GetOrAddComponent<UI_Gold>();
+        Managers.UI.SetCanvas(gold, false);
 
         Managers.Pool.CreatePool(go, 100);
         mGoldOriginal = Managers.Pool.GetOrigin("Gold");
@@ -25,7 +27,7 @@ public class Gold_Pool : MonoBehaviour
     }
 
 
-    public void DropGolds(int _gold, int _stag)
+    public void DropGolds(long _gold, int _stag)
     {
         
         

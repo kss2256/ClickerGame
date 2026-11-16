@@ -9,7 +9,7 @@ public class Boss_Base : MonoBehaviour
     public int mLevel;
     public int mHP;
     public int mCurHP;
-    public int mGold;
+    public long mGold;
 
     public eStatus mStatus = eStatus.IDLE;
 
@@ -29,6 +29,15 @@ public class Boss_Base : MonoBehaviour
         mHP = stage.HP;
         mCurHP = stage.HP;
         mGold = stage.Gold;
+
+        Camera cam = Camera.main;
+        float top = cam.transform.position.y + cam.orthographicSize;
+
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        float offset = top - sr.bounds.max.y;
+        offset += 0.2f;
+        transform.position += Vector3.up * offset;
+
     }
 
 

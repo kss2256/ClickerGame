@@ -10,10 +10,9 @@ public class UI_Gold : UI_Base
     private long m_Gold = 0;
 
 
-    public void CollectGold(int _gold)
+    public void CollectGold(long _gold)
     {
-        Managers.Battle.PlayerController.Stat.mGold += _gold;
-        m_Gold = Managers.Battle.PlayerController.Stat.mGold;
+        Managers.Battle.PlayerController.Stat.mGold += _gold;        
     }
 
 
@@ -48,6 +47,7 @@ public class UI_Gold : UI_Base
 
     private void Update()
     {
+        m_Gold = Managers.Battle.PlayerController.Stat.mGold;
         GetText((int)Texts.Gold_Text).text = GoldText(m_Gold);
     }
 

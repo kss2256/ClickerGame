@@ -38,7 +38,7 @@ namespace DATA
         public int MaxMp;   
         public int Attack;
         public float AttackSpeed;
-        public int Price;
+        public long Price;
 
         int IGameData.ID => this.ID;
     }
@@ -65,7 +65,7 @@ namespace DATA
         public string Name;
         public int Attack;
         public float AttackSpeed;
-        public int Price;
+        public long Price;
 
         int IGameData.ID => this.ID;
     }
@@ -100,7 +100,7 @@ namespace DATA
         public int Level;
         public int Attack;
         public float AttackSpeed;
-        public int Price;
+        public long Price;
 
         int IGameData.ID => this.ID;
     }
@@ -132,7 +132,7 @@ namespace DATA
         public int ID;
         public int Level;
         public int HP;
-        public int Gold;
+        public long Gold;
 
         int IGameData.ID => this.ID;
     }

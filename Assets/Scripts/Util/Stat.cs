@@ -10,7 +10,7 @@ public class Stat
     public int Attack;
     public float AttackSpeed;
 
-    public int Price;  
+    public long Price;  
 
     public Stat()
     {

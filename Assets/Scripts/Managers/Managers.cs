@@ -12,6 +12,7 @@ public class Managers : MonoBehaviour
     private PoolManager mPoolManager = new PoolManager();
     private ResourceManager mResourceManager = new ResourceManager();
     private SceneManagerEx mSceneManager = new SceneManagerEx();
+    private SoundManager mSoundManager = new SoundManager();
     private UIManager mUIManager = new UIManager();
 
 
@@ -22,6 +23,7 @@ public class Managers : MonoBehaviour
     public static PoolManager Pool => sInstance?.mPoolManager;
     public static ResourceManager Resource => sInstance?.mResourceManager;
     public static SceneManagerEx Scene => sInstance?.mSceneManager;
+    public static SoundManager Sound => sInstance?.mSoundManager;
     public static UIManager UI => sInstance?.mUIManager;
 
 
@@ -39,6 +41,7 @@ public class Managers : MonoBehaviour
             Battle.Init();
             Pool.Init();
             Boss.Init();
+            Sound.Init();
         }
 
     }
@@ -52,9 +55,9 @@ public class Managers : MonoBehaviour
     public static void Clear()
     {
         UI.Clear();
+        Sound.Clear();
 
 
-       
 
     }
 

@@ -9,6 +9,7 @@ public class Player_StatInfo : UI_Base
 
 
     private Vector3 mButtonFixSize = Vector3.zero;
+    private Color mOriginalColor;
 
     enum Texts
     {
@@ -45,6 +46,8 @@ public class Player_StatInfo : UI_Base
 
         mButtonFixSize = GetImage((int)Images.LevelUp_Button_Image).rectTransform.localScale;
 
+        mOriginalColor = GetImage((int)Images.LevelUp_Button_Image).color;
+
         GetButton((int)Buttons.LevelUp_Button).gameObject.BindEvent(LevelUp_Button, Define.eMouseEvent.Click);
 
         StatTextInit();
@@ -55,8 +58,28 @@ public class Player_StatInfo : UI_Base
 
     public void LevelUp_Button()
     {
+        long myCoin;
+        if (CanLevelUp(out myCoin) == false)
+        {
+            Image image = GetImage((int)Images.LevelUp_Button_Image);
+            image.DOKill();
+            image.color = mOriginalColor;
+
+            Sequence seq = DOTween.Sequence();
+
+            seq.Append(image.DOColor(Color.red, 0.2f));
+            seq.Append(image.DOColor(mOriginalColor, 0.2f));
+
+            return;
+        }
 
         Transform tr = GetImage((int)Images.LevelUp_Button_Image).rectTransform;
+        if(myCoin >= 0)
+        {
+            PlayerController player = Managers.Battle.PlayerController;
+            player.Stat.mGold = myCoin;
+        }
+
 
         tr.DOKill();
         tr.transform.localScale = mButtonFixSize;
@@ -65,9 +88,31 @@ public class Player_StatInfo : UI_Base
     }
 
 
+    public bool CanLevelUp(out long _result)
+    {
+        PlayerController player = Managers.Battle.PlayerController;
+        int idx = player.Stat.Level;
+        if (idx > 50)
+        {
+            _result = -1;
+            return false;
+        }
+            
+
+        DATA.LEVEL nextLevel = Managers.Data.GetPlayerLevelInfo(idx);
+
+        _result = player.Stat.mGold - nextLevel.Price;
+
+       
+
+        return nextLevel.Price <= player.Stat.mGold;
+    }
+
     public void Player_LevelUp()
     {
         PlayerController player = Managers.Battle.PlayerController;
+
+      
 
 
 

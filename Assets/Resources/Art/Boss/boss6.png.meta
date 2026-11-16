@@ -164,10 +164,10 @@ TextureImporter:
         \uC138\uD2B8-1_0"
       rect:
         serializedVersion: 2
-        x: 49
+        x: 50
         y: 0
         width: 632
-        height: 659
+        height: 653
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,7 +190,7 @@ TextureImporter:
         x: 759
         y: 0
         width: 650
-        height: 659
+        height: 652
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,7 +213,7 @@ TextureImporter:
         x: 1435
         y: 0
         width: 737
-        height: 659
+        height: 653
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

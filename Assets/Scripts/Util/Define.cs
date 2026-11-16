@@ -10,6 +10,12 @@ public class Define
         GameScene,
     }
 
+    public enum eSoundType
+    {
+        BGM,
+        EFFECT,
+        MAXCOUNT,
+    }
 
     public enum eMouseEvent
     {

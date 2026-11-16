@@ -5,7 +5,7 @@ public class PlayerStat : Stat
 
     public int MP;
     public int MaxMp;
-    public int mGold;
+    public long mGold;
 
     public PlayerStat() 
     {
