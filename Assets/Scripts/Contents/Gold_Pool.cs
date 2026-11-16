@@ -1,10 +1,13 @@
-using UnityEngine;
 using DG.Tweening;
+using NUnit.Framework.Constraints;
+using Unity.VisualScripting;
+using UnityEngine;
 
 public class Gold_Pool : MonoBehaviour
 {
 
-    GameObject mGold;
+    GameObject mGoldOriginal;
+    UI_Gold mGold_UI;
 
     private void Start()
     {
@@ -13,9 +16,11 @@ public class Gold_Pool : MonoBehaviour
         go.transform.position = transform.position;
         go.GetComponent<SpriteRenderer>().sortingOrder = 2;
 
+        GameObject gold = Managers.Resource.Instantiate("Prefabs/UI/UI_Gold");
+        mGold_UI = gold.GetOrAddComponent<UI_Gold>();
 
         Managers.Pool.CreatePool(go, 100);
-        mGold = Managers.Pool.GetOrigin("Gold");
+        mGoldOriginal = Managers.Pool.GetOrigin("Gold");
 
     }
 
@@ -23,34 +28,39 @@ public class Gold_Pool : MonoBehaviour
     public void DropGolds(int _gold, int _stag)
     {
         
-        Managers.Battle.PlayerController.Stat.mGold = _gold;
+        
 
         int ran = Random.Range(1, 3);
         ran *= _stag;
         for (int i = 0; i < ran; ++i)
         {
-            Poolable pool = Managers.Pool.Pop(mGold);
+            Poolable pool = Managers.Pool.Pop(mGoldOriginal);
             Transform tr = pool.transform;
 
             //동전 위치 초기화
             tr.localRotation = Quaternion.identity;
-            tr.position = mGold.transform.position;
+            tr.position = mGoldOriginal.transform.position;
 
             tr.DORotate(new Vector3(0, 360, 0), 0.5f, RotateMode.FastBeyond360)
             .SetEase(Ease.Linear)
             .SetLoops(6, LoopType.Restart).OnComplete(() =>
             {
                 Managers.Pool.Push(pool);
-                tr.DOKill();             
+                tr.DOKill();
+                mGold_UI.CollectGold(_gold);
             });
 
 
             float ranX = Random.Range(-2.5f, 2.5f);
+            float ranTime = Random.Range(1.7f, 2.15f);
 
             tr.DOMoveY(4.7f, 0.1f).OnComplete(() =>
             {
                 tr.DOMoveY(-0.5f, 0.6f).SetEase(Ease.InQuad);
-                tr.DOMoveX(ranX, 0.6f).SetEase(Ease.InQuad);
+                tr.DOMoveX(ranX, 0.6f).SetEase(Ease.InQuad).OnComplete(() => 
+                {
+                    tr.DOMove(new Vector3(2.5f, 4.7f, 0.0f), 1.0f).SetDelay(ranTime); ;
+                });
             });
         }
         

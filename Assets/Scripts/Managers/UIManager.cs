@@ -108,6 +108,7 @@ public class UIManager
 
     private Canvas CanvasSetting(GameObject _go)
     {
+        //Äµ¹ö½º ¼ÂÆÃ
         Canvas canvas = Util.GetOrAddComponent<Canvas>(_go);
 
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;

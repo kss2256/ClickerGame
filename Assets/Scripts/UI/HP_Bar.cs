@@ -20,6 +20,10 @@ public class HP_Bar : UI_Base
         if (base.Init() == false)
             return false;
 
+
+        
+        transform.SetParent(Managers.UI.Root.transform, false);
+
         Bind<Image>(typeof(Images));
 
         mRed_Fill = GetImage((int)Images.Slider_Bar_Red);
