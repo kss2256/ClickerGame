@@ -65,6 +65,7 @@ public class Companion_Panel : UI_Base
 
     public void CloverSoldier_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.CloverSoldier);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() => 
@@ -79,7 +80,7 @@ public class Companion_Panel : UI_Base
     }
     public void SpadeSoldier_Shop()
     {
-
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.SpadeSoldier);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>
@@ -96,6 +97,7 @@ public class Companion_Panel : UI_Base
 
     public void Judge_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.Judge);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>
@@ -111,6 +113,7 @@ public class Companion_Panel : UI_Base
     }
     public void Turnip_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.Turnip);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>
@@ -125,6 +128,7 @@ public class Companion_Panel : UI_Base
     }
     public void Chef_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.Chef);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>
@@ -141,6 +145,7 @@ public class Companion_Panel : UI_Base
     }
     public void King_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.King);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>
@@ -156,6 +161,7 @@ public class Companion_Panel : UI_Base
     }
     public void Sandglass_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
         Image img = GetImage((int)Images.Sandglass);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>
@@ -171,6 +177,8 @@ public class Companion_Panel : UI_Base
     }
     public void Clown_Shop()
     {
+        Managers.Sound.Play("Button_3", Define.eSoundType.EFFECT);
+
         Image img = GetImage((int)Images.Clown);
 
         img.DOColor(Color.green, 0.1f).SetLoops(2, LoopType.Yoyo).OnComplete(() =>

@@ -107,6 +107,7 @@ public class Player_Info : UI_Popup
 
     public void Info_Exit()
     {
+        Managers.Sound.Play("Button_1", Define.eSoundType.EFFECT);
         Transform imageGo = GetImage((int)Images.Exit_Image).rectTransform;
         imageGo.transform.DOPunchScale(Vector3.one * -0.15f, 0.15f, 5, 0.5f).OnComplete(() => { Managers.UI.ClosePopupUI(); });
     }
@@ -125,7 +126,7 @@ public class Player_Info : UI_Popup
         imageGo.transform.localScale = mButtonFixSize;
         imageGo.transform.DOPunchScale(Vector3.one * -0.15f, 0.15f, 5, 0.5f);
 
-
+        Managers.Sound.Play("Weapon_Switch", Define.eSoundType.EFFECT);
 
         mHammer_Cheak.SetActive(_weapon == eWeapons.HAMMER);
         mScissors_Cheak.SetActive(_weapon == eWeapons.SCISSORS);

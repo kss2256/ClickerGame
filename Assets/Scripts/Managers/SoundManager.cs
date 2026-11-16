@@ -1,5 +1,7 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 
 
@@ -41,7 +43,7 @@ public class SoundManager
                 audiosource.Stop();
 
             audiosource.pitch = _pitch;
-            audiosource.clip = audioclip;
+            audiosource.clip = audioclip;            
             audiosource.Play();
 
 
@@ -57,6 +59,9 @@ public class SoundManager
         }
 
     }
+
+
+
 
 
     public AudioClip GetorAddAudioClip(string _filename)

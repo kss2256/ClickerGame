@@ -69,6 +69,7 @@ public class Player_StatInfo : UI_Base
 
             seq.Append(image.DOColor(Color.red, 0.2f));
             seq.Append(image.DOColor(mOriginalColor, 0.2f));
+            Managers.Sound.Play("Button_1", Define.eSoundType.EFFECT);
 
             return;
         }
@@ -112,9 +113,9 @@ public class Player_StatInfo : UI_Base
     {
         PlayerController player = Managers.Battle.PlayerController;
 
-      
+        
 
-
+        Managers.Sound.Play("Player_Up", Define.eSoundType.EFFECT);
 
         if (player.Weapon == PlayerController.eWeapons.NONE)
             return;

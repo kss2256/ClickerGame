@@ -137,7 +137,7 @@ public abstract class Shop_Base : UI_Popup
 
             seq.Append(image.DOColor(Color.red, 0.2f));
             seq.Append(image.DOColor(mOriginalColor, 0.2f));
-
+            Managers.Sound.Play("Button_1", Define.eSoundType.EFFECT);
 
             return;
         }
@@ -145,11 +145,13 @@ public abstract class Shop_Base : UI_Popup
         player.Stat.mGold = result;
         if (stat == null)
         {
+            Managers.Sound.Play("Sell_Button", Define.eSoundType.EFFECT);
             Managers.Battle.CreateCompanion(CharacterType);
             ShopInfo();
         }
         else
         {
+            Managers.Sound.Play("Button_2", Define.eSoundType.EFFECT);
             Managers.Battle.CompanionUpdateLevelStat(CharacterType);
             ShopInfo();
         }
@@ -168,6 +170,7 @@ public abstract class Shop_Base : UI_Popup
     public virtual void Shop_Exit()
     {
 
+        Managers.Sound.Play("Button_1", Define.eSoundType.EFFECT);
         Transform imageGo = GetImage((int)Images.Exit_Image).rectTransform;
         imageGo.transform.DOPunchScale(Vector3.one * -0.15f, 0.15f, 5, 0.5f).OnComplete(() => 
         {
@@ -180,10 +183,7 @@ public abstract class Shop_Base : UI_Popup
 
     }
 
-    public virtual bool CanSell(long _price)
-    {
-        return false;
-    }
+
 
 
 

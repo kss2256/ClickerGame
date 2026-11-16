@@ -72,7 +72,7 @@ public class UI_Title : UI_Scene
     {
         if (bCanStartGame)
         {
-
+           
             Managers.Scene.ChangeScene(Define.eSceneType.GameScene);
 
         }

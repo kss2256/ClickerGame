@@ -58,14 +58,20 @@ public class Boss_Base : MonoBehaviour
 
         if(mStatus != eStatus.HIT)
         {
+            
+            mStatus = eStatus.HIT;
             Animator ani = GetComponent<Animator>();
-            ani.Play("HIT");
+            ani.Play("HIT", 0, 0f);
+            Managers.Sound.Play("Monster_Hit", Define.eSoundType.EFFECT);
         }
 
     }
 
     public void OnHitEnd()
     {
+        if (mStatus == eStatus.DIE)
+            return;
+       
         mStatus = eStatus.IDLE;
     }
 

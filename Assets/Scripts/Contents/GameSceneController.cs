@@ -22,6 +22,8 @@ public class GameSceneController : MonoBehaviour
 
         Managers.Boss.SpawnRandomBoss();
 
+        Managers.Sound.Play("Battle_2", Define.eSoundType.BGM);
+
     }
 
 

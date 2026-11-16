@@ -32,7 +32,7 @@ public class UI_Game : UI_Scene
         if (base.Init() == false)
             return false;
 
-
+        Managers.Sound.Play("Title_Play", Define.eSoundType.EFFECT);
         Bind<Button>(typeof(Buttons));
         Bind<Image>(typeof(Images));
 
@@ -53,6 +53,7 @@ public class UI_Game : UI_Scene
     {
         if (null == mIsShop)
         {
+            Managers.Sound.Play("Shop_Open", Define.eSoundType.EFFECT);
 
             Transform tr = GetImage((int)Images.Companion_ButtonImage).rectTransform;
             
@@ -75,6 +76,9 @@ public class UI_Game : UI_Scene
 
         if (null == mIsInfo)
         {
+            Managers.Sound.Play("Shop_Open", Define.eSoundType.EFFECT);
+            
+
             Transform tr = GetImage((int)Images.Player_ButtonImage).rectTransform;
 
             tr.DOKill();
