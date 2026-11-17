@@ -154,12 +154,12 @@ TextureImporter:
       name: Player_Hammer_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 15
+        x: 30
+        y: 36
         width: 495
-        height: 663
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 631
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -172,99 +172,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Player_Hammer_1
-      rect:
-        serializedVersion: 2
-        x: 162
-        y: 645
-        width: 15
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 771f85a31733a29f0800000000000000
-      internalID: -492524647840419465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Hammer_2
-      rect:
-        serializedVersion: 2
-        x: 291
-        y: 646
-        width: 9
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 47401e4bde939cf60800000000000000
-      internalID: 8055033101633520756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Hammer_3
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 639
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dd7c09507c8b76a20800000000000000
-      internalID: 3055614037125547997
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Hammer_4
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 42
-        width: 25
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e99471e12ac46a2c0800000000000000
-      internalID: -4420761725044307554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 53e49461b81ff5e4a92245f15023313f
     internalID: 0
     vertices: []
     indices: 

@@ -88,6 +88,14 @@ public class PlayerController : MonoBehaviour
         Managers.Input.mMouseEvent -= Attack;
         Managers.Input.mMouseEvent += Attack;
 
+
+        //Pivot -> bottom Senter
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+
+        float halfHeight = sr.sprite.bounds.size.y * transform.lossyScale.y * 0.5f;
+
+        transform.position -= Vector3.up * halfHeight;
+
     }
 
     public void Attack(Define.eMouseEvent _eve)

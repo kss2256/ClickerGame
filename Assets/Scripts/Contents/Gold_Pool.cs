@@ -75,6 +75,9 @@ public class Gold_Pool : MonoBehaviour
 
     private void PlayCoinSound()
     {
+        //여러 사운드 재상 안되게 방지 
+        //time 실행후 지난 시간.. 쿨타임 시간간격 
+        //deltaTime 이동 회전 타이머 누적
         if (Time.time - mLastCoinSoundTime < 0.1f)
             return;
 

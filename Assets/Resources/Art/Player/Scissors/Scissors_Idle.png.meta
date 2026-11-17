@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 90
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -151,12 +151,12 @@ TextureImporter:
       name: Scissors_Idle_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 37
-        width: 432
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 70
+        width: 434
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -173,12 +173,12 @@ TextureImporter:
       name: Scissors_Idle_1
       rect:
         serializedVersion: 2
-        x: 494
-        y: 37
-        width: 432
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 434
+        y: 70
+        width: 402
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -195,12 +195,12 @@ TextureImporter:
       name: Scissors_Idle_2
       rect:
         serializedVersion: 2
-        x: 947
-        y: 37
-        width: 432
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 840
+        y: 70
+        width: 438
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: Scissors_Idle_3
       rect:
         serializedVersion: 2
-        x: 1398
-        y: 37
-        width: 432
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1281
+        y: 70
+        width: 418
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,6 +231,28 @@ TextureImporter:
       bones: []
       spriteID: deb5f831f74f20940800000000000000
       internalID: 5261036141348346861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scissors_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 70
+        width: 462
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3765e710e91d02c44a07ac0a641f7751
+      internalID: 1235455771
       vertices: []
       indices: 
       edges: []
@@ -247,12 +269,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":434.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Scissors_Idle_0: 5544591012143009614
       Scissors_Idle_1: -2408926401358208034
       Scissors_Idle_2: 8296418371512561595
       Scissors_Idle_3: 5261036141348346861
+      Scissors_Idle_4: 1235455771
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

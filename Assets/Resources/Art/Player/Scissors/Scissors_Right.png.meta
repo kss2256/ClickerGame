@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 80
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -154,12 +154,12 @@ TextureImporter:
       name: Scissors_Right_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 93
-        width: 361
-        height: 527
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 54
+        width: 409
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: Scissors_Right_1
       rect:
         serializedVersion: 2
-        x: 408
-        y: 93
-        width: 406
-        height: 527
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 419
+        y: 54
+        width: 474
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -198,12 +198,12 @@ TextureImporter:
       name: Scissors_Right_2
       rect:
         serializedVersion: 2
-        x: 816
-        y: 93
-        width: 545
-        height: 527
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 893
+        y: 55
+        width: 405
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -220,12 +220,12 @@ TextureImporter:
       name: Scissors_Right_3
       rect:
         serializedVersion: 2
-        x: 1362
-        y: 93
-        width: 426
-        height: 527
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1300
+        y: 55
+        width: 469
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -242,12 +242,12 @@ TextureImporter:
       name: Scissors_Right_4
       rect:
         serializedVersion: 2
-        x: 1787
-        y: 93
-        width: 365
-        height: 527
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1769
+        y: 54
+        width: 401
+        height: 618
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -272,7 +272,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":434.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Scissors_Right_0: 5490770082084887486
       Scissors_Right_1: 5836119571865802108

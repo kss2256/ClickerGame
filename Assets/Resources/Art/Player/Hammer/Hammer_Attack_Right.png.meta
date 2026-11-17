@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 74
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -157,12 +157,12 @@ TextureImporter:
       name: Hammer_Attack_Right_0
       rect:
         serializedVersion: 2
-        x: 42
-        y: 98
-        width: 457
-        height: 574
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 104
+        width: 416
+        height: 468
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: Hammer_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 543
-        y: 98
-        width: 494
-        height: 566
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 419
+        y: 103
+        width: 398
+        height: 469
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,12 +201,12 @@ TextureImporter:
       name: Hammer_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 1033
-        y: 98
-        width: 646
-        height: 593
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 818
+        y: 103
+        width: 482
+        height: 552
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: Hammer_Attack_Right_3
       rect:
         serializedVersion: 2
-        x: 1685
-        y: 98
-        width: 484
-        height: 566
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1302
+        y: 103
+        width: 473
+        height: 473
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: Hammer_Attack_Right_4
       rect:
         serializedVersion: 2
-        x: 2192
-        y: 98
-        width: 463
-        height: 574
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 1779
+        y: 103
+        width: 391
+        height: 466
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,7 +275,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":434.0,"y":724.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Hammer_Attack_Right_0: -2753184915163883245
       Hammer_Attack_Right_1: 7185958654358867525

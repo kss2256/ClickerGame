@@ -3,7 +3,9 @@ using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 using static UnityEngine.Rendering.DebugUI;
+using static UnityEngine.RuleTile.TilingRuleOutput;
 
 
 public class BattleManager
@@ -42,8 +44,7 @@ public class BattleManager
     {
         GameObject go = Util.GetOrAddGameObject("Player");
         PlayerController = go.GetOrAddComponent<PlayerController>();
-         
-
+              
         PlayerUpdateLevelStat();
 
         PlayerController.Stat = mCharacterMap[(int)Define.eCharacterType.PLAYER] as PlayerStat;

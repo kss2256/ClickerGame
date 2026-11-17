@@ -24,6 +24,7 @@ public class GameSceneController : MonoBehaviour
 
         Managers.Sound.Play("Battle_2", Define.eSoundType.BGM);
 
+
     }
 
 

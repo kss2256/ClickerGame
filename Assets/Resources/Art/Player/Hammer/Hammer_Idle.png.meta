@@ -160,12 +160,12 @@ TextureImporter:
       name: Hammer_Idle_0
       rect:
         serializedVersion: 2
-        x: 21
+        x: 29
         y: 32
-        width: 432
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 506
+        height: 631
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -182,12 +182,12 @@ TextureImporter:
       name: Hammer_Idle_1
       rect:
         serializedVersion: 2
-        x: 470
-        y: 32
-        width: 433
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 555
+        y: 30
+        width: 487
+        height: 635
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -204,12 +204,12 @@ TextureImporter:
       name: Hammer_Idle_2
       rect:
         serializedVersion: 2
-        x: 931
+        x: 1094
         y: 32
-        width: 437
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 474
+        height: 660
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,23 +223,23 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hammer_Idle_3
+      name: Hammer_Idle_5
       rect:
         serializedVersion: 2
-        x: 1401
+        x: 1640
         y: 32
-        width: 437
-        height: 528
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 490
+        height: 628
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 32c215376a28c1890800000000000000
-      internalID: -7485964829185725405
+      spriteID: cb0c828d69b265a4cb4fd02a6e8669a3
+      internalID: -1008667411263276772
       vertices: []
       indices: 
       edges: []
@@ -256,7 +256,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Hammer_Idle_0: -3851597226185469787
       Hammer_Idle_1: 3802545330432939528
@@ -264,6 +266,7 @@ TextureImporter:
       Hammer_Idle_3: -7485964829185725405
       Hammer_Idle_4: 7132967362922804420
       Hammer_Idle_5: -1008667411263276772
+      Hammer_Idle_6: -1588877285
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
